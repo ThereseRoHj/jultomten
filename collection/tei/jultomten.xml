@@ -25,6 +25,11 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan Borås</p>
+        </projectDesc>
+     </encodingDesc>
   </teiHeader>
   <text>
       <body>
