@@ -14,7 +14,12 @@
             </principal>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>
+               <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
+               <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
+               <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
+            </authority>
+            <distributor> Högskolan i Borås</distributor>
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
