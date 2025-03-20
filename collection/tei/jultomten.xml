@@ -6,7 +6,12 @@
   <teiHeader xml:lang ="sv">
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Jultomten årgång "årtal": en maskinläsbar transkription</title>
+            <principal>
+               <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
+               <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
+               <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
+            </principal>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
