@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang ="sv">
+  <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Jultomten årgång 1899: Digitaliserad</title>
@@ -68,14 +68,80 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <biblStruct type="Tidning">
+               <monogr>
+                  <author><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></author>
+                  <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>
+                  <author><persName>D.S.H</persName></author>
+                  <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
+                  <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>
+                  <author><name>Jim</name></author>
+                  <author><persName><forename>Emil</forename><surname>Kleen</surname></persName></author>
+                  <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
+                  <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
+                  <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
+                  <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>
+                  <author><name>Svente</name></author>
+                  <author><name type="pseudonym">Tippu Tipp</name></author>
+                  <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
+                  <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
+                  <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
+                  <editor role="illustrator"><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Gustaf</forename><surname>Ankarcrona</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Elsa</forename><surname>Beskow</surname></persName></editor>
+                  <editor role="illustrator"><name>D.S.H</name></editor>
+                  <editor role="illustrator"><persName><forename>Jenny</forename><surname>Nyström</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Anna</forename><surname>Cramér</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Gisela</forename><surname>Henckel</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Elin</forename><surname>Vestman</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Brita</forename><surname>Ellström</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Louis</forename><surname>Moe</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Emil</forename><surname>Åberg</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Gerda</forename><surname>Tirén</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
+                  <editor role="composer"><persName><forename>Alice</forename><surname>Tegner</surname></persName></editor>
+                  <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
+                  <editor role="publisher"><persName><forename>Emil</forename><surname>Hammarlund</surname></persName></editor>
+                  <title>JULTOMTEN</title>
+                  <title type="undertitel">PRAKTUPPLAGAN</title>
+                  <title type="undertitel">NIONDE ÅRGÅNGEN</title>
+                  <imprint>
+                     <publisher>Svensk läraretidnings förslagsaktitebolag</publisher>
+                     <pubPlace>Stockholm</pubPlace>
+                     <date>1899</date>
+                  </imprint>
+                  <extent>28 sidor</extent>
+               </monogr>
+               <series>
+                  <title>Jultomten:Skolbarnens jultidning</title>
+                  <biblScope unit="årgång">9</biblScope>
+               </series>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
      <encodingDesc>
         <projectDesc>
-           <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan Borås</p>
+           <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan Borås.
+              Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och för att tillgängliggöra detta material. </p>
         </projectDesc>
+        <samplingDecl><p>En årgång ur publikationsserien Jultomten:Skolbarnens jultidning har valts ut i samråd med 
+              personal vid Svenska barnboksinstitutet</p></samplingDecl>
+        <editorialDecl>
+           <p>Projektet har...</p>
+        </editorialDecl>
      </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="sw"></language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="https://id.kb.se/term/barn">
+           <term>Här lägger vi in</term>
+           </keywords>
+           <classCode scheme="http://www.udcc.org/udcsummary/php/index.php">:058.7 </classCode>
+        </textClass>
+     </profileDesc>
   </teiHeader>
   <text>
       <body>
