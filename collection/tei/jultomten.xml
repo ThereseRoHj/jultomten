@@ -6,12 +6,50 @@
   <teiHeader xml:lang ="sv">
       <fileDesc>
          <titleStmt>
-            <title>Jultomten årgång "årtal": en maskinläsbar transkription</title>
+            <title>Jultomten årgång 1899: Digitaliserad</title>
+            <author><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></author>
+            <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>
+            <author><persName>D.S.H</persName></author>
+            <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
+            <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>
+            <author><name>Jim</name></author>
+            <author><persName><forename>Emil</forename><surname>Kleen</surname></persName></author>
+            <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
+            <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
+            <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
+            <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>
+            <author><name>Svente</name></author>
+            <author><name type="pseudonym">Tippu Tipp</name></author>
+            <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
+            <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
+            <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
+            <editor role="illustrator"><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Gustaf</forename><surname>Ankarcrona</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Elsa</forename><surname>Beskow</surname></persName></editor>
+            <editor role="illustrator"><name>D.S.H</name></editor>
+            <editor role="illustrator"><persName><forename>Jenny</forename><surname>Nyström</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Anna</forename><surname>Cramér</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Gisela</forename><surname>Henckel</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Elin</forename><surname>Vestman</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Brita</forename><surname>Ellström</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Louis</forename><surname>Moe</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Emil</forename><surname>Åberg</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Gerda</forename><surname>Tirén</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
+            <editor role="composer"><persName><forename>Alice</forename><surname>Tegner</surname></persName></editor>
+            <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
             <principal>
                <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
                <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
                <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
             </principal>
+            <respStmt>
+               <resp>Digitaliserad och tillgängliggörande</resp>
+               <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
+               <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
+               <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
+               </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>
@@ -19,7 +57,15 @@
                <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
                <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
             </authority>
-            <distributor> Högskolan i Borås</distributor>
+            <distributor>Högskolan i Borås</distributor>
+            <address>
+               <addrLine>Allégatan 1</addrLine>
+               <addrLine>503 32 Borås</addrLine>
+               <addrLine>Sverige</addrLine>
+            </address>
+            <availability>
+               <licence>Lägga in cc</licence>               
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
