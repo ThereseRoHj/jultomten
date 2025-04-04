@@ -143,9 +143,352 @@
         </textClass>
      </profileDesc>
   </teiHeader>
+   <!-- Facsimile-elementet -->
+   <facsimile>
+    <!-- Framsida -->
+      <surface xml:id="framsida">
+         <figure>
+           <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 1 --> 
+      <surface xml:id="sida1">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 2 --> 
+      <surface xml:id="sida2">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 3 --> 
+      <surface xml:id="sida3">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 4 --> 
+      <surface xml:id="sida4">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 5 --> 
+      <surface xml:id="sida5">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 6 --> 
+      <surface xml:id="sida6">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 7 --> 
+      <surface xml:id="sida7">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 8 --> 
+      <surface xml:id="sida8">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 9 --> 
+      <surface xml:id="sida9">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 10 --> 
+      <surface xml:id="sida10">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 11 --> 
+      <surface xml:id="sida11">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 12 --> 
+      <surface xml:id="sida12">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 13 --> 
+      <surface xml:id="sida13">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 14 --> 
+      <surface xml:id="sida14">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 15 --> 
+      <surface xml:id="sida15">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 16 --> 
+      <surface xml:id="sida16">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 17 --> 
+      <surface xml:id="sida17">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 18 --> 
+      <surface xml:id="sida18">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 19 --> 
+      <surface xml:id="sida19">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 20 --> 
+      <surface xml:id="sida20">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 21 --> 
+      <surface xml:id="sida21">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 22 --> 
+      <surface xml:id="sida22">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 23 --> 
+      <surface xml:id="sida23">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 24 --> 
+      <surface xml:id="sida24">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 25 --> 
+      <surface xml:id="sida25">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 26 --> 
+      <surface xml:id="sida26">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Sida 27 --> 
+      <surface xml:id="sida27">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+      <!-- Baksida --> 
+      <surface xml:id="baksida">
+         <figure>
+            <label>Jultomten</label>
+            <figDesc>En beskrivning av bilden</figDesc>
+            <graphic url="länk"></graphic>
+         </figure>
+      </surface>
+   </facsimile>
+   <!-- TEItaggad texttranskription till varje facsimile -->
   <text>
       <body>
-         <p>Some text here.</p>
+         <!-- Text framsida  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Text Sida 1  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Text Sida 2  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Text Sida 3  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
+         </div>
+         <!-- Text Sida 4  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>3</num></metamark>
+         </div>
+         <!-- Text Sida 5  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>4</num></metamark>
+         </div>
+         <!-- Text Sida 6  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>5</num></metamark>
+         </div>
+         <!-- Text Sida 7 -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>6</num></metamark>
+         </div>
+         <!-- Text Sida 8  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>7</num></metamark>
+         </div>
+         <!-- Text Sida 9  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>8</num></metamark>
+         </div>
+         <!-- Text Sida 10  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Text Sida 11  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
+         </div>
+         <!-- Text Sida 12  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>11</num></metamark>
+         </div>
+         <!-- Text Sida 13  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>12</num></metamark>
+         </div>
+         <!-- Text Sida 14  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>13</num></metamark>
+         </div>
+         <!-- Text Sida 15  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>14</num></metamark>
+         </div>
+         <!-- Text Sida 16  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>15</num></metamark>
+         </div>
+         <!-- Text Sida 17  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>16</num></metamark>
+         </div>
+         <!-- Text Sida 18  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>17</num></metamark>
+         </div>
+         <!-- Text Sida 19  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>18</num></metamark>
+         </div>
+         <!-- Text Sida 20  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>19</num></metamark>
+         </div>
+         <!-- Text Sida 21  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>20</num></metamark>
+         </div>
+         <!-- Text Sida 22 -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>21</num></metamark>
+         </div>
+         <!-- Text Sida 23  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-left"><num>22</num></metamark>
+         </div>
+         <!-- Text Sida 24  -->
+         <div type="page" facs="#framsida">
+            <metamark  function="pagenumber" place="top-right"><num>23</num></metamark>
+         </div>
+         <!-- Text Sida 25  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Text Sida 26  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Text Sida 27  -->
+         <div type="page" facs="#framsida">
+         </div>
+         <!-- Baksida  -->
+         <div type="page" facs="#framsida">
+         </div>
       </body>
   </text>
 </TEI>
