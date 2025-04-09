@@ -382,25 +382,388 @@
   <text>
       <body>
          <!-- Text framsida  -->
-         <div type="page" facs="#framsida">
-         </div>
+         <div>
+         <pb type="Framsida" facs="#framsida"/>
+         <head type="Titel">JULTOMTEN</head>
+            <head>PRAKTUPPLAGAN</head>
+            <head>NIONDE ÅRGÅNGEN</head>
+            <p>1899</p> 
+            <p><stamp>Svensk Läraretidnings Förlag</stamp></p>
+            <signed>Louis Moe</signed>
+            <fw type="sidfot" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
+           </div>
          <!-- Text Sida 1  -->
-         <div type="page" facs="#framsida">
-         </div>
+         <div> 
+            <pb n="1" facs="#framsida"/>
+            <head>Den förtrollade trädgården.</head>
+            <cb n="1"/>
+            <p rend="Italic">
+               <lb/>En liten trädgård här jag gjort, 
+               <lb/>för dig, min vän, en tillflyktsort, 
+               <lb/>där efter slutad läxas tvång 
+               <lb/>du under munterhet och sång 
+               <lb/>kan springa in och slå dig ner 
+               <lb/>på platsen, du i midten ser. 
+               <lb/>Ett villkor dock jag ställa vill, 
+               <lb/>för att du skall få komma till
+               <lb/>den springbrunn, som där synes stå, 
+               <lb/>och af dess vatten svalka få. 
+               <lb/>Och detta villkor lyder så: 
+               <lb/>när genom porten in du gått
+               <cb n="2"/>
+               <lb/>till trädgår'n, får du vandra blott
+               <lb/>hvar väg en enda gång, och först 
+               <lb/> när du nått fram på detta sätt
+               <lb/>och alla vägar har beträdt,
+               <lb/>du ändtligt släcka får din törst. 
+               <lb/>Och när du vill gå hem till slut, 
+               <lb/>du måste för att komma ut
+               <lb/>gå samma väg tillbaks igen 
+               <lb/>och aldrig vika ifrån den.
+               </p>
+            <p rend="Italic">
+               <lb/>Nu säg mig strax, hur skall du gå, 
+               <lb/>att du till källan komma må?
+             </p> 
+            <signed>D. S. H.</signed>
+            </div>
          <!-- Text Sida 2  -->
-         <div type="page" facs="#framsida">
+         <div> 
+            <pb n="2" facs="#framsida"/>
+            <head>JULTOMTEN</head>
+            <head>SKOLBARNENS JULTIDNING
+               <lb/>NIONDE ÅRGÅNGEN</head>
+            <head>UTGIFVEN AF
+               <lb/>SVENSK LÄRARETIDNING.
+            </head>
+            <head>1899</head>
+            <signed>G. Ankarcrona </signed>
+            <signed>C. ANGERER &amp; GÖSCHL </signed>
          </div>
          <!-- Text Sida 3  -->
-         <div type="page" facs="#framsida">
+         <div> 
+         <pb n="3" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
+            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <cb n="1"/>
+            <head>JUL</head>
+            <p>
+              <lg type="stanza">
+               <l>Jesus har kommit, barnens vän,</l>
+               <l>julhögtid firas bland oss igen. </l>
+               <l>Ljufva som himmelska harposlag </l>
+               <l rend="indented">toner förklinga,</l>
+               <l rend="indented">julklockor ringa,</l>
+               <l>ringa in frälsningens jubeldag. </l>
+              </lg>
+               
+              <lg type="stanza"> 
+               <l>Betlehems stjärna med evigt ljus </l>
+               <l>visar oss vägen till Herrens hus. </l>
+               <l>Barnet i krubban vi finna där. </l>
+               <l rend="indented">Gamla och unga </l>
+               <l rend="indented">julpsalmer sjunga, </l>
+               <l>sjunga med himlarnes änglahär.</l> 
+               </lg>
+               
+               <lg type="stanza">
+               <l>Åter vi höra de glada bud:</l> 
+               <l>Frid vare jorden och ära Gud,</l> 
+               <l>människobarnen ett godt behag! </l>
+               <l rend="indented">I ottesångstimma</l>
+               <l rend="indented">julljusen glimma,</l>
+               <l>glimma bebådande Herrens dag.</l>
+               </lg>
+               
+              <lg type="stanza"> 
+               <l>Jesus är kommen, barnens vän. </l>
+               <l>Mörk är dock natten kring jorden än,</l> 
+               <l>hedningar sakna ordets skatt,</l>
+               <l rend="indented">unga och gamla,</l>
+               <l rend="indented">fåfängt de famla,</l>
+               <l>famla i dödsskuggans mörka natt.</l>
+              </lg>
+               
+              <lg type="stanza"> 
+               <l>Barnet i älskade moderns famn </l>
+               <l>icke får lyssna till Jesu namn, </l>
+               <l>känner ej honom, som älskat mest.</l>
+               <l rend="indented">Fader och moder</l>
+               <l rend="indented">till afgudastoder</l>
+               <l>bedja vid hedningars offerfest.</l>
+              </lg>
+               
+              <lg type="stanza"> 
+               <l>Jul är ej till för de arma små, </l>
+               <l>julklockor icke i rymden gå, </l>
+               <l>kallande alla till Herrens hus,</l>
+               <l rend="indented">julljus ej brinna, </l>
+               <l rend="indented">själar ej finna,</l>
+               <l>finna ej vägen till evigt ljus.</l></lg>
+               
+               <lg type="stanza">
+               <l>Jesus är kommen, barnens vän, </l>
+               <l>julhögtid firas bland oss igen.</l>
+               <l>Kristnade barn, som vid Jesu hand</l>
+               <l rend="indented">fröjdas kring ljusen</l>
+               <l rend="indented">i templen och husen,</l>
+               <l>bedjen för barnen i hedna land!</l>
+               </lg>
+              </p>
+            <signed>PAUL NILSSON.</signed>
+            <signed>Jenny Nyström</signed>
+            </div>
+            <cb n="2"/>
+         <div>
+            <head>Den lille brefbärarens julafton.</head>
+            <head type="subheading">Ett gammalt minne, berättadt för Jultomten af </head>
+            <signed>HENRIK WRANÉR.</signed>
+            <p><hi rend="anfang">O</hi>la Skräddare var »väskeman».
+               <lb/>Det vill säga, att han två dar i veckan gick till 
+               <lb/>stationen och hämtade byns post. I prästgården töm- 
+               <lb/>des den stora postväskan, och sedan aflämnade gubben öfriga 
+               <lb/>bref i gårdar och hus, när han gick hem. För besväret fick 
+               <lb/>han en slant, en sladd mjölk eller en klick smör hem till 
+               <lb/>barnen, och sådana gåfvor voro synnerligen välkomna, ty
+               <lb/>skrädderiyrket gaf icke mycket, sedan ögonen börjat slå fel.</p>
+            
+               <p rend="indented">Visst var det drygt att i ur och skur gå de två milen,
+               <lb/>men äfven en liten slant är god att ha i ett fattigt hem och 
+               <lb/>räcker länge med sparsamhet. Och därför knogade gubben 
+               <lb/>åstad år från år, fast stegen voro tunga och ryggen krökt.</p>
+            
+                <p rend="indented">Men en vinter lågo drifvorna höga, och stormen hven 
+               <lb/>öfver slätten. Efter en af sina turer blef »väskemannen»
+               <lb/>sjuk och måste gå till sängs. Då gick Nils, hans äldste son, 
+               <lb/>till prosten och bad att få gå med väskan i sin fars ställe. 
+               <lb/>Han var visserligen bara tio år men en rask och pigg pojke, 
+               <lb/>som inte var rädd för besvär utan gärna ville göra nytta och 
+               <lb/>hjälpa sin far. Prosten tyckte, att han var bra liten, och 
+               <lb/>var rädd, att han skulle försumma skolan. Men läraren in- 
+               <lb/>tygade, att Nils var en pojke, som kunde sina stycken, och 
+               <lb/>den lille fick sin vilja fram. Ni kan tro, att han var för- 
+               <lb/>tjust!</p>
+            
+               <p rend="indented">Visst var han inte så lite rädd för de stora hundarna,
+               <lb/>fast han hade sin fars stora kryck-käpp med sig. Men han 
+               <lb/>läste en psalmvers och kände sig stark i medvetandet, att han 
+               <lb/>var i ärliga ärenden stadd.</p>
+            
+               <p rend="indented">Själfva julafton inföll på en postdag. Det var stark 
+               <lb/>snöyra, men Nils gladde sig i hoppet att få med sig hem lite 
+               <lb/>smått och godt till julglädjens förhöjande. Tänk, om riks- 
+               <lb/>dagsmannen hade bref i dag! Förra julen hade Nils fått 50 
+               <lb/>öre – finge han bara hälften så mycket i dag, skulle han 
+               <lb/>kunna köpa risgryn hos handlaren till julgröt. Det vattnades 
+               <lb/>honom i munnen vid den tanken – han kunde inte låta bli 
+               <lb/>att skratta, när han tänkte på, hur lille Per skulle moja sig. 
+               <lb/>Ty han var då det matfriskaste af alla sju syskonen.</p>
+            
+               <p rend="indented">Redan på morgonen, då Nils hämtade väskan i präst- 
+               <lb/>ården, blef han 
+               <lb/>bjuden på kaffe 
+               <lb/>och bullar. Da- 
+               <lb/>gen började riktigt 
+               <lb/>bra, tyckte den 
+               <lb/>lille postmästaren, 
+               <lb/>och han sträfvade 
+               <lb/>tappert mot blåst 
+               <lb/>och snöglopp. 
+               <lb/>Han tänkte på 
+               <lb/>julens betydelse 
+               <lb/>och hur den bring- 
+               <lb/>ar barnen glädje
+               <lb/>i rika och fattiga 
+               <lb/>hem. Så utmåla- 
+               <lb/>de han för sig, 
+               <lb/>hur skönt det
+               <lb/>skulle vara, om 
+               <lb/>de hemma hade 
+               <lb/>gran och grenljus 
+               <lb/>och lutfisk och 
+               <lb/>julklappar, såsom 
+               <lb/>han en gång sett, 
+               <lb/>att barnen i präst- 
+               <lb/>gården hade jul- 
+               <lb/>afton. Själf skul- 
+               <lb/>le han ha hela, 
+               <lb/>höga stöflar och 
+               <lb/>en lång rock med</p> 
          </div>
          <!-- Text Sida 4  -->
-         <div type="page" facs="#framsida">
+         <div>
+           <pb n="4" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-right"><num>3</num></metamark>
+            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <cb n="1"/>
+            <p>kapuschong att dra öfver mössan –
+            – – Och far en hel kagge snus!</p>
+            
+            <p rend="indented"> Han drömde så vackert, så att han 
+            <lb/>var vid stationen, innan han visste ordet 
+            <lb/>af. Röd och andtruten trädde han in.
+               <lb rend="indented"/>– God dag, lille herr postmästare! sa den 
+            <lb/>vänlige stationsinspektoren. Känns det om näsan, hva? 
+               <lb rend="indented"/>– Å, det går nog an – värre är det med
+            <lb/>öronen! sa Nils och gned dem duktigt.
+               <lb rend="indented"/>– Tåget är försenadt. Kom nu in, ska du få
+            <lb/>dig en kopp, medan du väntar! </p>
+            <p rend="indented">Och Nils fördes in och proppades full med godter.
+               <lb rend="indented"/>– Julen är då en välsignad sak – det borde vara jul 
+            <lb/>hela året om! tänkte Nils.</p>
+            
+            <p rend="indented">Tåget kom och gick igen. Snart var Nils också res- 
+            <lb/>färdig. Snöyran var värre än på förmiddagen, men nu hade 
+            <lb/>han vädret på ryggen, så han nästan blåste hem. Men det 
+            <lb/>kylde på ryggen, när ilarna svepte fram öfver fälten.</p>
+            
+            <p rend="indented">Prosten tog väskan, och prostinnan tog den lille väske- 
+            <lb/>mannen om hand. Han sattes ner vid ett dukadt julbord och 
+            <lb/>fick sig ett riktigt julkalas. Efter en stund kom prosten in. 
+               <lb rend="indented"/>– Här har du ett paket – det är till dig själf, och 
+            <lb/> det får du inte öppna, förrän du kommer hem. Och här 
+            <lb/>är tre bref – –
+               <lb rend="indented"/>– Är där något till riksdagsmannen? sporde Nils hastigt. 
+               <lb rend="indented"/> – Ja, ett. Och ett till nämdemannen. Det tredje vet 
+            <lb/>jag inte, hvad vi ska göra med. Det är till snickarens änka 
+            <lb/>i Östrevång, mor Stenberg, du minns, mor? Du vet, hennes 
+            <lb/>son for till Amerika för ett par år tillbaka och har aldrig skrif- 
+            <lb/>vit se'n. Hon har ju varit så öfvergifven många gånger – 
+            <lb/>han är ju hennes enda barn. Nu har han skrifvit. Hvad hon 
+            <lb/>skulle bli glad, om hon finge höra från honom just i dag! Hade 
+            <lb/>jag inte gifvit Olof lof att gå hem i morse, kunde han ridit 
+            <lb/>dit ut med det – det är ju en half mil, och det är ett fas-
+            <lb/>ligt väder. Men nu är här ingen att skicka. Kan du rida, Nils? 
+               <lb rend="indented"/>– Nej, men jag kan gå.
+               <lb rend="indented"/>– Men du har gått hela dagen, min lille man!
+               <lb rend="indented"/>– Å skräp, jag är inte trött – jag har fått kaffe 
+            <lb/>två gånger i dag. Se'n jag har burit hem de andra brefven, 
+            <lb/>kilar jag med det. Jag känner vägen så väl: den går längs 
+            <lb/>en pilevall hela tiden, så jag kan inte gå vilse. Hon har 
+            <lb/>varit snäll mot oss med mjölk flera gånger förr i världen, och 
+            <lb/>Stenberg lagade vår dörr, det vill säga när han lefde. Å, låt 
+            <lb/>mig springa med det!
+               <lb rend="indented"/>– Du är en duktig pojke! sa prostinnan. Om du bara 
+            <lb/>haft något att ta det i, skulle du fått lite julmat hem till 
+            <lb/>syskonen.
+               <lb rend="indented"/>– Å jag har mors stora bomullsschalett i fickan. Se här!</p>
+            <cb n="2"/>
+            <p rend="indented" >– Den är inte så dum, du mor! sa 
+            prosten och klappade Nils på hufvudet. </p>
+            
+            <p rend="indented">Om en stund styrde den lille bref- 
+            <lb/>bäraren hemåt med ett stort matknyte på 
+            <lb/>axeln; hos riksdagsmannen fick han 50 
+            <lb/>öre i dag också, och hos nämdemannen 
+            <lb/>stoppades åtskilligt i matväg in i knytet. 
+            <lb/>Det var nu nästan lika rundt som han 
+            <lb/>själf. Hos handelsmannen köpte han 
+            <lb/>risgryn för 25 öre och fick 
+            <lb/>för 50, efter det var julaf- 
+            <lb/>ton. Och snus till far på</p>
+            
+            <p>köpet. Ja, han var så glad, att han midt i snöyran började 
+            <lb/>sjunga och tralla.</p>
+            <p rend="indented">När han kom hem och öppnade sitt paket, låg där en 
+            <lb/>splitter ny koralpsalmbok. Nils blef glad, ty sjunga var hans 
+            <lb/>förtjusning, och i skolan var han främst bland sångarne. Men 
+            <lb/>när han slog opp boken, låg där ett kuvert. Utanpå stod 
+            <lb/>där: En liten julklapp till den lille väskemannen. Och inne 
+            <lb/>i låg en femkronesedel.
+            <lb rend="indented"/>– Den ska far ha! sa Nils.
+            <lb rend="indented"/>– Nej, den ska du ha själf till ett par stöflar, sa far och
+            <lb/>log förnöjdt.
+            <lb rend="indented"/>– Nu ska mor sätta på gröten, och så springer jag till 
+            <lb/>Stenbergs med brefvet!</p>
+            
+            <p rend="indented">Det gjorde han. Änkan hade legat sjuk flera dagar, 
+            <lb/>men brefvet gjorde henne så glad, att hon bums steg opp. 
+            <lb/>Nils fick läsa det för henne flera gånger – hon kunde ju 
+            <lb/>inte läsa själf, stackars gumma. Men hon var så lycklig öf-
+            <lb/>ver brefvet från sin son, att hon tog Nils i famn.
+            <lb rend="indented"/>– Det har gått bra för Olof därute, säger han. Jag 
+            <lb/>har hans lilla klädeströja än, som han bar, när han läste sig 
+            <lb/>fram, och ingen annan ska ha 
+            <lb/>henne än du. För där kunde 
+            <lb/>ingen gett mig en rarare julklapp 
+            <lb/>i dag, än du har gjort, så mycket 
+            <lb/>du har traskat i sådant väder. 
+            <lb/>Du ska se, Herren lönar dig för 
+            <lb/>det kärleksverket.</p>
+            
+            <p rend="indented"> När Nils kröp till kojs på 
+            <lb/>julafton, fullproppad med julgröt,
+            <lb/>sa mor:
+            <lb rend="indented"/>– Nå, pojken min! Hvad 
+            <lb/>är du mest glad för i dag?
+            <lb rend="indented"/>– Att mor Stenberg blef 
+            <lb/>så förtjust! sa Nils. Jag tyckte 
+            <lb/>det var liksom jag hade gjort 
+            <lb/>Er en glädje, mor!</p>
+            <signed>E.Forsström</signed>
+            
+            
          </div>
          <!-- Text Sida 5  -->
-         <div type="page" facs="#framsida">
+         <div> 
+            <pb n="5" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-left"><num>4</num></metamark>
+            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <head>MARKNAD
+               <lb/>I
+               <lb/>HOLLAND
+            </head>
+           <opener rend="italic"> 
+           <placeName>
+              <settlement>Volendam bij Edam. </settlement>
+              <country>Holland.</country>
+           </placeName>
+              <salute>Kära lilla svenska flicka!</salute>
+           </opener>
+            <p rend="italic"><l rend="indented"/>Jag har lofvat, att jag skulle skrifva till dig 
+            <lb/>och tala om, huru vi ha det. Vi må alla bra 
+            <lb/>och vi bo, som du kan se af ofvanskriften, i 
+            <lb/>Holland. Pappa är fiskare, och vi bo i en liten 
+            <lb/>fiskarby, som heter Volendam. Den ligger vid 
+            <lb/>Zuiderzee nära staden Edam. (Båda dessa 
+            <lb/>namn finner du lätt på kartan.)</p>
+            
+            <p rend="italic"><l rend="indented"/>Vi hafva här, liksom i Sverige, både land 
+            <lb/>och vatten. Men vi måste alldeles nödvändigt 
+            <lb/>ha en hög gråstensmur emellan, annars skulle 
+            <lb/>vattnet, som är mycket högre än landet, ström- 
+            <lb/>ma in och förstöra både städer och byar, och 
+            <lb/>alla människor skulle drunkna. Men nu hafva 
+            <lb/>vi den starka, präktiga muren, och då äro vi 
+            <lb/>ej alls rädda.</p>
+            
+            <p rend="italic"><l rend="indented"/>Fälten här äro genomskurna af kanaler. Ock- 
+            <lb/>så finns det en massa väderkvarnar, som drifva 
+            <lb/>fram vattnet i kanalerna. Öfverallt på fälten 
+            <lb/>beta svart- och hvitbrokiga kor, får och getter 
+            <lb/>och i kanalerna simma ankor. Korna gå ute 
+            <lb/>större delen af året. För se, i Holland hafva 
+            <lb/>vi ej så kalla vintrar, som ni ha i Sverige.</p>
+            
+            <p rend="italic"><l rend="indented"/>Vi ha inte heller någon kung, som ni ha. 
+            <lb/>Vi ha en ung drottning, som heter Wilhelmina, 
+            <lb/>och hon är den sista ättlingen af huset Oranien. 
+            <lb/>Hon är bara nitton år och regerar, må du tro, 
+            <lb/>hela landet lika bra som någon kung, och vi 
+            <lb/>hålla alla så rysligt mycket af henne.</p>
+            
+            <p rend="italic"><l rend="indented"/>Förra sommaren kröntes hon till drottning. 
+            <lb/>Vi i Volendam skulle förstås också fira henne. 
+            <lb/>Till och med småsyskonen, som inte börjat sko- 
+            <lb/>lan än, fingo gå med i procession och sjunga 
+            <lb/>folksången. Vi hade alla holländska flaggor 
+            <lb/>och gula skärp, därför att gult är huset Ora-</p>
+            
+            <signed>O A-g</signed>
+            <fw type="footer" place="bottom-centre">MARKNAD I HOLLAND. 
+               <lb/>Akvarell jämte text för Jultomten af OTTILIA ADELBORG
+            </fw>
+            
          </div>
          <!-- Text Sida 6  -->
          <div type="page" facs="#framsida">
