@@ -8,18 +8,14 @@
          <titleStmt>
             <title>Jultomten årgång 1899: Digitaliserad</title>
             <author><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></author>
-            <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>
-            <author><persName>D.S.H</persName></author>
+            <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>            
             <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
-            <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>
-            <author><name>Jim</name></author>
+            <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>            
             <author><persName><forename>Emil</forename><surname>Kleen</surname></persName></author>
             <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
             <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
             <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
-            <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>
-            <author><name>Svente</name></author>
-            <author><name type="pseudonym">Tippu Tipp</name></author>
+            <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>           
             <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
             <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
             <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
@@ -39,6 +35,10 @@
             <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
             <editor role="composer"><persName><forename>Alice</forename><surname>Tegner</surname></persName></editor>
             <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
+            <author><name type="pseudonym">Tippu Tipp</name></author>
+            <author><name>Svente</name></author>
+            <author><name>D.S.H</name></author>
+            <author><name>Jim</name></author>
             <principal>
                <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
                <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
@@ -50,6 +50,24 @@
                <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
                <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
                </respStmt>
+            <respStmt> 
+               <resp>OCR och transkriberad av</resp>
+               <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>            
+            </respStmt>
+            <respStmt> 
+               <resp>Korrekturläst av</resp>
+               <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>                        
+            </respStmt>
+            <respStmt> 
+               <resp>Kodad av</resp>
+               <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>                        
+            </respStmt>
+            <respStmt>
+               <resp>Transkribering och kodning validerad av</resp>
+               <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
+               <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
+               <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
+            </respStmt>            
          </titleStmt>
          <publicationStmt>
             <authority>
@@ -71,18 +89,14 @@
             <biblStruct type="Tidning">
                <monogr>
                   <author><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></author>
-                  <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>
-                  <author><persName>D.S.H</persName></author>
+                  <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>                  
                   <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
-                  <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>
-                  <author><name>Jim</name></author>
+                  <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>                 
                   <author><persName><forename>Emil</forename><surname>Kleen</surname></persName></author>
                   <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
                   <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
                   <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
-                  <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>
-                  <author><name>Svente</name></author>
-                  <author><name type="pseudonym">Tippu Tipp</name></author>
+                  <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>                 
                   <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
                   <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
                   <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
@@ -103,6 +117,10 @@
                   <editor role="composer"><persName><forename>Alice</forename><surname>Tegner</surname></persName></editor>
                   <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
                   <editor role="publisher"><persName><forename>Emil</forename><surname>Hammarlund</surname></persName></editor>
+                  <author><name type="pseudonym">Tippu Tipp</name></author>
+                  <author><name>Svente</name></author>
+                  <author><name>D.S.H</name></author>
+                  <author><name>Jim</name></author>
                   <title>JULTOMTEN</title>
                   <title type="undertitel">PRAKTUPPLAGAN</title>
                   <title type="undertitel">NIONDE ÅRGÅNGEN</title>
@@ -128,10 +146,39 @@
         <samplingDecl><p>En årgång ur publikationsserien Jultomten:Skolbarnens jultidning har valts ut i samråd med 
               personal vid Svenska barnboksinstitutet</p></samplingDecl>
         <editorialDecl>
-           <p>Projektet har...</p>
+           <normalization>
+              <p>Texten har transkriberats diplomatiskt</p>
+           </normalization>
+           <correction>
+              <p>Ingen rättning eller modernisering av texten har genomförts</p>
+           </correction>
+           <hyphenation>
+              <p>Alla hyphenationer är återgivna exakt som i texten</p>
+           </hyphenation>
+           <punctuation>
+              <p>Skiljetecken är återgivna exakt som i texten</p>
+           </punctuation>
+           <segmentation>
+              <p>Rader har markerats med <gi>lb</gi> för att återge textens radbrytning.
+                 Sidor har markerats med <gi>pb</gi> med attribut <att>n</att> med åtföljande sidnummer samt attributet <att>facs</att>.
+                 Kolumner har markerats med <gi>cb</gi> med attribut <att>n</att> med åtföljande kolumnnummer. 
+                 Indrag har markerats med attribut <att>rend</att> med åtföljande värde "indented".
+                 Anfanger har markerats med attribut <att>rend</att> med åtföljande värde "anfang". 
+                </p>
+           </segmentation>
         </editorialDecl>
      </encodingDesc>
      <profileDesc>
+        <textDesc>
+           <channel mode="w">Journal</channel>
+           <constitution type="single"/>
+           <derivation type="original"/>
+           <domain type="private"/>
+           <factuality type="fiction"/>
+           <interaction type="partial"/>
+           <preparedness type="revised"/>
+           <purpose type="entertain" subtype="inform"/>
+        </textDesc>
         <langUsage>
            <language ident="sw"></language>
         </langUsage>
@@ -1199,16 +1246,226 @@
             <fw type="footer" place="bottom-centre">TUMMELITEN I SJUMILASTÖFLAR. Akvarell för Jultomten af ELSA BESKOW.</fw>                                                
          </div>
          <!-- Text Sida 11  -->
-         <div type="page" facs="#framsida">
+         <div>
+            <pb n="11" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
+            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <cb n="1"/>
+           <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
+              <lb/>nen samla sig på sommarkvällarna. Där seglade de med
+              <lb/>gamla träskor och barkbåtar; där byggde de ladugårdar af leran, 
+              <lb/>hade trådrullar till kor och spolrör till grisar,
+              <lb/>och där lekte de alla möjliga lekar</p>
+            
+            <p> <l rend="indented">En dag blef det fråga </l>
+              <lb/>om, hvad de skulle bli, när
+              <lb/>de hade blifvit stora.
+              <lb rend="indented"/>– Jag ska bli präst, sa 
+              <lb/>smedens Anders, för då får 
+              <lb/>jag gå med stöflar hela veckan. 
+              <lb rend="indented"/>– Och jag ska bli so- 
+              <lb/>tare, för då behöfver jag ald-
+              <lb/>rig tvätta mig, mente snickarens lille Per, 
+              <lb/>som var lerig upp till knän och armbågar. 
+              <lb rend="indented"/>– Usch, en så'n snuskepelle! sa hans 
+              <lb/> syster. Du kan tro, jag ska gno dig 
+              <lb/>bak öronen i kväll riktigt.
+              <lb rend="indented"/>– Jag ska bli fru och ha två hundra barn, och 
+              <lb/>alla ska de vara flickor, för pojkar ä så stygga, sa 
+              <lb/>mjölnarens Bengta, en liten trind tultirulta.
+              <lb rend="indented"/>– Här ser ni en, som ska bli handelsman; då 
+              <lb/>får jag äta så mycket russin och mandel jag vill 
+              <lb/>och spela på det stora dragspelet dagen igenom, sa 
+              <lb/>nämdemannens Erik.
+              <lb rend="indented"/>– Jag ska bli sjöman, sa ägg- 
+              <lb/>handlarens John, och jag ska fara 
+              <lb/>till en obebodd ö liksom Robinson, 
+              <lb/>och jag ska slåss med vildarne, och
+              <lb/>min indian ska heta Lördag.
+              <lb rend="indented"/>– Jag ska bli grefve och ha en stor 
+              <lb/>herregård med hundra hästar – då får jag 
+              <lb/>rida och vattna dem hvarenda kväll, mente 
+              <lb/>torparens Petter.</p>
+            
+            <cb n="2"/>
+            <p><l rend="indented">– Jag ska bli kung, sa soldatens</l> 
+               <lb/>Olof. Då får jag äta risgrynsgröt hvar 
+               <lb/>kväll och doppa den i 
+               <lb/>smör.
+               <lb rend="indented"/>– Jag ska bli 
+               <lb/>skräddare, så morfar 
+               <lb/>ska få nya byxor hvar- 
+               <lb/>enda söndag, tyckte 
+               <lb/>skomakarens Nils.
+               <lb rend="indented"/>– Jag ska bli 
+               <lb/>kakekäring och ge alla
+               <lb/>snälla skolbarn två »knäck» för en ettöring, 
+               <lb/>försäkrade ladufogdens Emma.
+               <lb rend="indented"/>– Jag ska bli mjölnare; då kan jag få svänga rundt med 
+               <lb/>kvarnvingen, så ofta jag vill, jublade klockarens Ivar.
+               <lb rend="indented"/>– Jag ska bli prinsessa, och min 
+               <lb/>man ska vara bagare, och vi ska bo 
+               <lb/>i ett slott i skogen, och alla barn, som 
+               <lb/>gå vilse, ska vi bjuda in och 
+               <lb/>ge dem nybakade hvetebullar, 
+               <lb/>mente riksdagsmannens Anna. 
+               <lb rend="indented"/>– Jag ska bli dalkulla, 
+               <lb/>för de gå alltid med så granna 
+               <lb/>kläder, påstod ringarens Ingrid.
+               <lb rend="indented"/>– Nå, hvad ska du bli? 
+               <lb/>sporde någon tvätterskans Hil- 
+               <lb/>da, som satt tyst och hörde på. 
+               <lb rend="indented"/>– Jag vet inte. Jag ska alltid vara snäll och
+               <lb/>lydig till mor, sa hon slutligen.</p>
+            
+            <p><l rend="indented">Barnen sågo på hvarandra. Det hade ingen tänkt på. Så</l> 
+                <lb/>reste sig handlandens Axel.
+                <lb rend="indented"/>– Det ska vi förstås vara allihop ändå, sa han. Fast en 
+                <lb/>glömmer det ibland. Och därför är det bra, att nå'n påminner en.</p> 
+            <signed>Henrik Wranér</signed>
+           </div> 
+            <cb n="3"/>
+            <div>   
+            <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
+               <lb/>Blund omkring hos alla sina små älsklingar på jul- 
+               <lb/>natten och tager dem med sig på färd till det under- 
+               <lb/>bara Sagolandet östan för sol och västan för måne.</p>
+               
+             <p><l rend="indented">Det landet ligger så högt, så högt, och därför är det</l> 
+               <lb/>så skönt. Men man behöfver hvarken lokomotiv eller spår- 
+               <lb/>vagn för att komma dit, ty John Blund hämtar sina dröm- 
+               <lb/>mande småttingar på de allra vackraste leksaksdjur.</p>
+               
+             <p><l rend="indented">Man behöfver bara sätta sig upp på den lilla göken, </l>
+               <lb/>i den stora gula vagnen, på den rödmålade Pålle, på den 
+               <lb/>blåprickige Grålle eller på elefanter, giraffer eller andra 
+               <lb/>trefliga djur. Och så bär det af, just då solen går upp 
+               <lb/>ur österns purprade sagoskyar.</p>
+           
+             <p><l rend="indented">Det är lif och lust, när det brokiga tåget ringlar sig </l>
+               <lb/>upp mot det högt liggande sagoslottet Sagaborg. Fåglar 
+               <lb/>kvittra i hvar buske, utan att man behöfver trycka på 
+               <lb/>dem, påfågeln kråmar sig och breder ut sin skiftande stjärt, 
+               <lb/>så att Pålle och Grålle bli rent stelbenta af pur förvåning. 
+               <lb/>Mogna äpplen glöda mellan röda rosor och gröna blad. 
+               <lb/>Väldiga träd höja sina kronor mot himmelen, men deras 
+               <lb/>löf äro pepparkakor och Täljekringlor, och barken är bro- 
+               <lb/>kig marmelad.</p>
+           
+             <p><l rend="indented">De drömmande resenärerna vifta med handen, när </l>
+               <lb/>de fara förbi den lilla dammen, där svanen af mandel- 
+               <lb/>massa seglar så stolt och den lilla båten bland de sötaste 
+               <lb/>näckrosor vaggar på vinröda vågor, under det fiskar af 
+               <lb/>raraste choklad hoppa upp och ned. Men tåget har ej 
+               <lb/>tid att stanna. Alla ha så brådt. Pepparkaksrenen, socker- 
+               <lb/>grisen och den brokiga kon följa troget elefantens spår. 
+               <lb/>På hans rygg sitter den glada Lisa med den smörgula</p>
+               
+           <cb n="4"/>
+             <p><l rend="indented">rosen i sin hand och bakom henne den trinde Per. Fram-</l> 
+               <lb/>för dem äro den långörade haren och den långhalsade 
+               <lb/>giraffen, gunghästen, som gärna slår kullerbyttor, när han 
+               <lb/>kan komma åt, samt en hel hop små kullor och masar, 
+               <lb/>som redan stå invid slottet och kanske äta upp alla kara- 
+               <lb/>mellerna, innan de sista i tåget hinna fram.</p>
+               
+             <p><l rend="indented">I slottet myllrar det som i en myrstack. I dess tusen</l> 
+               <lb/>gånger tusen rum sitta gummor vid sprakande brasor och 
+               <lb/>steka jättelika äpplen samt berätta roliga sagor om mils- 
+               <lb/>höga jättar, hemska trollpackor och guldlockiga prinses- 
+               <lb/>sor. Gummorna äro sneda i mun, ty de ha talt om hvar 
+               <lb/>saga tusen gånger och få tala om den hvar julnatt, så 
+               <lb/>länge världen står. Det är inte bara de små, som stå 
+               <lb/>och lyss, utan stora också: det är de, som vid dansen 
+               <lb/>omkring julgranen kommit att röra vid glädjens trollspö och 
+               <lb/>blifvit som jublande barn. Men alla trumpna och sur- 
+               <lb/>mulna gubbar ligga och snarka i sina sängar hela julnatten.</p>
+               
+             <p><l rend="indented">De få aldrig se det himmelshöga slottet, där spring-</l> 
+               <lb/>vatten af sockerdricka plaska bland blomsterrabatter af 
+               <lb/>pösmunkar, strufvor och klenäter; där blomsterkedjor slingra 
+               <lb/>sig kring de höga konfekttornen; där väldiga julbockar af 
+               <lb/>smördeg vakta ingången till borggården, som är beströdd 
+               <lb/>med brunt socker, och där stekta sparfvar flyga omkring 
+               <lb/>och se efter, om någon af de små öppnar munnen.</p>
+               
+             <p><l rend="indented">Alla ha så roligt, så John Blund nänns knappast att låta </l>
+               <lb/>solen gå upp – därför är julnatten den längsta på hela 
+               <lb/>året, just för att barnen inte allt för fort skola behöfva 
+               <lb/>fara hem från Sagolandet. Det är inte jul mer än en 
+               <lb/>gång om året, och så ska ju de flesta i julottan också, 
+               <lb/>medan ännu stjärnorna tindra.</p>      
          </div>
          <!-- Text Sida 12  -->
-         <div type="page" facs="#framsida">
+         <div>
+            <pb n="12" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-right"><num>11</num></metamark>
+            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <head place="margin-right" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: center">JULNATTSFÄRD TILL SAGOLANDET. Akvarell för Jultomten af ELIN WESTMAN</head>
+            <signed style="writing-mod:vertical-lr; text-orientation: sideways left">ELIN WESTMAN</signed>
+            <signed style="writing-mod:vertical-lr; text-orientation: sideways left">C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 13  -->
-         <div type="page" facs="#framsida">
+         <div>
+            <pb n="13" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-left"><num>12</num></metamark>
+            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <head rend="italic">De fyra tanterna </head>
+            <head type="subheading" rend="italic">De fyra tanterna</head>
+            
+            <p><hi rend="anfang">U</hi>te på den stora allmänningen gick Matts och vaktade byns alla gäss.</p>
+            
+            <p><l rend="indented">Han var ingen stor man, bara åtta år, på det nionde, men </l>
+              <lb/>duktig var han, och ännu hade ingen enda gås kommit bort för 
+              <lb/>honom, fastän skogen var full af räfvar, som ville åt dem och 
+              <lb/>som hade tagit ganska många under den förra gåsvaktarens tid. Så snart
+              <lb/>en liten romantisk gås-madam tänkte vanka sig in i trädens skugga för att 
+              <lb/>drömma, var Matts före henne med sitt spö och dref henne ut på öppna 
+              <lb/>fältet igen, dit rofdjuren icke vågade sig. Och räfvarne fingo gå därinne 
+              <lb/>i skogen och slicka sig om munnarna. Det var nu öfver ett år, sedan de 
+              <lb/>fått gåsstek till middagen.</p>
+            
+            <p><l rend="indented">Då hände det sig en dag, när Matts satt omgifven af alla sina gäss</l> 
+              <lb/>och knaprade på en hård brödkant, att ett gammalt fruntimmer kom ut 
+              <lb/>ur skogen. Hon var ganska välklädd, hade en vid, släpande klädning och 
+              <lb/>en stor hatt, som slöt till om ansiktet. Men hon gick litet krokryggig 
+              <lb/>och höll noga igen schalen om bröstet. </p>
+           
+            <p><l rend="indented">– Goddag, lille Matts, sade hon, när hon kom fram till honom, sitter </l>
+              <lb/>du här och äter torrt, hårdt bröd, din lille stackare! Du fördärfvar ju 
+              <lb/>alldeles tänderna.
+              <lb rend="indented"/>– Guds fred! Hvem är du? frågade Matts</p>
+           
+            <p><l rend="indented">Han tyckte hon såg så märkvärdig ut med sitt långa, mörka ansikte,</l> 
+              <lb/>sina eldkolsögon, som lyste fram under hatten, och den stora munnen, som 
+              <lb/>grinade så konstigt, fastän hon bjöd till att snörpa ihop den till ett vän- 
+              <lb/>ligt leende.</p>
+           
+            <p><l rend="indented">– Känner du inte igen mig? sade den gamla damen. Jag är ju</l> 
+              <lb/>tant Tripp, som bor i skogen. Du var hos mig med din mamma, innan 
+              <lb/>hon dog. Kommer du inte ihåg lilla tant Tripp, som gaf dig så mycket 
+              <lb/>jordgubbar?</p>
+            
+            <p><l rend="indented">Ne-ej, han kom inte ett tecken ihåg henne.</l>
+              <lb rend="indented"/>– Nå, men kommer du ihåg, att jordgubbar smaka godt då? 
+              <lb rend="indented"/>Åja, det gjorde allt Matts, förstås.
+              <lb rend="indented"/>– Jag har ett helt stort land omkring min lilla stuga, sade tant 
+              <lb/>Tripp. For resten tog jag några med mig åt dig, för jag tänkte du 
+              <lb/>kunde bli törstig af det torra brödet, som jag sett dig gå och knapra på 
+              <lb/>alla da'r.</p>
+            
+            <p><l rend="indented">Och tant Tripp tog fram ett stort kålblad, som hon gömt under </l>
+              <lb/>schalen, och när hon vecklade upp det, var det fullt af de härligaste röda 
+              <lb/>jordgubbar, som lyste så i ögonen på Matts, att han inte vidare tänkte 
+              <lb/>på, hur ludna och bruna händer tant Tripp hade, fastän han nog sett det.</p> 
+            
+            <p><l rend="indented">Och så godt de smakade sedan, de saftiga, läckra bären! När han</l> 
+              <lb/>tappade ett, nändes han icke låta det ligga, utan böjde sig ned för att 
+              <lb/>taga upp det. Men då blef han varse något besynnerligt. Tant Tripps 
+              <lb/>klädning hade fastnat på en sten, så att den vikt upp sig litet, och under 
+              <lb/>kanten stack där fram ca tjock, lurfvig svans</p>
+            
+            <signed>Louis Moe</signed>
          </div>
          <!-- Text Sida 14  -->
          <div type="page" facs="#framsida">
