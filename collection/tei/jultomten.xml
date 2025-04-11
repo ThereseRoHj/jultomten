@@ -136,6 +136,12 @@
                   <biblScope unit="årgång">9</biblScope>
                </series>
             </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                 <settlement>Stockholm</settlement>
+                  <repository>Svenska Barnboksinstitutet</repository>
+               </msIdentifier>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
      <encodingDesc>
@@ -188,6 +194,22 @@
            </keywords>
            <classCode scheme="http://www.udcc.org/udcsummary/php/index.php">:058.7 </classCode>
         </textClass>
+        <handNotes>
+           <handNote xml:id="LM">Louis Moe signatur</handNote>
+           <handNote xml:id="GA">Gustaf Ankarcrona signatur</handNote>
+           <handNote xml:id="JN">Jenny Nyström signatur</handNote>
+           <handNote xml:id="EF">Edvard Forsström signatur</handNote>
+           <handNote xml:id="OAG">Ottilia Adelborg signatur</handNote>
+           <handNote xml:id="JT">Johan Tirén signatur</handNote>
+           <handNote xml:id="GT">Gerda Tirén signatur</handNote>
+           <handNote xml:id="EB">Elsa Beskow signatur</handNote>
+           <handNote xml:id="EW">Elin Westman signatur</handNote>
+           <handNote xml:id="EÅ">Emil Åberg signatur</handNote>
+           <handNote xml:id="BE">Brita Ellström signatur</handNote>
+           <handNote xml:id="AC">Anna Cramér signatur</handNote>
+           <handNote xml:id="GH">Gisela Henckel signatur</handNote>
+           <handNote xml:id="DL">David Ljungdahl signatur</handNote>
+        </handNotes>
      </profileDesc>
   </teiHeader>
    <!-- Facsimile-elementet -->
@@ -651,32 +673,33 @@
             <p>kapuschong att dra öfver mössan –
             – – Och far en hel kagge snus!</p>
             
-            <p rend="indented"> Han drömde så vackert, så att han 
+            <p><l rend="indented">Han drömde så vackert, så att han</l> 
             <lb/>var vid stationen, innan han visste ordet 
             <lb/>af. Röd och andtruten trädde han in.
-               <lb rend="indented"/>– God dag, lille herr postmästare! sa den 
+            <lb rend="indented"/>– God dag, lille herr postmästare! sa den 
             <lb/>vänlige stationsinspektoren. Känns det om näsan, hva? 
-               <lb rend="indented"/>– Å, det går nog an – värre är det med
+            <lb rend="indented"/>– Å, det går nog an – värre är det med
             <lb/>öronen! sa Nils och gned dem duktigt.
-               <lb rend="indented"/>– Tåget är försenadt. Kom nu in, ska du få
+            <lb rend="indented"/>– Tåget är försenadt. Kom nu in, ska du få
             <lb/>dig en kopp, medan du väntar! </p>
-            <p rend="indented">Och Nils fördes in och proppades full med godter.
-               <lb rend="indented"/>– Julen är då en välsignad sak – det borde vara jul 
+            
+            <p><l rend="indented">Och Nils fördes in och proppades full med godter.</l>
+            <lb rend="indented"/>– Julen är då en välsignad sak – det borde vara jul 
             <lb/>hela året om! tänkte Nils.</p>
             
-            <p rend="indented">Tåget kom och gick igen. Snart var Nils också res- 
+            <p><l rend="indented">Tåget kom och gick igen. Snart var Nils också res-</l> 
             <lb/>färdig. Snöyran var värre än på förmiddagen, men nu hade 
             <lb/>han vädret på ryggen, så han nästan blåste hem. Men det 
             <lb/>kylde på ryggen, när ilarna svepte fram öfver fälten.</p>
             
-            <p rend="indented">Prosten tog väskan, och prostinnan tog den lille väske- 
+            <p><l rend="indented">Prosten tog väskan, och prostinnan tog den lille väske-</l> 
             <lb/>mannen om hand. Han sattes ner vid ett dukadt julbord och 
             <lb/>fick sig ett riktigt julkalas. Efter en stund kom prosten in. 
-               <lb rend="indented"/>– Här har du ett paket – det är till dig själf, och 
+            <lb rend="indented"/>– Här har du ett paket – det är till dig själf, och 
             <lb/> det får du inte öppna, förrän du kommer hem. Och här 
             <lb/>är tre bref – –
-               <lb rend="indented"/>– Är där något till riksdagsmannen? sporde Nils hastigt. 
-               <lb rend="indented"/> – Ja, ett. Och ett till nämdemannen. Det tredje vet 
+            <lb rend="indented"/>– Är där något till riksdagsmannen? sporde Nils hastigt. 
+            <lb rend="indented"/> – Ja, ett. Och ett till nämdemannen. Det tredje vet 
             <lb/>jag inte, hvad vi ska göra med. Det är till snickarens änka 
             <lb/>i Östrevång, mor Stenberg, du minns, mor? Du vet, hennes 
             <lb/>son for till Amerika för ett par år tillbaka och har aldrig skrif- 
@@ -686,24 +709,26 @@
             <lb/>jag inte gifvit Olof lof att gå hem i morse, kunde han ridit 
             <lb/>dit ut med det – det är ju en half mil, och det är ett fas-
             <lb/>ligt väder. Men nu är här ingen att skicka. Kan du rida, Nils? 
-               <lb rend="indented"/>– Nej, men jag kan gå.
-               <lb rend="indented"/>– Men du har gått hela dagen, min lille man!
-               <lb rend="indented"/>– Å skräp, jag är inte trött – jag har fått kaffe 
+            <lb rend="indented"/>– Nej, men jag kan gå.
+            <lb rend="indented"/>– Men du har gått hela dagen, min lille man!
+            <lb rend="indented"/>– Å skräp, jag är inte trött – jag har fått kaffe 
             <lb/>två gånger i dag. Se'n jag har burit hem de andra brefven, 
             <lb/>kilar jag med det. Jag känner vägen så väl: den går längs 
             <lb/>en pilevall hela tiden, så jag kan inte gå vilse. Hon har 
             <lb/>varit snäll mot oss med mjölk flera gånger förr i världen, och 
             <lb/>Stenberg lagade vår dörr, det vill säga när han lefde. Å, låt 
             <lb/>mig springa med det!
-               <lb rend="indented"/>– Du är en duktig pojke! sa prostinnan. Om du bara 
+            <lb rend="indented"/>– Du är en duktig pojke! sa prostinnan. Om du bara 
             <lb/>haft något att ta det i, skulle du fått lite julmat hem till 
             <lb/>syskonen.
-               <lb rend="indented"/>– Å jag har mors stora bomullsschalett i fickan. Se här!</p>
-            <cb n="2"/>
-            <p rend="indented" >– Den är inte så dum, du mor! sa 
-            prosten och klappade Nils på hufvudet. </p>
+            <lb rend="indented"/>– Å jag har mors stora bomullsschalett i fickan. Se här!</p>
             
-            <p rend="indented">Om en stund styrde den lille bref- 
+            <cb n="2"/>
+            
+            <p><l rend="indented">– Den är inte så dum, du mor! sa</l> 
+            prosten och klappade Nils på hufvudet.</p>
+            
+            <p><l rend="indented">Om en stund styrde den lille bref-</l> 
             <lb/>bäraren hemåt med ett stort matknyte på 
             <lb/>axeln; hos riksdagsmannen fick han 50 
             <lb/>öre i dag också, och hos nämdemannen 
@@ -728,7 +753,7 @@
             <lb rend="indented"/>– Nu ska mor sätta på gröten, och så springer jag till 
             <lb/>Stenbergs med brefvet!</p>
             
-            <p rend="indented">Det gjorde han. Änkan hade legat sjuk flera dagar, 
+            <p><l rend="indented">Det gjorde han. Änkan hade legat sjuk flera dagar,</l> 
             <lb/>men brefvet gjorde henne så glad, att hon bums steg opp. 
             <lb/>Nils fick läsa det för henne flera gånger – hon kunde ju 
             <lb/>inte läsa själf, stackars gumma. Men hon var så lycklig öf-
@@ -743,7 +768,7 @@
             <lb/>Du ska se, Herren lönar dig för 
             <lb/>det kärleksverket.</p>
             
-            <p rend="indented"> När Nils kröp till kojs på 
+            <p><l rend="indented">När Nils kröp till kojs på</l> 
             <lb/>julafton, fullproppad med julgröt,
             <lb/>sa mor:
             <lb rend="indented"/>– Nå, pojken min! Hvad 
@@ -752,9 +777,9 @@
             <lb/>så förtjust! sa Nils. Jag tyckte 
             <lb/>det var liksom jag hade gjort 
             <lb/>Er en glädje, mor!</p>
+            
             <signed>E.Forsström</signed>
-            
-            
+                        
          </div>
          <!-- Text Sida 5  -->
          <div type="page" facs="#framsida"> 
@@ -912,7 +937,11 @@
             <p rend="indented"> Det var kort efter slaget vid Holovzin. Det hade varit 
             <lb/>Gustaf Arnolds första strid. Som i en yrsel hade han sla-</p>
             
+            <floatingText>
+              <body>
+                 <div> 
             <cb n="3"/>
+            
             <note place="margin-top-right" type="continuation" rend="italic">(Forts. på brevet å föreg. sida.)</note>
             
             <p rend="italic"><l rend="indented"/>Pappa var själf ute med oss. Han hade lilla syster på armen, och 
@@ -940,17 +969,24 @@
             
             <p rend="italic"><l rend="indented"/>Ja, nu tror jag, att jag har skrifvit om allting, så nu blir det allt 
             <lb/>din tur att skrifva till mig och berätta om, hur ni ha det i Sverige.</p>
-            
-            
-            
-            <note rend="italic">P. S. Vi ha fått 5 kattungar. Om det ej vore så lång väg, 
-            <lb/>skulle jag sända dem till dig. Vi ha så rysligt många kattor förut</note>
-            <note place="margin-bottom-right" rend="italic">D. S.</note>
-            
-        
+                                         
+                         
+             <closer>
+               <salute rend="italic">Din lilla holländska vän</salute>
+               <signed rend="italic">Neltje.</signed> 
+            </closer>
+                    
+             <note rend="italic">P. S. Vi ha fått 5 kattungar. Om det ej vore så lång väg, 
+             <lb/>skulle jag sända dem till dig. Vi ha så rysligt många kattor förut</note>
+             <note rend="italic">D. S.</note>
+                    
+           </div>         
+          </body>        
+         </floatingText>     
+                              
             <cb n="2"/>
             <p>gits, och hans öfverste hade berömt honom. 
-            <lb/>Ja, själfva kung Karl hade midt i strids- 
+               <lb/>Ja, själfva kung Karl hade midt i strids- 
                <lb/>bullret nickat uppmuntrande till honom 
                <lb/>och ropat: »Det är käckt, gå på!»</p>
             
@@ -1027,9 +1063,7 @@
                <lb/>och sydde skor Han hade lärt handtverket af en af sina 
                <lb/>soldater. Här var en liten koloni af svenska fångar. De</p> 
             
-            <closer rend="margin-bottom-right">
-               <salute rend="italic">Din lilla holländska vän</salute>
-               <signed rend="italic">Neltje.</signed> </closer>
+            
          </div>
          <!-- Text Sida 8  -->
          <div type="page" facs="#framsida" >
