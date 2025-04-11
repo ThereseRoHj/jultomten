@@ -429,8 +429,8 @@
   <text>
       <body>
          <!-- Text framsida  -->
-         <div>
-         <pb type="Framsida" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+         <pb n="0"/>
          <head type="Titel">JULTOMTEN</head>
             <head>PRAKTUPPLAGAN</head>
             <head>NIONDE ÅRGÅNGEN</head>
@@ -440,8 +440,8 @@
             <fw type="sidfot" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
            </div>
          <!-- Text Sida 1  -->
-         <div> 
-            <pb n="1" facs="#framsida"/>
+         <div type="page" facs="#framsida"> 
+            <pb n="1"/>
             <head>Den förtrollade trädgården.</head>
             <cb n="1"/>
             <p rend="Italic">
@@ -457,6 +457,7 @@
                <lb/>och af dess vatten svalka få. 
                <lb/>Och detta villkor lyder så: 
                <lb/>när genom porten in du gått
+               
                <cb n="2"/>
                <lb/>till trädgår'n, får du vandra blott
                <lb/>hvar väg en enda gång, och först 
@@ -468,15 +469,17 @@
                <lb/>gå samma väg tillbaks igen 
                <lb/>och aldrig vika ifrån den.
                </p>
+            
             <p rend="Italic">
                <lb/>Nu säg mig strax, hur skall du gå, 
                <lb/>att du till källan komma må?
              </p> 
+            
             <signed>D. S. H.</signed>
             </div>
          <!-- Text Sida 2  -->
-         <div> 
-            <pb n="2" facs="#framsida"/>
+         <div type="page" facs="#framsida"> 
+            <pb n="2"/>
             <head>JULTOMTEN</head>
             <head>SKOLBARNENS JULTIDNING
                <lb/>NIONDE ÅRGÅNGEN</head>
@@ -488,12 +491,15 @@
             <signed>C. ANGERER &amp; GÖSCHL </signed>
          </div>
          <!-- Text Sida 3  -->
-         <div> 
-         <pb n="3" facs="#framsida"/>
+         <div type="page" facs="#framsida"> 
+         <pb n="3"/>
             <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <cb n="1"/>
             <head>JUL</head>
+            <head place="top-right">Den lille brefbärarens julafton.</head>
+            <head type="subheading" place="top-right">Ett gammalt minne, berättadt för Jultomten af
+               <lb/>HENRIK WRANÉR</head>
             <p>
               <lg type="stanza">
                <l>Jesus har kommit, barnens vän,</l>
@@ -557,14 +563,10 @@
                <l>bedjen för barnen i hedna land!</l>
                </lg>
               </p>
-            <signed>PAUL NILSSON.</signed>
-            <signed>Jenny Nyström</signed>
-            </div>
+            
+            
             <cb n="2"/>
-         <div>
-            <head>Den lille brefbärarens julafton.</head>
-            <head type="subheading">Ett gammalt minne, berättadt för Jultomten af </head>
-            <signed>HENRIK WRANÉR.</signed>
+                          
             <p><hi rend="anfang">O</hi>la Skräddare var »väskeman».
                <lb/>Det vill säga, att han två dar i veckan gick till 
                <lb/>stationen och hämtade byns post. I prästgården töm- 
@@ -636,12 +638,15 @@
                <lb/>le han ha hela, 
                <lb/>höga stöflar och 
                <lb/>en lång rock med</p> 
+            
+            <signed>PAUL NILSSON.</signed>
+            <signed>Jenny Nyström</signed>
          </div>
          <!-- Text Sida 4  -->
-         <div>
-           <pb n="4" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+           <pb n="4"/>
             <metamark  function="pagenumber" place="top-right"><num>3</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <cb n="1"/>
             <p>kapuschong att dra öfver mössan –
             – – Och far en hel kagge snus!</p>
@@ -752,10 +757,10 @@
             
          </div>
          <!-- Text Sida 5  -->
-         <div> 
-            <pb n="5" facs="#framsida"/>
+         <div type="page" facs="#framsida"> 
+            <pb n="5"/>
             <metamark  function="pagenumber" place="top-left"><num>4</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <head>MARKNAD
                <lb/>I
                <lb/>HOLLAND
@@ -812,15 +817,16 @@
             </fw> 
          </div>
          <!-- Text Sida 6  -->
-         <div>
-            <pb n="6" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+            <pb n="6"/>
             <metamark  function="pagenumber" place="top-right"><num>5</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <head place="top-margin">FISKAR-BÅTAR PÅ ZUIDER-ZEE</head>
             <head place="left-margin">EDAM</head>
             
             <p rend="italic">niens färg. Tänk, till och med hundarna hade
             gula skärp om magen!</p>
+            
             <p rend="italic"><l rend="indented"/>Vi bo, vet du, i en liten stuga med grön dörr 
             <lb/>och gröna fönsterluckor och alldeles rödmålad 
             <lb/>inuti. Och så ha vi en liten tunna att samla 
@@ -875,10 +881,10 @@
             </fw> 
          </div>
          <!-- Text Sida 7 -->
-         <div> 
-            <pb n="7" facs="#framsida"/>
+         <div type="page" facs="#framsida"> 
+            <pb n="7"/>
             <metamark  function="pagenumber" place="top-left"><num>6</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <signed>Johan Tirén</signed>
             <cb n="1"/>
             <head>Lillebror.</head>
@@ -935,16 +941,13 @@
             <p rend="italic"><l rend="indented"/>Ja, nu tror jag, att jag har skrifvit om allting, så nu blir det allt 
             <lb/>din tur att skrifva till mig och berätta om, hur ni ha det i Sverige.</p>
             
-            <closer rend="margin-bottom-right">
-            <salute rend="italic">Din lilla holländska vän</salute>
-            <signed rend="italic">Neltje.</signed>
+            
             
             <note rend="italic">P. S. Vi ha fått 5 kattungar. Om det ej vore så lång väg, 
             <lb/>skulle jag sända dem till dig. Vi ha så rysligt många kattor förut</note>
             <note place="margin-bottom-right" rend="italic">D. S.</note>
-            </closer>
-            </div>
-         <div>
+            
+        
             <cb n="2"/>
             <p>gits, och hans öfverste hade berömt honom. 
             <lb/>Ja, själfva kung Karl hade midt i strids- 
@@ -1023,12 +1026,16 @@
                <lb/>östra Ryssland, satt nu den unge Gustaf Arnold Löwenkreuz 
                <lb/>och sydde skor Han hade lärt handtverket af en af sina 
                <lb/>soldater. Här var en liten koloni af svenska fångar. De</p> 
+            
+            <closer rend="margin-bottom-right">
+               <salute rend="italic">Din lilla holländska vän</salute>
+               <signed rend="italic">Neltje.</signed> </closer>
          </div>
          <!-- Text Sida 8  -->
-         <div>
-          <pb n="8" facs="#framsida"/>
+         <div type="page" facs="#framsida" >
+          <pb n="8"/>
             <metamark  function="pagenumber" place="top-right"><num>7</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <cb n="1"/>
             <p>bodde för sig själfva och försörjde sig med sina händers ar- 
                <lb/>bete. Hvarje söndag samlades de och höllo svensk gudstjänst, 
@@ -1184,18 +1191,18 @@
             <signed>Johan Tirén </signed>   
          </div>
          <!-- Text Sida 9  -->
-         <div> 
-            <pb n="9" facs="#framsida"/>
+         <div type="page" facs="#framsida"> 
+            <pb n="9"/>
             <metamark  function="pagenumber" place="top-left"><num>8</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <signed>Gerda Tirén</signed>
             <fw type="footer" place="bottom-centre">SOMMARGLÄDJE.
                <lb/>Akvarell för Jultomten af GERDA TIRÉN. 
             </fw>   
          </div>
          <!-- Text Sida 10  -->
-         <div>
-            <pb n="10" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+            <pb n="10"/>
             <cb n="1"/>
             <p> 
             <lg type="stanza">
@@ -1246,10 +1253,10 @@
             <fw type="footer" place="bottom-centre">TUMMELITEN I SJUMILASTÖFLAR. Akvarell för Jultomten af ELSA BESKOW.</fw>                                                
          </div>
          <!-- Text Sida 11  -->
-         <div>
-            <pb n="11" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+            <pb n="11"/>
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <cb n="1"/>
            <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
               <lb/>nen samla sig på sommarkvällarna. Där seglade de med
@@ -1322,10 +1329,9 @@
                 <lb/>reste sig handlandens Axel.
                 <lb rend="indented"/>– Det ska vi förstås vara allihop ändå, sa han. Fast en 
                 <lb/>glömmer det ibland. Och därför är det bra, att nå'n påminner en.</p> 
-            <signed>Henrik Wranér</signed>
-           </div> 
+                      
             <cb n="3"/>
-            <div>   
+             
             <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
                <lb/>Blund omkring hos alla sina små älsklingar på jul- 
                <lb/>natten och tager dem med sig på färd till det under- 
@@ -1394,22 +1400,24 @@
                <lb/>året, just för att barnen inte allt för fort skola behöfva 
                <lb/>fara hem från Sagolandet. Det är inte jul mer än en 
                <lb/>gång om året, och så ska ju de flesta i julottan också, 
-               <lb/>medan ännu stjärnorna tindra.</p>      
+               <lb/>medan ännu stjärnorna tindra.</p> 
+               
+               <signed>Henrik Wranér</signed>
          </div>
          <!-- Text Sida 12  -->
-         <div>
-            <pb n="12" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+            <pb n="12"/>
             <metamark  function="pagenumber" place="top-right"><num>11</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <head place="margin-right" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: center">JULNATTSFÄRD TILL SAGOLANDET. Akvarell för Jultomten af ELIN WESTMAN</head>
             <signed style="writing-mod:vertical-lr; text-orientation: sideways left">ELIN WESTMAN</signed>
             <signed style="writing-mod:vertical-lr; text-orientation: sideways left">C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 13  -->
-         <div>
-            <pb n="13" facs="#framsida"/>
+         <div type="page" facs="#framsida">
+            <pb n="13"/>
             <metamark  function="pagenumber" place="top-left"><num>12</num></metamark>
-            <fw type="header" place="top-centre">Jultomten 1899</fw>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <head rend="italic">De fyra tanterna </head>
             <head type="subheading" rend="italic">De fyra tanterna</head>
             
@@ -1469,23 +1477,331 @@
          </div>
          <!-- Text Sida 14  -->
          <div type="page" facs="#framsida">
+            <pb n="14" facs="#framsida"/>
             <metamark  function="pagenumber" place="top-right"><num>13</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
+            <p><l rend="indented">– Aha,</l>
+              <lb/>tänkte Matts, är det
+              <lb/>en så'n tant!</p>
+            
+            <p><l rend="indented">Och med ens be-</l>
+              <lb/>grep han, hvarför
+              <lb/>hon hade så stor mun och var 
+              <lb/>så mörklagd i ansiktet. Hon 
+              <lb/>måtte heta Räf i tillnamn.
+              <lb rend="indented"/>– Vill du inte komma och hälsa på?
+              <lb/>frågade tant Tripp vänligt, så ska' du få äta
+              <lb/>så mycket jordgubbar du orkar med.
+              <lb rend="indented"/>– Jag törs inte gå ifrån gässena mina, 
+              <lb/>tyckte Matts.
+              <lb rend="indented"/>– Tag dem med dig då!
+              <lb rend="indented"/> – Na-aj, sade Matts, det är så mycket räfvar i skogen, så.</p>
+            
+            <p><l rend="indented">Då log tant Tripp, så man såg henne långt ner i halsen.</l>
+              <lb rend="indented"/>– Å, min kära lilla gosse, sade hon, det är inte alls farligt. Om du vill, ska' 
+              <lb/>jag ta' mina systrar med mig, så hjälpas vi åt allihop med att vakta dina gäss. 
+              <lb rend="indented"/>– Dina systrar! sade Matts misstroget.
+              <lb rend="indented"/>– Minns du inte heller mina systrar: tant Trapp, som gaf dig sockerbröd, och 
+              <lb/>tant Snipp, som stoppade i dig hallonsylt, och tant Snapp, som gräddade våfflor åt 
+              <lb/>dig? Vi bo alla fyra i den lilla stugan i skogen. Men du var förstås så liten, när 
+              <lb/>du var hos oss, så det är inte så godt att komma ihåg allt.
+              <lb rend="indented"/> – Kanske jag skulle komma ihåg det bättre, om jag finge smaka på socker- 
+              <lb/>bröden och hallonsaften och våfflorna en gång till, sade Matts fundersamt.
+              <lb rend="indented"/>– Ja, kom med, så ska' du få det.</p>
+               
+            <p><l rend="indented">Men det ville inte Matts. Han var alldeles för blyg för att gå hem så där </l>
+              <lb/>till främmande tanter, påstod han. En annan sak vore det, om de ville komma 
+              <lb/>till honom.</p>
+               
+            <p><l rend="indented">Nåja, tant Tripp var inte omöjlig. Hon skulle gå hem och fråga tant Trapp </l>
+              <lb/>och tant Snipp och tant Snapp, om de ville komma, och sedan skulle nog Matts 
+              <lb/>bli god vän med dem alla fyra och komma och hälsa på dem tillsammans med sina gäss. </p>
+             
+            <p><l rend="indented">Tant Tripp gaf sig af, men under det hon gick, sneglade hon så illa åt gässen,</l> 
+              <lb/>att Matts kände sitt hjärta hoppa upp i halsgropen. Kanske hon skulle våga ta sig 
+              <lb/>en stek ändå? Men han blef strax lugn, ty han såg, att tant Tripp hade mycket 
+              <lb/>svårt att gå i sina långa kjolar. Hon skulle aldrig kunna springa undan med sitt byte.</p>
+             
+            <p><l rend="indented">Sedan hon försvunnit, gick Matts flera timmar omkring på allmänningen och</l> 
+              <lb/>knaprade på sitt hårda bröd och vaktade sina gäss, utan att en människa syntes till. 
+              <lb/>Men när det led framåt eftermiddagen, fick han se fyra damer, alla i släpande kläd- 
+              <lb/>ningar och stora skyggande hattar, komma ut ur skogen. Det var alla tanterna.</p>
+            
+            <p><l rend="indented">De voro lika hvarandra som bär, och alla logo de mot Matts och talade så</l> 
+              <lb/>sockersött och vackert. Och tant Trapp och tant Snipp och tant Snapp hade en 
+              <lb/>hel hop hallonsylt och sockerbröd och våfflor med sig åt Matts. Och han mumsade 
+              <lb/>och åt, så han kunde spricka. Och tanterna fingo klappa honom. Och han klappade 
+              <lb/>igen och sade, att nu kände han så väl igen dem. Han var inte alls rädd för 
+              <lb/>dem längre. De voro sådana snälla, rara tanter, så han tyckte riktigt mycket om dem. 
+              <lb rend="indented"/>– Kommer du med oss nu då? frågade tant Tripp.
+              <lb rend="indented"/>Men Matts strök sig betänksamt om munnen.
+              <lb rend="indented"/>– Na-aj, sade han, inte i dag, för nu är det stopp, att jag orkar äta mera.</p> 
+            
+            <p><l rend="indented">Vid denna underrättelse tittade alla tanterna på hvarandra och blefvo dubbelt så </l>
+              <lb/>långa i ansiktet som förut. Men till slut hämtade sig tant Tripp och frågade, om 
+              <lb/>han ville komma i morgon i stället då.
+              <lb rend="indented"/>– Ja-a, tyckte Matts, det kunde ju hända. De finge väl komma och höra åt,
+              <lb/>hur pass frisk han var i magen.</p>
+            
+            <p><l rend="indented">Och så måste de traska hem till sitt igen, och Matts gick också hem, ty det</l>
+              <lb/>hade blifvit kväll.</p>
+            
+            <p><l rend="indented">Men nästa morgon stängde han in sina gäss i gåshuset och gick ensam ut på</l></p>
+            
+            <signed>Louis Moe</signed>
+            
          </div>
          <!-- Text Sida 15  -->
          <div type="page" facs="#framsida">
+            <pb n="15"/>
             <metamark  function="pagenumber" place="top-left"><num>14</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
+            <cb n="1"/>
+            <p>allmänningen. Där satte han sig på en sten att tjuta och 
+              <lb/>snyfta i sina händer, och det dröjde inte länge, förrän de 
+              <lb/>fyra tanterna kommo trippande ur skogen och deltagande frå- 
+              <lb/>gade honom, hvarför han satt och grät.
+              <lb rend="indented"/>–Å, jag tog mig bara en liten lur, sade Matts, och 
+              <lb/>under tiden gingo alla mina gäss ifrån mig, så nu vet jag inte,
+              <lb/>hvar de äro.</p>
+            
+            <p><l rend="indented">Denna olycka tycktes gå tanterna lika djupt </l>
+              <lb/>till sinnes som Matts, och de föreslogo allesam- 
+              <lb/>mans på en gång, att de skulle hjälpa honom att 
+              <lb/>leta efter de försvunna gässen.</p>
+            
+            <p><l rend="indented">Sagdt och gjordt. De gingo åt hvar sitt håll</l> 
+              <lb/>för att söka, utom Matts och tant Tripp, som följ- 
+              <lb/>des åt. Matts förde tant Tripp upp till ett högt 
+              <lb/>stenrös, hvari fanns en förskräckligt djup 
+              <lb/>grop, och så bad han tant Tripp titta 
+              <lb/>efter, om inte gässen voro därnere, för 
+              <lb/>tant Tripp hade bestämdt bättre ögon 
+              <lb/>än han.</p>
+            
+            <p><l rend="indented">Hon böjde sig också ned och </l>
+              <lb/>tittade. Men »puff», fick hon ett slag 
+              <lb/>i ryggen, så att hon hufvudstupa ram- 
+              <lb/>lade ned i gropen. Och där låg hon 
+              <lb/>och vältade och kraflade och kunde inte 
+              <lb/>komma upp, för sidorna voro så branta. 
+              <lb/>Men Matts sprang genast ner till all- 
+              <lb/>männingen igen och ropade på tant Trapp.
+              <lb rend="indented"/>– Tant Trapp! Tant Trapp! Tant
+              <lb/>Tripp håller på att jaga gässen nere i 
+              <lb/>en grop, men hon kan inte få upp 
+              <lb/>dem ensam!</p>
+            
+            <p><l rend="indented">Och tant Trapp kom svansande,</l>
+              <lb/>så fort hon kunde i sin långa klädning. 
+              <lb/>Men när hon stod och tittade ned i gro-
+              <lb/>pen, knuffade Matts till henne med, 
+              <lb/>så hon ramlade ner. Och där
+              <lb/>låg hon.</p>
+            
+            <p><l rend="indented">Matts var emellertid inte sen</l> 
+              <lb/>att springa sin väg igen och ropa 
+              <lb/>på tant Snipp.</p>
+            
+            <cb n="2"/>
+            <p><l rend="indented">– Tant Snipp! Tant Snipp! Tant Tripp och tant Trapp</l> 
+              <lb/>hålla på att jaga gässen nere i en grop, men de kunna inte  
+              <lb/>få upp dem ensamma.</p>
+            
+            <p><l rend="indented">Och tant Snipp kom farande i en sådan fart, att hon</l> 
+              <lb/>höll på att stupa på näsan i sin klädning. Hon hade så 
+              <lb/>grufligt brådtom att komma ner i gropen, och efter en half 
+              <lb/>minut låg hon där också</p>
+            
+            <p><l rend="indented">Men så fort Matts fått henne dit, kilade han på</l> 
+              <lb/>nytt ner till allmänningen och ropade på tant Snapp. 
+              <lb rend="indented"/>–Tant Snapp! Tant Snapp! Tant Tripp och tant 
+              <lb/>Trapp och tant Snipp hålla på att jaga gässen nere 
+              <lb/>i en grop, men de kunna inte få upp dem ensamma.</p> 
+            
+            <p><l rend="indented">Och tant Snapp ville också gärna vara med.</l> 
+              <lb/>Äfven hon tyckte om gäss. Och hon tog upp kläd- 
+              <lb/>ningen och sprang, så hon visade sina lurfviga ben. </p>
+            
+            <p>Det dröjde inte heller länge, förrän hon be- 
+              <lb/>fann sig i sällskap med sina systrar på bottnen 
+              <lb/>af gropen. Men då förstod hon, hur det var 
+              <lb/>ställdt, och både hon och de andra tanterna 
+              <lb/>kraflade förgäfves om hvarandra uppåt de brante 
+              <lb/>gropsidorna, refvo sönder sina klädningar, så att 
+              <lb/>de röda pälsarna stucko fram och bådo Matts så 
+              <lb/>innerligt, att han skulle vara snäll och komma ner 
+              <lb/>till dem, så att de finge klösa ögonen ur honom</p>
+            
+            <p><l rend="indented">Men Matts bara skrattade, så länge han</l> 
+              <lb/>orkade, och sedan gick han hem till byn efter 
+              <lb/>sin far, som tog med sig en bössa och sköt ihjäl 
+              <lb/>alla de fyra tanterna, hvarefter han sålde pälsarna i 
+              <lb/>staden och köpte kläder åt Matts för pengarna. </p>
+            
+            <p><l rend="indented">När så Matts om söndagarna var till kyrkan</l>
+              <lb/>i sin stass och någon frågade honom, 
+              <lb/>hvarifrån han fått sin fina rock, så 
+              <lb/>svarade han:
+              <lb rend="indented"/>– Den har jag fått af den snälla 
+              <lb/>tant Tripp, och mössan har jag fått af 
+              <lb/>den snälla tant Trapp, och byxorna 
+              <lb/>har jag fått af den snälla tant Snipp, 
+              <lb/>och stöflarna har jag fått af den snälla 
+              <lb/>tant Snapp. De äro de hyggligaste 
+              <lb/>tanter jag någonsin haft.</p>
+            
+            <div>
+               <head>Den högfärdige snögubben.</head>           
+            <notatedMusic>
+               <desc>Noter till sången Den högfärdige snögubben. Allegretto.</desc>
+            </notatedMusic>
+               <p>1. På gården låg bollsnön så mjuk och så tjock, – Hej vi, hej va, hej fal-le-ral-le-ra! 
+               <lb/>Och gos-sar-ne rul-la-de hop den i block.  –    –    –    –   –    –   –   –   –  –   De gjor-de en snö-gub-be lång som så här Och                                                                                                                                       
+               <lb/>tjock som så där, ja, tjock som så där.  Hej vi, hej va, hej fal-le-ral-le-ra! </p>  
+            </div>
+            
+            <div>
+           <cb n="3"/>
+              <p>2. Och gubben han stod där så morsk bredvid grind 
+                 <lb/>med nacke så styf och med mage så trind. 
+                 <lb/>Han hade en slokhatt så bred som så här 
+                 <lb/>och platt som så där, ja, platt som så där.</p>
+               
+              <p>3. Mustascher han fick utaf mossa så grann 
+                 <lb/>och ögon af svartaste kol, som man fann. 
+                 <lb/>Till näsa en morot så lång som så här 
+                 <lb/>och tjock som så där, ja, tjock som så där.</p>
+               
+            <cb n="4"/>
+               
+               <p>4. Och gubben han stod där och pöste och frös, 
+                  <lb/>men så kom det regn, han fick snufva och nös. 
+                  <lb/>Han grät, så det rann, och blef smal som så här 
+                  <lb/>och tunn som så där, ja, tunn som så där</p>
+               
+               <p>5. Men tjuren kom lös, och af hornen en stöt 
+                  <lb/>fick gubben för magen, så ryggen han bröt. 
+                  <lb/>Och, kratsch! låg han raklång i bitar så här, 
+                  <lb/>ja rakt si så där, ja, rakt si så där.</p>
+               
+               <signed>L. Moe</signed> 
+               <signed>E Åberg </signed>
+               <signed>Tippu Tipp.</signed>
+               <signed>Vilh. Sefee</signed>
+               
+            </div>           
          </div>
          <!-- Text Sida 16  -->
          <div type="page" facs="#framsida">
+            <pb n="16"/>
             <metamark  function="pagenumber" place="top-right"><num>15</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            <fw type="footer" place="bottom-centre">Akvarell för Jultomten af BRITA ELLSTRÖM.</fw>
+            
+            <head>LINA</head>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">V</hi>isst finns det töser nog i vår by, </l>
+            <l>som gå både klädda och <rhyme>fina</rhyme></l>
+            <l>i köptygskjol och knarrande skor, </l>
+            <l>men tacka vet jag dock <rhyme>Lina</rhyme>.</l>
+            </lg>
+            
+           <lg type="rhyme">
+            <l><hi rend="anfang">K</hi>lar i blick som morgonen själf,</l> 
+            <l>stiger hon upp med <rhyme>solen</rhyme>,</l> 
+            <l>skyndar sig flinkt att sällskap få </l>
+            <l>med granngårdsbarnen till <rhyme>"skolen"</rhyme>.</l>
+           </lg>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">D</hi>u sett henne tidt på vägen dit,</l> 
+            <l>gladlynt och röd om <rhyme>kinden</rhyme>,</l> 
+            <l>sett, hur hon sprang framför din vagn</l> 
+            <l>att vara den första vid <rhyme>grinden</rhyme></l>
+            </lg>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">F</hi>ick hon en slant, hon log så godt,</l>
+            <l>fick hon ej, neg hon <rhyme>bara</rhyme> –</l>
+            <l>lilla Lina med lingul lock </l>
+            <l>och ögon skinande <rhyme>klara</rhyme>!</l>
+            </lg>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">I</hi>ngen i klassen lär som hon</l>
+            <l>säkert och fermt sin <rhyme>läxa</rhyme>, </l>
+            <l>gäller det svara, tyckes hon</l> 
+            <l>riktigt på bänken <rhyme>växa</rhyme>.</l>
+            </lg>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">S</hi>ist, när examen är förbi,</l>
+            <l>läxorna bara ett <rhyme>minne</rhyme>,</l>
+            <l>skyndar hon raka vägen hem,</l>
+            <l>sjungande glad i <rhyme>sinne</rhyme>.</l>
+            </lg>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">M</hi>untert mot vägens sten och grus</l>
+            <l>snabba små träskor <rhyme>klappa</rhyme></l>
+            <l>fortare, fortare – mor hon ser</l>
+            <l>vänta på hemmets <rhyme>trappa</rhyme>.</l>
+            </lg>
+            
+            <lg type="rhyme">
+            <l><hi rend="anfang">A</hi>ndfådd och varm hon hinner fram</l>
+            <l>klarblå ögonen <rhyme>skina</rhyme>.</l>
+            <l>Sommar det är och soligt och grönt.</l>
+            <l>Lyckliga, lyckliga <rhyme>Lina</rhyme>!</l>
+            </lg>
+            
+            <signed>EMIL KLÉEN.</signed>
+            <signed>BRITA ELLSTRÖM. 1899.</signed>
+                                               
          </div>
          <!-- Text Sida 17  -->
          <div type="page" facs="#framsida">
+            <pb n="17"/>
             <metamark  function="pagenumber" place="top-left"><num>16</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            <fw type="footer" place="bottom-centre">EN JULHEMLIGHET. Akvarell för Jultomten af JENNY NYSTRÖM</fw>
+            
+            <p><hi rend="anfang">T</hi>änk, lille hvite bror!
+            <lb/>Vet du, hvad Tom han tror?
+              <lb/>Jo, att om Tom är snäll,
+              <lb/>får han på julekväll 
+              <lb/>gunghäst att rida på, 
+              <lb/>halsband af kulor blå, 
+              <lb/>dockflicka, söt och fin, 
+              <lb/>klädd uti hvitt muslin, 
+              <lb/>röd som en ros i hyn, 
+              <lb/>glasägg med sockergryn, 
+              <lb/>flagga på gyllne stång, 
+              <lb/>blågul och bred och lång, 
+              <lb/>och på sin hufvudknopp 
+              <lb/>mössa med tofs i topp. 
+              <lb/>Och om så Tom med tvål 
+              <lb/>gnor sig, hvad skinnet tål, 
+              <lb/>blir han nog hvit en gång, 
+              <lb/>när han växt stor och lång.</p>
+            <p>JIM</p>
+            
+            <signed>JENNY NYSTRÖM 1899</signed>
+            
          </div>
          <!-- Text Sida 18  -->
          <div type="page" facs="#framsida">
+            <pb n="18"/>
             <metamark  function="pagenumber" place="top-right"><num>17</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            <fw type="footer" place="bottom-centre">FLÄDERMOR.
+               <lb/>Tafla för Jultomten af ANNA CRAMÉR
+               <lb rend="italic"/>(Verser å nästa sida.) 
+            </fw>
          </div>
          <!-- Text Sida 19  -->
          <div type="page" facs="#framsida">
