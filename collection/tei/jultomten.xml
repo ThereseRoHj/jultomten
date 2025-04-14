@@ -510,18 +510,17 @@
             </head>
             <head>1899</head>
             <signed>G. Ankarcrona </signed>
-            <signed>C. ANGERER &amp; GÖSCHL </signed>
+            <signed>C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 3  -->
          <div type="page" facs="#framsida"> 
          <pb n="3"/>
             <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <cb n="1"/>
-            <head>JUL</head>
-            <head place="top-right">Den lille brefbärarens julafton.</head>
-            <head type="subheading" place="top-right">Ett gammalt minne, berättadt för Jultomten af
-               <lb/>HENRIK WRANÉR</head>
+            
+            <div type="text-division" n="1">
+               <head>JUL</head>
+               
             <p>
               <lg type="stanza">
                <l>Jesus har kommit, barnens vän,</l>
@@ -585,9 +584,15 @@
                <l>bedjen för barnen i hedna land!</l>
                </lg>
               </p>
+               <signed>PAUL NILSSON.</signed>
+               <signed>Jenny Nyström</signed>
+            </div>
             
             
-            <cb n="2"/>
+           <div type="text-division" n="2"> 
+            <head place="top-right">Den lille brefbärarens julafton.</head>
+            <head type="subheading" place="top-right">Ett gammalt minne, berättadt för Jultomten af
+               <lb/>HENRIK WRANÉR</head>
                           
             <p><hi rend="anfang">O</hi>la Skräddare var »väskeman».
                <lb/>Det vill säga, att han två dar i veckan gick till 
@@ -660,10 +665,9 @@
                <lb/>le han ha hela, 
                <lb/>höga stöflar och 
                <lb/>en lång rock med</p> 
-            
-            <signed>PAUL NILSSON.</signed>
-            <signed>Jenny Nyström</signed>
+           </div>
          </div>
+         
          <!-- Text Sida 4  -->
          <div type="page" facs="#framsida">
            <pb n="4"/>
@@ -1291,7 +1295,10 @@
             <pb n="11"/>
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <cb n="1"/>
+           
+            <div type="text-division" n="1">             
+              <cb n="1"/>
+            
            <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
               <lb/>nen samla sig på sommarkvällarna. Där seglade de med
               <lb/>gamla träskor och barkbåtar; där byggde de ladugårdar af leran, 
@@ -1363,8 +1370,12 @@
                 <lb/>reste sig handlandens Axel.
                 <lb rend="indented"/>– Det ska vi förstås vara allihop ändå, sa han. Fast en 
                 <lb/>glömmer det ibland. Och därför är det bra, att nå'n påminner en.</p> 
+               
+               <signed>Henrik Wranér</signed>
+            </div>
                       
-            <cb n="3"/>
+            <div type="text-division" n="2">
+               <cb n="3"/>
              
             <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
                <lb/>Blund omkring hos alla sina små älsklingar på jul- 
@@ -1435,8 +1446,7 @@
                <lb/>fara hem från Sagolandet. Det är inte jul mer än en 
                <lb/>gång om året, och så ska ju de flesta i julottan också, 
                <lb/>medan ännu stjärnorna tindra.</p> 
-               
-               <signed>Henrik Wranér</signed>
+            </div>                              
          </div>
          <!-- Text Sida 12  -->
          <div type="page" facs="#framsida">
@@ -1592,6 +1602,7 @@
             <metamark  function="pagenumber" place="top-left"><num>14</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
+           <div type="text-division" n="1"> 
             <cb n="1"/>
             <p>allmänningen. Där satte han sig på en sten att tjuta och 
               <lb/>snyfta i sina händer, och det dröjde inte länge, förrän de 
@@ -1686,8 +1697,11 @@
               <lb/>och stöflarna har jag fått af den snälla 
               <lb/>tant Snapp. De äro de hyggligaste 
               <lb/>tanter jag någonsin haft.</p>
+              
+              <signed>L. Moe</signed> 
+           </div>
             
-            <div>
+            <div type="text-division" n="2">
                <head>Den högfärdige snögubben.</head>           
             <notatedMusic>
                <desc>Noter till sången Den högfärdige snögubben. Allegretto.</desc>
@@ -1695,9 +1709,7 @@
                <p>1. På gården låg bollsnön så mjuk och så tjock, – Hej vi, hej va, hej fal-le-ral-le-ra! 
                <lb/>Och gos-sar-ne rul-la-de hop den i block.  –    –    –    –   –    –   –   –   –  –   De gjor-de en snö-gub-be lång som så här Och                                                                                                                                       
                <lb/>tjock som så där, ja, tjock som så där.  Hej vi, hej va, hej fal-le-ral-le-ra! </p>  
-            </div>
-            
-            <div>
+                                    
            <cb n="3"/>
               <p>2. Och gubben han stod där så morsk bredvid grind 
                  <lb/>med nacke så styf och med mage så trind. 
@@ -1721,12 +1733,11 @@
                   <lb/>Och, kratsch! låg han raklång i bitar så här, 
                   <lb/>ja rakt si så där, ja, rakt si så där.</p>
                
-               <signed>L. Moe</signed> 
                <signed>E Åberg </signed>
                <signed>Tippu Tipp.</signed>
                <signed>Vilh. Sefee</signed>
                
-            </div>           
+               </div>                                                       
          </div>
          <!-- Text Sida 16  -->
          <div type="page" facs="#framsida">
@@ -1737,56 +1748,56 @@
             
             <head>LINA</head>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">V</hi>isst finns det töser nog i vår by, </l>
             <l>som gå både klädda och <rhyme>fina</rhyme></l>
             <l>i köptygskjol och knarrande skor, </l>
             <l>men tacka vet jag dock <rhyme>Lina</rhyme>.</l>
             </lg>
             
-           <lg type="rhyme">
+           <lg>
             <l><hi rend="anfang">K</hi>lar i blick som morgonen själf,</l> 
             <l>stiger hon upp med <rhyme>solen</rhyme>,</l> 
             <l>skyndar sig flinkt att sällskap få </l>
             <l>med granngårdsbarnen till <rhyme>"skolen"</rhyme>.</l>
            </lg>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">D</hi>u sett henne tidt på vägen dit,</l> 
             <l>gladlynt och röd om <rhyme>kinden</rhyme>,</l> 
             <l>sett, hur hon sprang framför din vagn</l> 
             <l>att vara den första vid <rhyme>grinden</rhyme></l>
             </lg>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">F</hi>ick hon en slant, hon log så godt,</l>
             <l>fick hon ej, neg hon <rhyme>bara</rhyme> –</l>
             <l>lilla Lina med lingul lock </l>
             <l>och ögon skinande <rhyme>klara</rhyme>!</l>
             </lg>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">I</hi>ngen i klassen lär som hon</l>
             <l>säkert och fermt sin <rhyme>läxa</rhyme>, </l>
             <l>gäller det svara, tyckes hon</l> 
             <l>riktigt på bänken <rhyme>växa</rhyme>.</l>
             </lg>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">S</hi>ist, när examen är förbi,</l>
             <l>läxorna bara ett <rhyme>minne</rhyme>,</l>
             <l>skyndar hon raka vägen hem,</l>
             <l>sjungande glad i <rhyme>sinne</rhyme>.</l>
             </lg>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">M</hi>untert mot vägens sten och grus</l>
             <l>snabba små träskor <rhyme>klappa</rhyme></l>
             <l>fortare, fortare – mor hon ser</l>
             <l>vänta på hemmets <rhyme>trappa</rhyme>.</l>
             </lg>
             
-            <lg type="rhyme">
+            <lg>
             <l><hi rend="anfang">A</hi>ndfådd och varm hon hinner fram</l>
             <l>klarblå ögonen <rhyme>skina</rhyme>.</l>
             <l>Sommar det är och soligt och grönt.</l>
@@ -1839,39 +1850,943 @@
          </div>
          <!-- Text Sida 19  -->
          <div type="page" facs="#framsida">
+            <pb n="19"/>
             <metamark  function="pagenumber" place="top-left"><num>18</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            <div type="text-division" n="1">
+               <head>FLÄDERMOR.</head>
+               <head type="sub-heading">(Efter idé ur ANDERSENS SAGOR.)</head>
+               <cb n="1"/>
+               
+               <lg rend="italic">
+                  <l><hi rend="anfang">R</hi> egnet knäpper <rhyme label="a"> >ticketack</rhyme>,</l> 
+               <l>knackar på din <rhyme label="b">ruta</rhyme>.</l>
+               <l>Ute är så kulet. – <rhyme label="a">Ack</rhyme>,</l> 
+               <l>aldrig vill det <rhyme label="b">sluta</rhyme>!</l>
+               <l>Mörkret som en otäck <rhyme label="c">häxa</rhyme></l> 
+               <l>genom fönstret <rhyme label="d">glor</rhyme>.</l>
+               <l>Rysligt tråkig är din <rhyme label="c">läxa</rhyme>. – </l>
+               <l>Se, då kommer <rhyme label="d">Flädermor</rhyme>!</l>
+               </lg>
+               
+               <lg rend="italic">
+               <l>Har du läst om <rhyme label="a">Flädermor</rhyme>?</l>
+               <l>Hon är ständigt ung och <rhyme label="b">näpen</rhyme>.</l> 
+               <l>Uti fläderträ't hon <rhyme label="a">bor</rhyme>. –</l>
+               <l>När hon kommer, blir du <rhyme label="b">häpen</rhyme>.</l>
+               <l>Vips! Från regnets knack och <rhyme label="c">knäpp</rhyme></l> 
+               <l>rycker hon dig ut i <rhyme label="d">världen</rhyme>.</l> 
+               <l>Öfver åar, öfver <rhyme label="d">gärden</rhyme></l>
+               <l>rida ni på pappas <rhyme label="c">käpp</rhyme>!</l></lg>
+               
+               <lg rend="italic">
+               <l>Glömd är läxan, mörkret <rhyme label="a">glömdt</rhyme>.</l> 
+               <l>Nu är sommar - sjöar <rhyme label="b">glittra</rhyme>,</l>
+               </lg>
+               
+               <cb n="2"/>
+               <lg rend="italic">
+               <l>träden susa, fåglar <rhyme label="b">kvittra</rhyme> – –</l> 
+               <l>Aldrig något så'nt du <rhyme label="a">drömt</rhyme>.</l> 
+               <l>Dina ögon knappt du <rhyme label="c">tror</rhyme>. – </l>
+               <l>»Minns du»? frågar <rhyme label="c">Flädermor</rhyme>.</l>
+               </lg>
+               
+               <lg rend="italic" >
+               <l>»Minns du hagen där vid <rhyme label="a">byn</rhyme>?</l> 
+               <l>Minns du klockarns <rhyme label="b">smultrongärde</rhyme>?</l> 
+               <l>Minns du sjön vid skogens <rhyme label="a">bryn</rhyme>,</l> 
+               <l>där du dig att simma <rhyme label="b">lärde</rhyme>?</l> 
+               <l>Minns du tuppen, kon och <rhyme label="c">katten</rhyme>?</l> 
+               <l>Minns du kyrkan? <rhyme label="d">Väderkvarnen</rhyme>?</l> 
+               <l>Ännu kring den leka <rhyme label="d">barnen</rhyme></l> 
+               <l>'sista paret ut' och '<rhyme label="c">datten</rhyme>'.»</l>
+               </lg>
+               
+               <lg rend="italic">
+               <l>Gladt hon pekar ner och <rhyme label="a">skrattar</rhyme>,</l> 
+               <l>lilla Flädermor, den <rhyme label="b">fina</rhyme>.</l>
+               <l>Och du skrattar med och <rhyme label="a">fattar</rhyme></l> 
+               <l>hennes händer uti <rhyme label="b">dina</rhyme>.</l> 
+               <l>Och ni flyga, flyga <rhyme label="c">vida</rhyme></l> 
+               <l>öfver landet, leka, <rhyme label="d">pladdra</rhyme>.</l>
+               </lg>
+               
+               <cb n="3"/>
+               <lg rend="italic">
+               <l>Alla dina minnen <rhyme label="d">fladdra</rhyme></l>
+               <l>som små fåglar vid din <rhyme label="c">sida.</rhyme> –</l>
+               <l>Hvad vår värld är ljus och <rhyme label="e">stor</rhyme>! – – </l>
+               <l>»Minns du»! kvittrar <rhyme label="e">Flädermor</rhyme>.</l>
+               </lg>
+               
+               <lg rend="italic">
+               <l>Nu tog hela resan <rhyme label="a">slut</rhyme>! –</l> 
+               <l>Flädermor, den lilla <rhyme label="b">häxan</rhyme>,</l> 
+               <l>är försvunnen. Som <rhyme label="a">förut</rhyme></l> 
+               <l>åter sitter du vid <rhyme label="b">läxan</rhyme>!</l>
+               </lg>
+               
+               <lg rend="italic">
+               <l>Men om du i hjärtat <rhyme label="a">gömmer</rhyme></l> 
+               <l>hennes bild och aldrig <rhyme label="a">glömmer</rhyme>,</l> 
+               <l>ej för alltid har hon <rhyme label="b">flytt</rhyme>. –</l>
+               <l>Ofta då till dig skall <rhyme label="c">smyga</rhyme></l> 
+               <l>Minnets fé, som lär dig <rhyme label="c">flyga</rhyme></l> 
+               <l>och som visar dig på <rhyme label="b">nytt</rhyme></l> 
+               <l>allt det glada, allt det <rhyme label="d">sköna</rhyme>,</l> 
+               <l>som du njöt i marker <rhyme label="d">gröna</rhyme>. – –</l>
+               <l>Det är mera än du <rhyme label="e">tror</rhyme>.</l> 
+               <l>Håll dig väl med <rhyme label="e">Flädermor</rhyme>!</l>
+               </lg>
+               
+               <signed>HUGO GYLLANDER</signed>
+              </div>
+            
+             <div type="text-division" n="2">
+                <head>Julvisa.</head>
+                <notatedMusic>
+                   <desc>Noter till sången Julvisa. Musik av Alice Tegnér och ord av Zach Topelius</desc>
+                </notatedMusic>
+                <lg>
+                   <l>1 v.Nu står jul vid snö-ig <rhyme label="a">port</rhyme>, Klappar på och <rhyme label="b">my-ser</rhyme>: » Kära barn, släpp in mig <rhyme label="a">fort</rhyme>!</l>
+                                   
+                   <l>Här jag står och <rhyme label="b">fry-ser</rhyme>. Se, min korg är full och <rhyme label="c">tung</rhyme>, Båd' åt gam-mal och åt <rhyme label="c">ung</rhyme></l>
+                   
+                   <l>Har jag gåf-vor <rhyme label="d">ra - - ra</rhyme>. Får jag hos dig <rhyme label="d">va-ra?</rhyme> »-» Kom, ja, kom, kä-ra jul!»</l>
+                </lg>
+                   
+                   <cb n="4"/>
+                   <lg type="lyrics" rhyme="ABABCCDD-">
+                   <l><hi rend="anfang">J</hi>ag för med mig tända <rhyme label="a">ljus</rhyme></l> 
+                   <l>och en gran från <rhyme label="b">skogen</rhyme>,</l> 
+                   <l>frid och fröjd i hvarje <rhyme label="a">hus</rhyme>,</l> 
+                   <l>vänskap så <rhyme label="b">förtrogen</rhyme>.</l>
+                   <l>Fattig man skall ej bli <rhyme label="c">glömd</rhyme>,</l>
+                   <l>där han hungrar tyst och <rhyme label="c">gömd</rhyme>,</l> 
+                   <l>och enhvar, som <rhyme label="d">gråter</rhyme>,</l>
+                   <l>skall bli tröstad <rhyme label="d">åter</rhyme>.»</l>
+                   <l>– »Kom, ja, kom, kära jul!»</l>
+                   </lg>
+                
+                   <cb n="5"/>
+                   <lg type="lyrics" rhyme="ABABCCDD-">
+                   <l><hi rend="anfang">O</hi>ch jag löser upp allt <rhyme label="a">tvång</rhyme></l> 
+                   <l>i de glada <rhyme label="b">ringar</rhyme>,</l>
+                   <l>och jag hämtar himmelsk <rhyme label="a">sång</rhyme></l> 
+                   <l>uppå <rhyme label="b">änglavingar</rhyme>.</l> 
+                   <l>Barnens ögon stråla <rhyme label="c">då</rhyme></l> 
+                   <l>liksom stjärnor i det <rhyme label="c">blå</rhyme>,</l> 
+                   <l>och de mörka, <rhyme label="d">frusna</rhyme></l> 
+                   <l>hjärtan åter <rhyme label="d">ljusna</rhyme>.»</l>
+                   <l>— »Kom, ja, kom, kära jul!»</l>
+                   </lg>
+                
+                   <cb n="6"/>
+                   <lg type="lyrics" rhyme="ABABCCDD-">
+                   <l><hi rend="anfang">M</hi>en hvad bäst jag gifver <rhyme label="a">dig</rhyme></l> 
+                   <l>vill till sist jag <rhyme label="b">spara</rhyme>:</l> 
+                   <l>Jesusbarnet är med <rhyme label="a">mig</rhyme></l> 
+                   <l>och din gäst vill <rhyme label="b">vara</rhyme>.</l> 
+                   <l>Vill du hafva världens <rhyme label="c">ljus</rhyme></l> 
+                   <l>i ditt hjärta och ditt <rhyme label="c">hus</rhyme>?</l> 
+                   <l>Får han helga <rhyme label="d">fröjden</rhyme></l> 
+                   <l>med sin frid af <rhyme label="d">höjden</rhyme>?»</l>
+                   <l>– »Kom, ja, kom, Herre Krist!»</l>
+                   </lg>
+                
+                <signed>Gerda Tirén</signed>
+                <signed>Alice Tegnér</signed>
+                <signed>Zach. Topelius</signed>
+                                  
+             </div>                           
          </div>
          <!-- Text Sida 20  -->
          <div type="page" facs="#framsida">
+            <pb n="20"/>
             <metamark  function="pagenumber" place="top-right"><num>19</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
+            <div type="text-division" n="1">
+               <cb n="1"/>
+               <head rend="italic">En skärgårdspojke.</head>
+               
+               <p rend="italic"><hi rend="anfang">F</hi>ramför mig på toften sitter 
+               <lb/>Ville Jansson, elfva år –
+               <lb/>blåa ögon, lingult hår
+               <lb/>mot en fond af böljeglitter.
+               <lb/>Passar noga fock och skot,</p>
+               
+               <cb n="2"/>
+               <p rend="italic">när i vinden ekan vänder, 
+               <lb/>och små bruna skärkarlshänder, 
+               <lb/>fostrade vid nät och not, 
+               <lb/>visa sig ha kraft i taget: 
+               <lb/>flinkt står focken styf och spänd, 
+               <lb/>och vi ligga högt i slaget. 
+               <lb/>Villes blick är inåtvänd, 
+               <lb/>liksom satt han jämt i tankar, 
+               <lb/>men likväl för skär och bankar 
+               <lb/>ögon har han som för två. 
+               <lb/>»grund i lovart–fall–fall på!» 
+               <lb/>Eljes är han tyst som muren; 
+               <lb/>munnen, redan viljestark, 
+               <lb/>öppnas blott i skog och mark, 
+               <lb/>när det hojtas efter djuren. 
+               <lb/>Då är Ville själaglad, 
+               <lb/>öfver stock och sten han flänger, 
+               <lb/>svetten lackar, skjortan hänger, 
+               <lb/>rispor få sig fot och vad. 
+               <lb/>Men, som sagdt, i helgdagsståten
+               <lb/>med på segeltur i båten
+               <lb/>säger Ville knappt ett ord, 
+               <lb/>hyllar regeln: tyst om bord! 
+               <lb/>Äldst i hemmets syskonskara 
+               <lb/>elfva år är Ville bara,</p>
+               
+               <cb n="3"/>
+               <p rend="italic">men likväl han pröfva fått, 
+               <lb/>lifvet är ej barnlek blott. 
+               <lb/>Han är gårdens ende dräng – 
+               <lb/>tidigt uppe, sent i säng. 
+               <lb/>Julimorgnar, daggigt svala, 
+               <lb/>innan göken slutat gala, 
+               <lb/>öfver lien böjd han går, 
+               <lb/>och när slagan hörs på logen, 
+               <lb/>så det ekar in i skogen, 
+               <lb/>midt i dammet Ville står. 
+               <lb/>Ville – det är glädjen, fliten – 
+               <lb/>ljus som vackert sommarväder, 
+               <lb/>lugn i stormen som graniten, 
+               <lb/>men så spänstig som en fjäder. 
+               <lb/>Och jag tänker glad för mig, 
+               <lb/>när jag pysen ser så säker 
+               <lb/>blicka ut mot sjön, som vräker: 
+               <lb/>Pojke, Gud välsigne dig! 
+               <lb/>Växer sådant gossesläkte 
+               <lb/>upp bland våra karga skär, 
+               <lb/>då, mitt land, hur starkt du är, 
+               <lb/>om en dag oss ofärd väckte! </p>
+               
+               <signed>DANIEL FALLSTRÖM.</signed>
+             </div>  
+            
+            <div type="text-division" n="2">
+               <div type="letter">
+                  <head>JULTOMTEN</head> 
+                
+                  <opener rend="italic">  
+                     <name type="place">Adr. Svensk Läraretidning 
+                        <lb/>Stockholm N.
+                     </name>
+                     <dateline>                         
+                        <date>Stockholm d. 24 Dec. 1899.</date>                      
+                     </dateline>
+                     <salute>Mina kära små vänner!</salute>
+                  </opener>
+                  
+                  <cb n="3"/>
+                 <p rend="italic"> <l rend="intended">Ja, “nu är det jul igen", som det</l>
+                  <lb/>står i visan, och nu har Ni väl riktigt 
+                  <lb/>längtat efter Er gamle farbror.</p>
+                  
+                 <p rend="italic"><l rend="intended">Ni må tro, att jag varit vida omkring,</l> 
+                  <lb/>Se'n vi sist träffades. Si, Nisse han skall 
+                  <lb/>nu, som Ni vet, alltid hitta på upptåg. 
+                  <lb/>Och så säger han en en dag så här: “Hör nu far- 
+                  <lb/>bror, vi ä’ alldeles tvungna att ställa till 
+                  <lb/>ett möte, alla andra ha’ möten : präster och 
+                  <lb/>doktorer och kamrater och beväringar och 
+                  <lb/>alla möjliga; då ä’ bara vi, som ä’ gam- 
+                  <lb/>malmodiga och inte ha’ något möte”. Gammal-
+                  <lb/>modig? Nej, tack, Jultomten är aldrig gam-
+                  <lb/>malmodig. Men minsann kunde det inte 
+                  <lb/>vara trefligt att vara tillsammans med 
+                  <lb/>hela släkten ett tag.</p>
+                  
+                  <p rend="italic"><l rend="intended">Och så smällde jag till med att</l>
+                   <lb/>blåsa i min lur, så att det dånade i 
+                   <lb/>världens alla hörn. Oj, oj, oj ett sånt 
+                   <lb/>myller af tomtar det kom från alla kanter. Och 
+                   <lb/>vi höll ett möte i tre da’r med mycket prat 
+                   <lb/>och oväsen och storkalas på slutet, där det 
+                   <lb/>vankades både gröt och gris.</p>
+                  
+                  <p rend="italic"><l rend="intended">Och när det var slut, så följde</l> 
+                   <lb/>vi hvarenda tomte hem. Vi redo 
+                   <lb/>på stora, elefanter ända till Sago-
+                   <lb/>landet, flögo med Fågel Blå förbi</p>
+                  
+                  <cb n="4"/>
+                  <p rend="italic">både Karlavagnen och Sjustjärnor-
+                   <lb/>na, skakade hand med den store Finn
+                   <lb/>Komfusenfej hämtade i Österlandet
+                   <lb/>Aladdins underbara lampa, tittade 
+                   <lb/>i förbifarten in hos gamla Flädermor 
+                   <lb/>och gästade en god stund hos hos Saga vid 
+                   <lb/>vishetsbrunnen. Och till sist drogo 
+                   <lb/>vi genom hundramilaskogar åter till
+                   <lb/>vårt kära gamla Sverige.</p>
+                  
+                  <p rend="italic"><l rend="intended">Ni kan se på första sidan, hur</l> 
+                   <lb/>vårt långa tomtetåg drager fram genom 
+                   <lb/>mörka skogen med sprakande bloss. 
+                   <lb/>Och där kan Ni också se, hvilket lass 
+                   <lb/>Gulle drar på. Kan Ni gissa, hvad 
+                   <lb/>som finns där? Jo, där finns många 
+                   <lb/>saker till julklappar, som vi hämtat
+                   <lb/>med oss, och där finns en stor packe
+                   <lb/>taflor, som Nisse och Tusse ritat un-
+                   <lb/>der färden, och som de nog komma 
+                   <lb/>att visa Er i denna tidning, och 
+                   <lb/>där finnes också julgranar och an- 
+                   <lb/>nat smått och godt åt snälla barn.</p>
+                  
+                  <p rend="italic"><l rend="intended">Få se, om Ni bland de många</l> 
+                   <lb/>tomtarna kan få reda på Nisse och 
+                   <lb/>Tusse, och om Ni äfven i år känner igen </p> 
+                  
+                  <closer rend="Italic">
+                     <salute>Eder gamle trogne vän</salute>
+                     <signed>Farbror Jultomten</signed>
+                     <stamp>Stockholm 
+                        <lb/>24
+                        <lb/>18 12 99 
+                        <lb/>1TUR 
+                     </stamp>
+                  </closer>
+                  <postscript>
+                     <label>P.S.</label>
+                     <p>Och så får Ni lof att skrifva 
+                        <lb/>till mig igen och tala om, hvad Ni tycker mest 
+                        <lb/>om i år. Adressen är min gamla vanliga
+                     </p>
+                  </postscript>
+                                                                                       
+               </div>
+            </div>            
          </div>
          <!-- Text Sida 21  -->
          <div type="page" facs="#framsida">
+            <pb n="20"/>
             <metamark  function="pagenumber" place="top-left"><num>20</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
+            <head><hi rend="anfang">R</hi>iddaren <hi rend="decoration">F</hi>inn <hi rend="decoration">K</hi>omfusenfej</head>
+            <p rend="gothic"><hi rend="anfang">R</hi>iddaren Finn Komfusenfej
+             <lb/>han går sig på gården, han går sig på råd,
+             <lb/>han axlar sitt skinn.
+             <lb/>Så gångar han sig i kammaren in
+             <lb/>till kungen i Kej:
+             <lb/>– "Och sitter du här, du kungen i Kej
+             <lb/>allt öfver ett bord!
+             <lb/>Får jag taga din dotter till äkta?"
+             <lb/>– "Det skall du fråga hennes moder till råda."
+             <lb/>– "Jag ska' så göra", sa' Fusenfej.</p>
+            
+            <p rend="gothic">Riddaren Finn Komfusenfej
+             <lb/>han går sig på gården, han går sig på råd,
+             <lb/>han axlar sitt skinn.
+             <lb/>Så gångar han sig i kammaren in
+             <lb/>till fru Skräckeriskrej:
+             <lb/>– "Och sitter du här, fru Skräckeriskrej
+             <lb/>allt öfver ett bord!
+             <lb/>Får jag taga din dotter till äkta?"
+             <lb/>–"Det får du fråga hennes fader till råda.”
+             <lb/>– "Jag har så gjort", sa' Fusenfej.
+             <lb/>– "Det får du fråga hennes broder till råda." 
+             <lb/>– "Jag ska så göra", sa' Fusenfej.</p>
+            
+            <p rend="gothic">Riddaren Finn Komfusenfej
+             <lb/>han går sig på gården, han går sig på råd,
+             <lb/>han axlar sitt skinn.
+             <lb/>Så gångar han sig i kammaren in
+             <lb/>till Knapp-Målar-på-vägg:
+             <lb/>– "Och sitter du här, Knapp-Målar-på-vägg
+             <lb/>allt öfver ett bord!
+             <lb/>Får jag taga din syster till äkta?"
+             <lb/>– "Det skall du fråga hennes fader till råda."
+             <lb/>– "Jag har så gjort", sa' Fusenfej.
+             <lb/>– "Det skall du fråga hennes moder till råda."
+             <lb/>– "Jag har så gjort", sa' Fusenfej.
+             <lb/>– "Det skall du fråga hennes systrar till råda." 
+             <lb/>– "Jag ska’ så göra", sa' Fusenfej.</p>
+            
+            <p rend="gothic">Riddaren Finn Komfusenfej
+             <lb/>han går sig på gården, han går sig på råd,</p>
+            
+            <signed>E.Beskow</signed>
+            <signed>C. ANGERER &amp; GÖSCHL</signed>            
          </div>
          <!-- Text Sida 22 -->
          <div type="page" facs="#framsida">
+            <pb n="22"/>
             <metamark  function="pagenumber" place="top-right"><num>21</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
+            <cb n="1"/>
+            <p rend="gothic">han axlar sitt skinn.
+             <lb/>Så gångar han sig i kammaren in
+             <lb/>till fru Hicka, fru Bricka, fru Dördi, fru Britta: 
+             <lb/>– "Och sitta ni här, fru Hicka, fru Bricka, fru 
+             <lb rend="intended"/> Dördi, fru Britta,</p>
+            
+            <p rend="gothic">allt öfver ett bord!
+             <lb/>Får jag taga eder syster till äkta?" 
+             <lb/>–"Det får du fråga hennes fader till råda." 
+             <lb/>– "Jag har så gjort", sa' Fusenfej. 
+             <lb/>– "Det får du fråga hennes moder till råda." 
+             <lb/>– "Jag har så gjort", sa' Fusenfej. 
+             <lb/>– "Det får du fråga hennes broder till råda," 
+             <lb/>– "Jag har så gjort", sa' Fusenfej. 
+             <lb/>– "Det får du fråga henne själfver till råda." 
+             <lb/>–"Jag ska så göra", sa' Fusenfej.</p>
+            
+            <p rend="gothic">Riddaren Finn Komfusenfej
+             <lb/>han går sig på gården, han går sig på råd, 
+             <lb/>han axlar sitt skinn.
+             <lb/>Så gångar han sig i kammaren in 
+             <lb/>till fru Hoppet-i-spira, som brud skulle blifva: 
+             <lb/>– "Och sitter ni här, fru Hoppet-i-spira, som 
+             <lb rend="intended"/>brud skulle blifva,
+             <lb/>allt öfver ett bord!
+             <lb/>Får jag taga er själfver till äkta?"</p>
+            
+            <cb n="2"/>
+            <p rend="gothic">"Det skall ni
+             <lb/>fråga min fa- 
+             <lb/>der till råda." 
+             <lb/>– "Jag har så 
+             <lb/>gjort", sa' Fusenfej.
+             <lb/>– "Det skall ni fråga min moder till råda." 
+             <lb/>– "Jag har så gjort", sa' Fusenfej.
+             <lb/>– "Det skall ni fråga min broder till råda." 
+             <lb/>– "Jag har så gjort", sa Fusenfej.
+             <lb/>– "Det skall ni fråga mina systrar till råda." 
+             <lb/>– "Jag har så gjort", sa' Fusenfej.</p>
+            
+            <p rend="gothic">Då togo de fram en förfasligt lång häst: 
+             <lb/>så satte de opp själfva kungen i Kej, 
+             <lb/>så satte de opp fru Skräckerisirej, 
+             <lb/>så satte de opp Knapp-Målar-på-vägg 
+             <lb/>så satte de opp fru Hicka, fru Bricka, fru 
+             <lb rend="intended"/>Dördi, fru Britta,
+             <lb/>så satte de opp fru Hoppet-i-spira, som brud 
+             <lb rend="intended"/>skulle blifva,
+             <lb/>så satte de opp Komfusenfej.
+             <lb/>Så foro de bort öfver tolfmilaskog, 
+             <lb rend="intended"/>Komfusenfej!
+             <lb/>Men hästen han tröttna', och Fusenfei drog,  
+             <lb rend="intended"/>Komfusenfej!</p>
+                        
          </div>
          <!-- Text Sida 23  -->
          <div type="page" facs="#framsida">
+            <pb n="23"/>
             <metamark  function="pagenumber" place="top-left"><num>22</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
+            <head>KUNGENS FINASTE ROS.</head>
+            <head type="sub-heading">Saga af ELSA BESKOW</head>
+            
+            <cb n="1"/>
+            <p><hi rend="anfang">I</hi> ett hörn af den stora vackra slottsträdgården satt lilla prin-
+              <lb/>sessan Maj och grät. Solen sken så vackert, himlen var 
+              <lb/>klarblå med små hvita molntappar, rosorna doftade, och 
+              <lb/>fåglarna sjöngo. – Hvarför grät prinsessan?</p>
+            
+            <p> <l rend="intended">Alla i slottet höllo af henne – från den gamle, snälle</l> 
+             <lb/>kungen, hennes morfar, till slottets allra minsta vov-vov, som 
+             <lb/>hette Tusse. Hon bodde i det vackraste slottet i hela landet, i 
+             <lb/>den allra vackraste trädgården, och kring trädgården var en stor 
+             <lb/>djup skog, full med vilda blommor och fåglar och ekorrar. Nå- 
+             <lb/>got så vackert som trädgården, den tiden rosorna blommade, 
+             <lb/>kunde man knappt tänka sig, ty rosor funnos där öfverallt, gula 
+             <lb/>och hvita och skära och röda af alla sorter och storlekar, från 
+             <lb/>den lilla vilda nyponblomman, som klängde sig fast utanpå mu-
+             <lb/>ren och sträckte på sig för att titta på sina syskon innanför, till 
+             <lb/>de allra finfinaste rosor med krångliga franska namn, som stodo 
+             <lb/>i långa rader med namnetiketterna fastbundna vid stammarna.</p>
+            
+            <p><l rend="intended">Hennes morfar hade alldeles tröttnat på att regera och lämnat</l> 
+              <lb/>spiran till sin son, och nu bodde han och lilla Maj här och hade 
+              <lb/>det så trefligt tillsammans utan att bry sig en smula om hofeti-
+              <lb/>ketten. Maj fick springa ute barhufvad i trädgården, och kungen 
+              <lb/>kunde få gå i nattrock och tofflor hela dagarna, om han bara ville, 
+              <lb/>och pyssla om sina rosor. – Rosor – det var det käraste kungen 
+              <lb/>hade, näst Maj. Hvar morgon och hvar kväll gick kungen rundt 
+              <lb/>trädgården och hälsade på alla sina rosor, klippte bort en kvist 
+              <lb/>här och band upp en där. Och efter honom kom öfverhofträd- 
+              <lb/>gårdsmästaren med en stor vattenkanna och lilla Maj med en liten 
+              <lb/><lb/>fin silfvervattenkanna, pratande och skrattande, alltid lika glad. 
+              <lb rend="intended"/>Men hvarför gråter då prinsessan?</p>
+            
+            <p><l rend="intended">Utanför trädgårdsgrinden stod en liten tiggargosse och såg </l>
+              <lb/>med stora, häpna ögon genom gallerverket. Aldrig hade han kun- 
+              <lb/>nat tänka sig, att prinsessan Maj kunde gråta. Hon, som var det 
+              <lb/>gladaste och vackraste, som fanns. När hans styfmor eller andra 
+              <lb/>människor voro hårda mot honom eller han kände sig hungrig 
+              <lb/>och ledsen, brukade han blunda med ögonen och tänka på lilla 
+              <lb/>Maj, och strax var det, som om solen sken, och han blef gladare.</p>
+            
+            <p><l rend="intended">Första gången han såg Maj var en gång, då hans styfmor</l> 
+             <lb/>som vanligt skickat honom till staden för att tigga. När han då 
+             <lb/>gick förbi trädgårdsporten, stod lilla Maj där och smålog så vänligt 
+             <lb/>mot honom och räckte honom en pepparkaka genom gallret. Se- 
+             <lb/>dan dess brukade han alltid titta efter henne, när han gick förbi ; 
+             <lb/>och lyckades han uppfånga en skymt af henne, var han glad 
+             <lb/>hela dagen. – Men nu grät ju prinsessan!
+             <lb rend="intended"/>Han tog mod till sig och frågade:
+             <lb rend="intended"/>– Hvarför gråter prinsessan?
+             <lb rend="intended"/>Lilla Maj lyfte hufvudet.
+             <lb rend="intended"/>– För att morfar inte är snäll mot mig, sade hon. För att 
+             <lb/>morfar tror, att det är jag, som har brutit af hans allra finaste 
+             <lb/>ros, som han gått och väntat på hela tiden, och som skulle slå 
+             <lb/>ut i dag, och som vi voro så glada åt att få se – –  och jag 
+             <lb/>har visst inte gjort det, aldrig skulle jag vilja göra så, och det 
+             <lb/>tycker jag morfar skulle veta. Aldrig mera kan jag vara glad! </p>
+            
+            <p><l rend="intended">Och lilla Maj gömde på nytt ansiktet i händerna.</l> 
+              <lb rend="intended"/>Tiggargossen stod en stund kvar, så vände han sig om och 
+              <lb/>fortsatte dröjande sin väg till staden. Hur skulle <emph rend="italic">han</emph> någonsin 
+              <lb/>kunna vara glad, om prinsessan Maj inte mera var det! Hvad 
+              <lb/>skulle han göra för att få henne glad igen?</p>
+              
+            <p><l rend="intended">Om han skulle gå till kungen och säga, att det var han,</l> 
+              <lb/>som brutit rosen? Kanske han då skulle bli kastad djupt ner i 
+              <lb/>fängelsetornet, eller kanske han skulle få rysligt mycket stryk?</p>
+            
+            <cb n="2"/>
+            <p>– Å, stryk var han van vid, och bara prinsessan blef glad igen, 
+               <lb/>så gjorde det detsamma, hur det gick med honom.</p>
+            
+            <p><l rend="intended">Han gick tillbaka till slottet och bad med klappande hjärta </l>
+               <lb/>vakten, att han skulle få tala med kungen. –</p>
+            
+            <p><l rend="intended">Emellertid hade Maj lugnat sig något. Hon var just inte</l> 
+               <lb/>van att vara ledsen så länge i sträck, så att tårarna ville inte 
+               <lb/>längre rinna.</p>
+            
+            <p><l rend="intended">När hennes morfar kommit emot henne på morgonen med</l> 
+               <lb/>rynkad panna och med barsk stämma frågat henne, hvarför hon 
+               <lb/>brutit af hans allra finaste ros, hade hon känt sig djupt sårad 
+               <lb/>och flytt bort till ett hörn i trädgården för att riktigt få gråta ut 
+               <lb/>sin sorg öfver att vara så orättvist behandlad. Men så började 
+               <lb/>hon tänka på, hur synd det var om honom, att han blifvit af 
+               <lb/>med sin fina ros, som han hela tiden längtat skulle slå ut.</p>
+            
+            <p><l rend="intended">Lilla Maj kom ihåg en gång, då hon funnit sin bästa docka </l>
+               <lb/>sönderslagen och hon hade trott det var Tusse, som gjort det, hur 
+               <lb/>ond hon då blifvit på Tusse och grälat på honom och till och med 
+               <lb/>slagit till honom på nosen – men se'n, när hon fick veta, att Tusse 
+               <lb/>var oskyldig, hade hon blifvit mycket mera ledsen öfver sin orätt- 
+               <lb/>visa än öfver att dockan gått sönder.
+               <lb rend="intended"/>– Tänk, när morfar får veta, att det inte är jag, som gjort 
+               <lb/>det – hvad han då skall ångra sig! – Stackars, stackars mor- 
+               <lb/>far, hvad han skall bli ledsen då!
+               <lb rend="intended"/>– Men tänk, hvad morfar skulle bli glad, om jag kom till 
+               <lb/>honom och bad honom om förlåtelse och slog armarna om hans hals! 
+               <lb rend="intended"/>– Men det kan jag omöjligt göra, för då narras jag ju. </p>
+            
+            <p><l rend="intended">Prinsessan satte sig att fundera. Rätt som det var, lyste hon upp.</l> 
+               <lb rend="intended"/>– Nu vet jag, sade hon.</p>
+            
+            <p><l rend="intended">Hon sprang ner i trädgården och valde omsorgsfullt ut en</l> 
+               <lb/>halfvissen ros, som hon bröt af. Nu kunde hon ju, utan att nar-
+               <lb/>ras, säga till morfar: »Snälla morfar, förlåt mig, att jag bröt af 
+               <lb/>rosen!» Och så skulle morfar bli glad igen. Och han skulle aldrig 
+               <lb/>få veta, att han varit orättvis mot sin lilla prinsessa.</p>
+            
+            <p><l rend="intended">När hon gick förbi köksdörren, som stod på glänt, kände hon </l>
+               <lb/>en så frestande lukt af nybakt smörtårta, att hon måste titta in. 
+               <lb/>Där stod den snälle, gamle, tjocke f. d. öfverhofköksmästaren med 
+               <lb/>en strut med sockerdeg i handen och sirade ut »Anatolius» i stora 
+               <lb/>fina bokstäfver med många krumelurer på en väldig tårta.</p>
+            
+            <p><l rend="intended">När han fick se Maj, bugade han sig djupt och såg glad ut,</l> 
+               <lb/>ty de voro mycket goda vänner.
+               <lb rend="intended"/>– God morgon, sade Maj, är det morfars namnsdag i dag igen? 
+               <lb rend="intended"/>– Ja, det är i dag hans Nådiga Majestäts nådiga nittonde 
+               <lb/>namnsdag Anatolius, sade kocken.</p>
+            
+            <p><l rend="intended">Den gamle kocken hade egentligen, han liksom kungen, dra-</l>
+               <lb/>git sig tillbaka från sin tjänstgöring, men han hade en förtjusning,
+               <lb/>och det var namnsdagstårtor. Därför hade han strukit ett rödt 
+               <lb/>streck i almanackan för hvart och ett af kungens alla namn, och 
+               <lb/>för hvar gång bakade han en präktig tårta. Det fanns inte heller 
+               <lb/>någon, som kunde göra sådana tårtor som han, och det var nu 
+               <lb/>hans stolthet.</p>
+            
+            <p><l rend="intended">I dag var han dock litet bekymrad. Hans silkespapper hade</l> 
+               <lb/>tagit slut, så att han hade ej kunnat göra en så'n där vacker pappers- 
+               <lb/>ros, som han brukade sätta i midten af tårtan. Han hade visserligen 
+               <lb/>valt ut en riktigt vacker ros, då han var ute i trädgården bittida 
+               <lb/>på morgonen, men så fint som en konstgjord ros kunde det ju 
+               <lb/>inte bli.
+               <lb rend="intended"/>– Tror lilla prinsessan, att Hans Majestät tycker illa vara, 
+               <lb/>om jag sätter något så tarfligt som en lefvande blomma i midten? 
+               <lb/>sade kocken.</p>
+            
+            <signed>Elsa Beskow </signed>
+            
          </div>
          <!-- Text Sida 24  -->
          <div type="page" facs="#framsida">
+            <pb n="24"/>
             <metamark  function="pagenumber" place="top-right"><num>23</num></metamark>
+            <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+           
+           <cb n="1"/>
+            <p><l rend="intended">– Ånej, svarade Maj, om du tar en riktigt vacker blomma,</l> 
+               <lb/>så blir det lika bra!</p>
+            
+            <p><l rend="intended">Och så nickade hon åt kocken och fortsatte sin väg rakt</l> 
+               <lb/>upp till kungens rum och knackade på dörren.</p>
+            
+            <p><l rend="intended">Där satt den snälle gamle kungen och var så ledsen öfver,</l> 
+               <lb/>att han varit häftig mot lilla Maj. Han var riktigt ond på sig 
+               <lb/>själf, som ställt till så ledsamt bara för en ros.</p>
+            
+            <p><l rend="intended">I detsamma knackade det sakta på dörren, och då han</l> 
+               <lb/>ropade: »stig in!», steg lilla Maj öfver tröskeln. Hon stod där 
+               <lb/>med nedslagna ögon och försökte se botfärdig ut, men det ville 
+               <lb/>inte riktigt lyckas, ty hon var så full af skratt.
+               <lb rend="intended"/>–Söta morfar, förlåt, att jag bröt af rosen! sade hon. Och då 
+               <lb/>hon i detsamma såg upp och såg kungens utbredda armar, flög 
+               <lb/>hon rakt upp i hans famn, och nu satt hon i hans knä, och 
+               <lb/>båda voro så lyckliga som någonsin. Det förstås, nog kittlade 
+               <lb/>det i tungan på Maj att få tala om sitt knep för morfar, men 
+               <lb/>det gick ju rakt inte an än på länge.</p>
+            
+            <p><l rend="intended">Men så knackade det än en gång på dörren, och en lakej</l> 
+               <lb/>kom in och sade, att vakten sagt till honom, att det var en liten 
+               <lb/>tiggarpojke där nere, som nödvändigt ville tala med kungen. Han 
+               <lb/>var så enträgen, att vakten inte blef af med honom.
+               <lb rend="intended"/>– Låt honom komma sade kungen.</p>
+            
+            <p><l rend="intended">Strax därpå kom lille Olle – så hette tiggargossen – in med</l> 
+               <lb/>bultande hjärta. Han vågade ej se upp och möta kungens ögon, 
+               <lb/>ty han var rädd, att hans mod skulle svika honom.
+               <lb rend="intended"/>– Det var jag, som bröt af rosen, sade han med så hög
+               <lb/>röst han kunde.</p>
+            
+            <p><l rend="intended">Kungen såg förvånad på honom.</l>
+               <lb rend="intended"/>– Hvad säger du? utbrast han.</p>
+            
+            <p><l rend="intended">I detsamma såg gossen upp och såg lilla Maj sitta helt för-</l> 
+               <lb/>nöjd i sin morfars knä. Han blef alldeles förvirrad och fick grå- 
+               <lb/>ten i halsen. Maj var ju glad igen – hvad tjänade det då till, 
+               <lb/>att han tagit skulden på sig? Nu skulle hon bara förakta honom 
+               <lb/>och tro, att han var en tjuf. Tårarna stego honom i ögonen, 
+               <lb/>och han fick ej fram ett ord.</p>
+            
+            <p><l rend="intended">Maj tyckte synd om honom.</l>
+               <lb rend="intended"/>– Söta snälla morfar, förlåt honom! hviskade hon och slog 
+               <lb/>sina armar fastare om morfars hals.</p>
+            
+            <p><l rend="intended">Men den gamle kungen visste inte, hvad han skulle tro.</l> 
+               <lb rend="intended"/>– <emph rend="italic">Var</emph> det inte du, som bröt af den? sade han.</p>
+            
+            <p><l rend="intended">Lilla Maj såg smått skamsen ut:</l>
+               <lb rend="intended"/>– Jo, men det var bara en vissen.</p>
+            
+            <p><l rend="intended">Kungen blef ännu mera förbryllad men försökte ta en</l> 
+               <lb/>sträng ton.
+               <lb rend="intended"/>– Kom hit du, sade han till Olle, och tala om, hur du bar 
+               <lb/>dig åt, men akta dig noga för att narras!</p>
+            
+            <p><l rend="intended">I detsamma hördes ljudliga fanfarer. Upp flögo dörrarna </l>
+               <lb/>på vid gafvel, och in kommo tågande först en trumslagare, som 
+               <lb/>slog på en väldig trumma, så två trumpetare och sist den gamle 
+               <lb/>kocken med skinande ansikte och bärande på en bricka en präk- 
+               <lb/>tigt utsirad tårta, i hvars midt där satt – – – gissa hvad!</p>
+            
+            <p><l rend="intended">När han kommit midt framför tronen, bugade han djupt.</l> 
+               <lb rend="intended"/>– Jag har den äran att gratulera till Eders allernådigaste 
+               <lb/>Majestäts nittonde namnsdag Anatolius, sade han.
+               <lb rend="intended"/>– Tack ska’ du ha, sa kungen, det hade jag verkligen 
+               <lb/>glömt bort, att jag hette. När han så skulle se närmare på tår-
+               <lb/>tan, fick han se en stor präktig svartröd ros, som satt i midten. 
+               <lb rend="intended"/>– Hvad för slag, skrek han, där är ju min <q rend="italic">»Prince Camille
+               <lb/>de Rohan»</q>!</p>
+            
+            <p><l rend="intended">Kocken blef så förskräckt, att han höll på att släppa tårtan. </l>
+               <lb rend="intended"/>–Nej, Anatolius står det, Ers 
+               <lb/>Majestät, försäkrade han.</p>
+            
+            <cb n="2"/>
+            <p><l rend="intended">–Hvar har du fått den ifrån? sade kungen och pekade</l> 
+               <lb/>på rosen.
+               <lb rend="intended"/>– Förlåt, Ers Majestät, att den inte är konstgjord, sade 
+               <lb/>kocken helt förkrossad, jag hade intet silkespapper kvar, därför 
+               <lb/>tog jag en lefvande ros – men om jag lefver till Ers Majestäts 
+               <lb/>tjugonde namnsdag Zephyrinus, så skall jag göra den allra största 
+               <lb/>och vackraste ros Ers Majestät någonsin sett.</p>
+            
+            <p><l rend="intended">Han såg så lustig ut, den gamle kocken, att lilla Maj omöj-</l> 
+               <lb/>ligt kunde hålla sig allvarsam, och när hon skrattade, måste 
+               <lb/>kungen också skratta, och när kungen skrattade, ansågo trum- 
+               <lb/>petarne och trumslagarne för sin skyldighet att skratta, och så 
+               <lb/>skrattade de alla åt den gamle kocken, som trodde, att han sagt 
+               <lb/>något kvickt, och sträckte på sig helt smickrad.</p>
+            
+            <p><l rend="intended">– Det är bra, sade kungen, tack för firningen! Och så mar-</l>
+               <lb/>scherade kocken ut igen med sina trumpetare och trumslagare.</p>
+            
+            <p><l rend="intended">Lille Olle, som uppmärksamt följt med allt som passerat,</l> 
+               <lb/>förstod, att det just var den rosen, hvilken han sagt, att han 
+               <lb/>stulit, som satt i tårtan. Han tyckte, att han nu var alldeles 
+               <lb/>öfverflödig, och försökte oförmärkt smyga sig ut på samma gång 
+               <lb/>som de andra.</p>
+            
+            <p><l rend="intended">Men kungen fick se det</l>.
+               <lb rend="intended"/>– Nej, hör du, vänta litet, min gosse, sade han, kom hit 
+               <lb/>till mig och tala om, hvarför du nödvändigt ville få mig att tro, 
+               <lb/>att du stulit en ros, som du aldrig hade stulit! 
+               <lb rend="intended"/>– För att – – för att prinsessan skulle bli glad igen, stam-
+               <lb/>made Olle.
+               <lb rend="intended"/>– O, nu förstår jag, sade Maj, det var därför, att jag grät 
+               <lb/>och sa', att jag aldrig skulle bli glad igen, för att du trodde så 
+               <lb/>illa om mig, så ville han, att du skulle bli ond på honom i stäl- 
+               <lb/>let. – Är han inte förfärligt snäll?</p>
+            
+            <p><l rend="intended">Och lilla Maj sprang fram till tiggargossen och kysste honom.</l></p> 
+            
+            <p><l rend="intended">Kungen blef så rörd, att han måste snyta sig.</l>
+               <lb rend="intended"/>– Men du själf då, sade han till Maj, hvarför ville du lura mig? 
+               <lb rend="intended"/>– Jag lurade dig inte, sade Maj. för jag bröt verkligen af 
+               <lb/>en ros, fast den var vissen, men jag ville bara, att du skulle bli 
+               <lb/>glad igen och inte lika ledsen, som jag blef, då jag slog Tusse 
+               <lb/>för något, som han aldrig hade gjort.</p>
+            
+            <p><l rend="intended">Nu måste den gamle kungen snyta sig två gånger å rad.</l></p> 
+            
+            <p><l rend="intended">Därefter tog kungen en knif och skar sin stora, goda tårta i</l> 
+               <lb/>två lika stora delar.
+               <lb rend="intended"/>– Se här, kära barn, sade han, ät nu, så mycket ni orka.</p>
+            
+            <p><l rend="intended">Under det Olle med god aptit åt af sin tårtbit, hviskade</l> 
+               <lb/>lilla Maj till kungen:
+               <lb rend="intended"/>– Snälla morfar, låt Olle få stanna här alltid och leka med mig!</p>
+            
+            <p><l rend="intended">Kungen ref sig i hufvudet.</l>
+               <lb rend="intended"/>– Tror du det går an, sade han, att en tiggargosse leker 
+               <lb/>med en prinsessa?
+               <lb rend="intended"/>– Är det bara det i vägen, sade lilla Maj, så kan vi ju klä' 
+               <lb/>på honom sammetskläder, så blir han som den allra finaste prins.</p>
+            
+            <p><l rend="intended">Och det blef som Maj ville.</l>
+               <lb/>Olle fick stanna i kungsgården, och 
+               <lb/>där bor han nu som den lyckligaste 
+               <lb/>pojke i hela riket. Den 3 juli hvarje 
+               <lb/>år på kungens namnsdag Anatolius 
+               <lb/>firas på samma gång Olles födelse- 
+               <lb/>dag – det hittade Maj på, när hon 
+               <lb/>fick höra, att Olle inte hade reda på 
+               <lb/>sin riktiga födelsedag. – Och skulle 
+               <lb/>det komma något troll stickande 
+               <lb/>och försöka röfva bort prinsessan, 
+               <lb/>som de bruka vilja göra med små 
+               <lb/>söta prinsessor, så blir det allt Olle, 
+               <lb/>som slår ihjäl trollet och befriar prin-
+               <lb/>sessan.</p>
+            
+            <signed>Elsa Beskow. </signed>            
+            
          </div>
          <!-- Text Sida 25  -->
          <div type="page" facs="#framsida">
+            <pb n="25"/>
+            <div type="text-division" n="1">
+               
+               <p>Klockan slår - Tiden går!
+                 <lb rend="intended"/>Tomten i sin släde
+                 <lb rend="intended"/>kommer med det nya år. 
+                 <lb rend="intended"/>Det är nyårsgåfvan
+                 <lb rend="intended"/>från ofvan!</p>
+               <signed>GH 99 </signed>
+             </div> 
+            
+           <div type="text-division" n="2">
+              <head>TOMTEN MED DET NYA ÅRET. Akvarell för Jultomten af GISELA HENCKEL.</head>
+              <cb n="1"/>
+              <p>För redaktionen: 
+              <lb/>EMIL HAMMARLUND.
+              ___________
+               
+               <name type="place">Stockholm,
+                  <lb/>Iduns Kungl. 
+                  <lb/>Hofboktryckeri, 
+                 </name>
+              <date>1899</date>
+              </p>
+              
+              <cb n="2"/>
+              <p>JULTOMTEN utsänder år 1900 sin tionde årgång. 
+              <lb/>Rekvireras före den 10 november 1900 hos 
+              <lb/>Svensk Läraretidning, Stockholm N
+              __________________
+              <lb/>Pris 50 öre.</p>
+              
+              <cb n="3"/>
+              <p>Beställningar 
+              <lb/>insändas till 
+              <lb/>Svensk Läraretid-
+              <lb/>nings expedition, 
+              <lb/>Stockholm N.</p>
+              
+              <signed>C. ANGERER &amp; GÖSCHL</signed>
+              
+           </div>                           
          </div>
          <!-- Text Sida 26  -->
          <div type="page" facs="#framsida">
-         </div>
-         <!-- Text Sida 27  -->
-         <div type="page" facs="#framsida">
+            <head place="margin-left" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: bottom">Huru man kommer till springbrunnen 
+               <lb/>i den förtrollade trädgården. 
+            </head>
+            <p style="writing-mod:vertical-lr; text-orientation: sideways left">Man går genom ingångsporten 1, fortsätter sedan på de vägar, som ha följande nummer: 15, 20, 8, 40, 19, 36, 12, 3, 32 43, 10, 50, 33, 47, 41, 28, 37, 25, 11, 22, 39, 30, 7, 35, 26, 31, 46, 38, 2, 45, 
+            <lb/>11,42, 31, 5, 21, 21, 29, 6, 18, 49, 4, 27, 48, 9, 13, 17, 23, 16, 51, 41, 52, 53, 55 57, 60, 55, 53, 54, 61, 59, 62, 63, 61 – Tillbaka går man samma väg i motsatt ordning: från 64 till 63, 62, 69, o.s.v</p> 
+            
+            <div type="text-division" n="1">               
+               <head>JULDANS.</head>
+               <notatedMusic>
+                  <desc>Noter till sången Juldans. Text och musik af Emmy Köhler. Polska</desc>
+               </notatedMusic>
+               <p>1)
+               <lb/>Och nu går dan-sen i vi-da ring ar, Och ju le pols kan så mun tert kling ar, Och här är glädje och
+               <lb/>Och nu vi å-ter i dan-sen svinga, Och polskans to-ner så muntert kling a, Och du och jag dan-sa
+               
+               <lb/>gam man. Och gra nen stolt i sin jul-dräkt prå-lar, Och lju sen glitt-ra med tu-sen strå-lar, Och
+               <lb/>sam man. Och al la lju sen  i gra nen glind-ra, Och bar nens ö-gon som stjär-nor tind ra,  Och
+               
+               <lb/>Långsammare.
+                  <lb/>2)                                                                                  3)
+                  <lb/>al la dan sa vi sam man.          
+                  <lb/>Och så vi skil-jas en li-ten stund men träf fas å ter i dan-sens rund.
+                  <lb/>allt är gläd-je och gamman.
+                  <lb/>Fine
+               
+                  <lb/>Muntert.
+                  <lb/>Nu är det jul I kung-ens sal, I mins ta skjul. På berg, i dal, Med frost och snö Och stålblank is På fru sen sjö, Med
+                  <lb/>4)
+                  <lb/>D.C
+                  <lb/>gran och gris Och ju - le ljus I al - la bus. Se här, min vän, är jag i-gen! God-dag, god dag och väl kommen!
+               
+               
+                  <lb/>1) Sedan hvar och en valt sin make, taga barnen i ring kring granen och dansa sjungande. »Och nu går dansen» o.s.v. 
+                  <lb/>2) Dansen stannar ett ögonblick, hvarunder hvar och en vänder sig mot sin make och båda fatta hvarandras händer, som de höja och sänka i takt, nickande med hufvudet.
+                  <lb/>3) Paren skiljas, hvarefter flickorna gå åt höger och gossarne åt vänster, sicksack tagande den mötande i hand, så att de bilda liksom en kedja.
+                  <lb/>4) Här fortsättes melodiens två senaste takter med <q>»tra la la la, tra la la la»</q>, tills hvar och en mött sin make, då alla paren stanna, taga hvarandra i handen, niga och bocka, sjungande: <q>»Se här min vän»</q> o.s.v. Därefter, par om par, sjungande:
+                  <lb/><q>»Och nu vi åter» </q>o.s.v.</p>
+               
+               <p>d<unclear></unclear></p>
+               <signed>B.E.m</signed>
+               </div>
+              
+              <div type="text-division" n="2">
+                 <head><hi rend="anfang">S</hi>VENSK LÄRARETIDNING </head>
+                 <head type="sub-heading">SVERIGES STÖRSTA OCH MEST SPRIDDA SKOLBLAD.</head>
+                 <p>Bästa annonsblad för meddelanden, som afse hela landet.
+                 <lb/>Pris pr årgång (öfver 800 stora kvartsidor) endast 3 kr. 50 öre.</p>                 
+              </div>
+            
+            <div type="text-division" n="3">
+               <head><hi rend="anfang">T</hi>OMTEFARS SAGOR OCH BERÄTTELSER</head>
+               <p>- Tvänne samlingar - 
+               <lb rend="intended"/>Illustrerade af framstående konstnärer.
+               <lb rend="intended"/>Finnas i alla boklådor. Pris för hvarje samling inb. 1 kr. 25 ōre.</p>               
+            </div>
+            
+            <div type="text-division" n="4">
+               <head><hi rend="anfang">J</hi>ULTOMTEN</head>
+               <head type="sub-heading">Skolbarnens Jultidning</head>
+               <p>utkommer med ett rikt illustre- 
+               <lb rend="intended"/>radt uummer hvarje jul. 
+               <lb/>16 sidor. Pris 25 öre. 
+               <lb/>Praktupplagan (28 sidor). 
+               <lb rend="intended"/>Pris 50 öre.</p>
+             </div> 
+            
+            <div type="text-division" n="5">
+               <head><hi rend="anfang">S</hi>AGA</head>
+               <p>är namnet på »<q>BARNENS EGET BIBLIOTEK</q>», som från 
+               <lb/>1899 års början utgifves af samma redaktion som JUL-
+               <lb/>TOMTEN. – Hel årgång omfattar 3 à 4 illustrerade böcker 
+               <lb/>om sammanlagdt 880 sidor samt dessutom 176 omslagssidor med smärre 
+               <lb/>skildringar, tankeöfningar m. m. – I n:r 1 år 1900 börjar införas det världs- 
+               <lb/>berömda arbetet ONKEL TOMS STUGA, med originalillustrationer af KARL 
+               <lb/>ASPELIN. Pris för 48 sidigt häfte endast 10 öre; för hel årgång om 22 häft. 2 kr.-
+               <lb/>SAGA kan beställas å hvarje postanstalt, i rikets flesta boklådor och tidningskontor 
+               <lb/>samt hos de lärare och lärarinnor, som åtaga sig vara kommissionärer för SAGA.
+               <lb/>Partibeställningar å minst 20 ex insändas direkt till <name type="place">Svensk Läraretidning, Stockholm N</name>.</p>
+             </div>
+            
+            <div type="text-division" n="6">
+               <head><hi rend="anfang">T</hi>UMMELITEN</head>
+               <head type="sub-heading">Jultidning för smått folk </head>
+               <p>Jultidning för smått folk 
+               <lb/>Innehåller för barnen lämpad 
+               <lb rend="intended"/>muntrationsläsning med
+               <lb rend="intended"/>roliga »<q>gubbar</q>.»
+               <lb/>8 sidor.     Pris 15 öre.</p>
+               
+            </div>                       
          </div>
          <!-- Baksida  -->
          <div type="page" facs="#framsida">
+            <pb n="27"/>
+            <div type="contents">
+               <head>INNEHÅLL.</head>
+               <list>                    
+                  <item>TITELPLANSCH. Af G. ANKARCRONA <metamark function="pagenumber" place="right"><num>1</num></metamark></item>                                               
+                  <item>JUL. Poem af PAUL NILSSON. Med teckning af JENNY NYSTRÖM <metamark function="pagenumber" place="right"><num>2</num></metamark></item>
+                  <item>DEN LILLE BREFBÄRARENS JULAFTON. Ett gammalt minne, berättadt af HENRIK 
+                   <lb rend="intended"/>WRANÉR. Med 3 teckningar af EDV. FORSSTRÖM <metamark function="pagenumber" place="right"><num>2</num></metamark></item>
+                  <item>MARKNAD I HOLLAND. Två helsidesakvareller med text af OTTILIA ADELBORG<metamark  function="pagenumber" place="right"><num>4</num></metamark></item>
+                  <item>LILLEBROR. En berättelse från Karl XII:s dagar af SIGRID KRUSE. Med 2 teckning- 
+                     <lb rend="intended"/>ar af JOHAN TIRÉN<metamark function="pagenumber" place="right"><num>6</num></metamark></item>
+                  <item>SOMMARGLÄDJE. Akvarell af GERDA TIRÉN<metamark function="pagenumber" place="right"><num>8</num></metamark></item>
+                  <item>TUMMELITEN I SJUMILASTÖFLAR. Akvarell af ELSA BESKOW. Med verser af SVENTE<metamark function="pagenumber" place="right"><num>9</num></metamark></item>
+                  <item>HVAD SKALL DU BLI? Af HENRIK WRANÉR. Med 8 teckningar af D. LJUNGDAHL<metamark function="pagenumber" place="right"><num>10</num></metamark></item>
+                  <item>JULNATTSFÄRD TILL SAGOLANDET. Helsidesteckning af ELIN WESTMAN. Med text<metamark function="pagenumber" place="right"><num>10</num></metamark></item>
+                  <item>DE FYRA TANTERNA. Saga af ANNA WAHLENBERG. Med 4 teckningar af LOUIS MOE<metamark function="pagenumber" place="right"><num>12</num></metamark></item>
+                  <item>DEN HÖGFÄRDIGE SNÖGUBBEN. Ord af TIPPU TIPP. Musik af VILH. SEFVE. 
+                     <lb rend="intended"/>Teckning af EMIL ÅBERG<metamark function="pagenumber" place="right"><num>14</num></metamark></item>
+                  <item>LINA. Poem af EMIL KLÉEN. Med helsidesteckning af BRITA ELLSTRÖM<metamark function="pagenumber" place="right"><num>15</num></metamark></item> 
+                  <item>EN JULHEMLIGHET. Helsidesakvarell af JENNY NYSTRÖM. Verser af JIM<metamark function="pagenumber" place="right"><num>16</num></metamark></item>
+                  <item>FLÄDERMOR. Tafla af ANNA CRAMÉR. Verser af HUGO GYLLANDER<metamark function="pagenumber" place="right"><num>17</num></metamark></item>
+                  <item>JULVISA. Ord af ZACH. TOPELIUS. Musik af ALICE TEGNÉR. Teckning af GERDA 
+                     <lb rend="intended"/>TIRÉN<metamark function="pagenumber" place="right"><num>18</num></metamark></item>
+                  <item>EN SKÄRGÅRDSPOJKE. Poem af DANIEL FALLSTRÖM. Teckning af JENNY NYSTRÖM<metamark function="pagenumber" place="right"><num>19</num></metamark></item>
+                  <item>BREF TILL JULTOMTENS SMÅ LÄSARE af FARBROR JULTOMTEN<metamark function="pagenumber" place="right"><num>19</num></metamark></item>
+                  <item>RIDDAREN FINN, KOMFUSENFEJ. En serie lustiga teckningar af ELSA BESKOW. 
+                     <lb rend="intended"/>Med text<metamark function="pagenumber" place="right"><num>20</num></metamark></item>
+                  <item>KUNGENS FINASTE ROS. Af ELSA BESKOW. Med 2 teckningar af författarinnan<metamark function="pagenumber" place="right"><num>22</num></metamark></item>
+                  <item>TOMTEN MED DET NYA ÅRET. Helsidesakvarell GISELA HENCKEL<metamark function="pagenumber" place="right"><num>24</num></metamark></item>
+                  </list>  
+               </div>
+              <div type="text-division" n="1" style="text-align: center">
+                  <p>OMSLAGSTECKNINGAR af LOUIS MOE.
+                  <lb/>DEN FÖRTROLLADE TRÄDGÅRDEN. Något att fundera på under julferierna
+                  <lb/>af D. S. H. (På omslagets andra sida.)
+                  <lb/>JULDANS. Ord och musik af EMMY KÖHLER. Teckningar af BRITA ELLSTRÖM. 
+                  <lb/>(På omslagets tredje sida.)</p>
+                 </div> 
+               
+              <div type="text-division" n="2" style="text-align: center">
+                  <p>Autotypierna utförda hos
+                     <lb/>ANGERER &amp; GÖSCHL i Wien samt IDUNS GRAFISKA ANSTALT, 
+                     <lb/>JUSTUS CEDERQUIST och W. SILFVERSPARRE i Stockholm. 
+                     <lb/>Tryckt hos IDUNS KUNGL. HOFBOKTRYCKERI. 
+                     <lb/>Förläggare: SVENSK LÄRARETIDNINGS FÖRLAGSAKTIEBOLAG. 
+                     <lb/>För redaktionen: EMIL HAMMARLUND.</p>
+                   </div>
+            
+              <div type="text-division" n="3" style="text-align: center">
+                  <p>Pris 50 öre.</p>
+              </div>                          
+            
+            <signed>Louis. Moe </signed> 
          </div>
       </body>
   </text>
