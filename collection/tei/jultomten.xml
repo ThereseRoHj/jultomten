@@ -458,7 +458,7 @@
             <head>NIONDE ÅRGÅNGEN</head>
             <p>1899</p> 
             <p><stamp>Svensk Läraretidnings Förlag</stamp></p>
-            <signed>Louis Moe</signed>
+            <signed hand="#LM">Louis Moe</signed>
             <fw type="sidfot" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
            </div>
          <!-- Text Sida 1  -->
@@ -509,7 +509,7 @@
                <lb/>SVENSK LÄRARETIDNING.
             </head>
             <head>1899</head>
-            <signed>G. Ankarcrona </signed>
+            <signed hand="#GA">G. Ankarcrona </signed>
             <signed>C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 3  -->
@@ -522,70 +522,70 @@
                <head>JUL</head>
                
             <p>
-              <lg type="stanza">
-               <l>Jesus har kommit, barnens vän,</l>
-               <l>julhögtid firas bland oss igen. </l>
-               <l>Ljufva som himmelska harposlag </l>
-               <l rend="indented">toner förklinga,</l>
-               <l rend="indented">julklockor ringa,</l>
-               <l>ringa in frälsningens jubeldag. </l>
+              <lg type="sestain" rhyme="AABCCB">
+               <l>Jesus har kommit, barnens <rhyme label="a">vän</rhyme>,</l>
+               <l>julhögtid firas bland oss <rhyme label="a">igen.</rhyme> </l>
+               <l>Ljufva som himmelska <rhyme label="b">harposlag</rhyme> </l>
+               <l rend="indented">toner <rhyme label="c">förklinga</rhyme>,</l>
+               <l rend="indented">julklockor <rhyme label="c">ringa</rhyme>,</l>
+               <l>ringa in frälsningens <rhyme label="b">jubeldag</rhyme>. </l>
               </lg>
                
-              <lg type="stanza"> 
-               <l>Betlehems stjärna med evigt ljus </l>
-               <l>visar oss vägen till Herrens hus. </l>
-               <l>Barnet i krubban vi finna där. </l>
-               <l rend="indented">Gamla och unga </l>
-               <l rend="indented">julpsalmer sjunga, </l>
-               <l>sjunga med himlarnes änglahär.</l> 
+               <lg type="sestain" rhyme="AABCCB"> 
+               <l>Betlehems stjärna med evigt <rhyme label="a">ljus</rhyme> </l>
+               <l>visar oss vägen till Herrens <rhyme label="a">hus</rhyme>. </l>
+               <l>Barnet i krubban vi finna <rhyme label="b">där</rhyme>. </l>
+               <l rend="indented">Gamla och <rhyme label="c">unga</rhyme> </l>
+               <l rend="indented">julpsalmer <rhyme label="c">sjunga</rhyme>, </l>
+               <l>sjunga med himlarnes <rhyme label="b">änglahär</rhyme>.</l> 
                </lg>
                
-               <lg type="stanza">
-               <l>Åter vi höra de glada bud:</l> 
-               <l>Frid vare jorden och ära Gud,</l> 
-               <l>människobarnen ett godt behag! </l>
-               <l rend="indented">I ottesångstimma</l>
-               <l rend="indented">julljusen glimma,</l>
-               <l>glimma bebådande Herrens dag.</l>
+               <lg type="sestain" rhyme="AABCCB">
+               <l>Åter vi höra de glada <rhyme label="a">bud</rhyme>:</l> 
+               <l>Frid vare jorden och ära <rhyme label="a">Gud</rhyme>,</l> 
+               <l>människobarnen ett godt <rhyme label="b">behag!</rhyme> </l>
+               <l rend="indented">I <rhyme label="c">ottesångstimma</rhyme></l>
+               <l rend="indented">julljusen <rhyme label="c">glimma</rhyme>,</l>
+               <l>glimma bebådande Herrens <rhyme label="b">dag</rhyme>.</l>
                </lg>
                
-              <lg type="stanza"> 
-               <l>Jesus är kommen, barnens vän. </l>
-               <l>Mörk är dock natten kring jorden än,</l> 
-               <l>hedningar sakna ordets skatt,</l>
-               <l rend="indented">unga och gamla,</l>
-               <l rend="indented">fåfängt de famla,</l>
-               <l>famla i dödsskuggans mörka natt.</l>
+               <lg type="sestain" rhyme="AABCCB"> 
+               <l>Jesus är kommen, barnens <rhyme label="a">vän</rhyme>. </l>
+               <l>Mörk är dock natten kring jorden <rhyme label="a">än</rhyme>,</l> 
+               <l>hedningar sakna ordets <rhyme label="b">skatt</rhyme>,</l>
+               <l rend="indented">unga och <rhyme label="c">gamla</rhyme>,</l>
+               <l rend="indented">fåfängt de <rhyme label="c">famla</rhyme>,</l>
+               <l>famla i dödsskuggans mörka <rhyme label="b">natt</rhyme>.</l>
               </lg>
                
-              <lg type="stanza"> 
-               <l>Barnet i älskade moderns famn </l>
-               <l>icke får lyssna till Jesu namn, </l>
-               <l>känner ej honom, som älskat mest.</l>
-               <l rend="indented">Fader och moder</l>
-               <l rend="indented">till afgudastoder</l>
-               <l>bedja vid hedningars offerfest.</l>
+               <lg type="sestain" rhyme="AABCCB"> 
+               <l>Barnet i älskade moderns <rhyme label="a"></rhyme>famn </l>
+               <l>icke får lyssna till Jesu <rhyme label="a">namn</rhyme>, </l>
+               <l>känner ej honom, som älskat <rhyme label="b">mest</rhyme>.</l>
+               <l rend="indented">Fader och <rhyme label="c">moder</rhyme></l>
+               <l rend="indented">till <rhyme label="c">afgudastoder</rhyme></l>
+               <l>bedja vid hedningars <rhyme label="b">offerfest</rhyme>.</l>
               </lg>
                
-              <lg type="stanza"> 
-               <l>Jul är ej till för de arma små, </l>
-               <l>julklockor icke i rymden gå, </l>
-               <l>kallande alla till Herrens hus,</l>
-               <l rend="indented">julljus ej brinna, </l>
-               <l rend="indented">själar ej finna,</l>
-               <l>finna ej vägen till evigt ljus.</l></lg>
+               <lg type="sestain" rhyme="AABCCB"> 
+               <l>Jul är ej till för de arma <rhyme label="a">små</rhyme>, </l>
+               <l>julklockor icke i rymden <rhyme label="a">gå</rhyme>, </l>
+               <l>kallande alla till Herrens <rhyme label="b">hus</rhyme>,</l>
+               <l rend="indented">julljus ej <rhyme label="c">brinna</rhyme>, </l>
+               <l rend="indented">själar ej <rhyme label="c">finna</rhyme>,</l>
+               <l>finna ej vägen till evigt <rhyme label="b">ljus</rhyme>.</l></lg>
                
-               <lg type="stanza">
-               <l>Jesus är kommen, barnens vän, </l>
-               <l>julhögtid firas bland oss igen.</l>
-               <l>Kristnade barn, som vid Jesu hand</l>
-               <l rend="indented">fröjdas kring ljusen</l>
-               <l rend="indented">i templen och husen,</l>
-               <l>bedjen för barnen i hedna land!</l>
+               <lg type="sestain" rhyme="AABCCB">
+               <l>Jesus är kommen, barnens <rhyme label="a">vän</rhyme>, </l>
+               <l>julhögtid firas bland oss <rhyme label="a">igen</rhyme>.</l>
+               <l>Kristnade barn, som vid Jesu <rhyme label="b">hand</rhyme></l>
+               <l rend="indented">fröjdas kring <rhyme label="c">ljusen</rhyme></l>
+               <l rend="indented">i templen och <rhyme label="c">husen</rhyme>,</l>
+               <l>bedjen för barnen i hedna <rhyme label="b">land</rhyme>!</l>
                </lg>
               </p>
                <signed>PAUL NILSSON.</signed>
-               <signed>Jenny Nyström</signed>
+               <signed hand="#JN">Jenny Nyström</signed>
             </div>
             
             
@@ -673,9 +673,10 @@
            <pb n="4"/>
             <metamark  function="pagenumber" place="top-right"><num>3</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <cb n="1"/>
             <p>kapuschong att dra öfver mössan –
-            – – Och far en hel kagge snus!</p>
+            <lb/>– – Och far en hel kagge snus!</p>
             
             <p><l rend="indented">Han drömde så vackert, så att han</l> 
             <lb/>var vid stationen, innan han visste ordet 
@@ -782,7 +783,7 @@
             <lb/>det var liksom jag hade gjort 
             <lb/>Er en glädje, mor!</p>
             
-            <signed>E.Forsström</signed>
+            <signed hand="#EF">E.Forsström</signed>
                         
          </div>
          <!-- Text Sida 5  -->
@@ -840,7 +841,7 @@
             <lb/>folksången. Vi hade alla holländska flaggor 
             <lb/>och gula skärp, därför att gult är huset Ora-</p>
             
-            <signed>O A-g</signed>
+            <signed hand="#OAG">O A-g</signed>
             <fw type="footer" place="bottom-centre">MARKNAD I HOLLAND. 
                <lb/>Akvarell jämte text för Jultomten af OTTILIA ADELBORG
             </fw> 
@@ -904,7 +905,7 @@
             <lb/>en fin vacker docka med röd klädning. Dessutom 
             <lb/>fingo vi karameller och kakor.</p>
             
-            <signed>O A-g</signed>
+            <signed hand="#OAG">O A-g</signed>
             <fw type="footer" place="bottom-centre">MARKNAD I HOLLAND. 
                <lb/>Akvarell jämte text för Jultomten af OTTILIA ADELBORG
             </fw> 
@@ -914,12 +915,15 @@
             <pb n="7"/>
             <metamark  function="pagenumber" place="top-left"><num>6</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <signed>Johan Tirén</signed>
+            
+            <signed hand="#JT">Johan Tirén</signed>
+            
             <cb n="1"/>
             <head>Lillebror.</head>
             <head type="subheading">En berättelse från Karl XII:s 
-               <lb/>dagar.
+            <lb/>dagar.
             </head>
+            
             <p><hi rend="anfang">K</hi>ung Karl skulle 
             <lb/>tåga till Moskva 
             <lb/>och krossa tsar
@@ -977,13 +981,14 @@
                          
              <closer>
                <salute rend="italic">Din lilla holländska vän</salute>
-               <signed rend="italic">Neltje.</signed> 
+               <signed rend="italic">Neltje.</signed>
             </closer>
-                    
-             <note rend="italic">P. S. Vi ha fått 5 kattungar. Om det ej vore så lång väg, 
-             <lb/>skulle jag sända dem till dig. Vi ha så rysligt många kattor förut</note>
-             <note rend="italic">D. S.</note>
-                    
+                    <postscript rend="italic">
+                       <label>P.S</label>
+                       <p>Vi ha fått 5 kattungar. Om det ej vore så lång väg,
+                          <lb/>skulle jag sända dem till dig. Vi ha så rysligt många kattor förut
+                          <lb/>D. S. </p>
+                    </postscript>                                                              
            </div>         
           </body>        
          </floatingText>     
@@ -1226,14 +1231,14 @@
                <lb/>äfventyr från tolfte Karls dagar.</p>
             
             <signed>SIGRID KRUSE.</signed>
-            <signed>Johan Tirén </signed>   
+            <signed hand="#JT">Johan Tirén </signed>   
          </div>
          <!-- Text Sida 9  -->
          <div type="page" facs="#framsida"> 
             <pb n="9"/>
             <metamark  function="pagenumber" place="top-left"><num>8</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <signed>Gerda Tirén</signed>
+            <signed hand="#GT">Gerda Tirén</signed>
             <fw type="footer" place="bottom-centre">SOMMARGLÄDJE.
                <lb/>Akvarell för Jultomten af GERDA TIRÉN. 
             </fw>   
@@ -1242,51 +1247,49 @@
          <div type="page" facs="#framsida">
             <pb n="10"/>
             <cb n="1"/>
-            <p> 
-            <lg type="stanza">
-            <l><hi rend="anfang">Ö</hi>fver skogens toppar</l> 
-            <l>Tummeliten hoppar –</l>
-            <l>"sjumilsstöflar" har han dragit på. </l>
-            <l>Öfver land och vatten</l>
-            <l>ut i vinternatten,</l>
-            <l>ut att titta om de snälla små!</l>
-            <l>Ut att dem berätta</l>
-            <l>sina sagor nätta,</l>
-            <l>medan julens glada dagar gå!</l>
+            
+            <lg type="stanza" rhyme="AABCCBDDB">
+            <l><hi rend="anfang">Ö</hi>fver skogens <rhyme label="a">toppar</rhyme></l> 
+            <l>Tummeliten <rhyme label="a">hoppar</rhyme> –</l>
+            <l>"sjumilsstöflar" har han dragit <rhyme label="b">på</rhyme>. </l>
+            <l>Öfver land och <rhyme label="c">vatten</rhyme></l>
+            <l>ut i <rhyme label="c">vinternatten</rhyme>,</l>
+            <l>ut att titta om de snälla <rhyme label="b">små</rhyme>!</l>
+            <l>Ut att dem <rhyme label="d">berätta</rhyme></l>
+            <l>sina sagor <rhyme label="d">nätta</rhyme>,</l>
+            <l>medan julens glada dagar <rhyme label="b">gå</rhyme>!</l>
             </lg>
-            </p>
             
             <cb n="2"/>
-            <p>
-               <lg type="stanza">
-               <l><hi rend="anfang">T</hi>rinda månen lyser,</l>
-               <l>Tummeliten myser,</l>
-               <l>flingor flyga rundt i skyn omkring. </l>
-               <l>Väl decembervinden</l>
-               <l>svider smått i kinden –</l>
-               <l>hurtig pojke räds dock ingenting. </l>
-               <l>Fram han skall i världen, </l>
-               <l>äfven om på färden </l>
-               <l>tusen faror ställde sig i ring.</l>
-               </lg>
-            </p>
             
-            <cb n="3"/>
-            <p>
-               <lg type="stanza">             
-               <l><hi rend="anfang">R</hi>ädd om hättan är han,</l>
-               <l>ty i henne bär han</l>
-               <l>muntra sagor från förgångna dar. </l>
-               <l>Dem på julekvällen</l>
-               <l>strör han ut i tjällen,</l>
-               <l>när han öfver Nordens nejder far.</l> 
-               <l>Barnablickar lysa,</l> 
-               <l>barnaläppar mysa,</l>
-               <l>när i dörren Tummeliten tar.</l>
+               <lg type="stanza" rhyme="AABCCBDDB">
+               <l><hi rend="anfang">T</hi>rinda månen <rhyme label="a">lyser</rhyme>,</l>
+               <l>Tummeliten <rhyme label="a">myser</rhyme>,</l>
+               <l>flingor flyga rundt i skyn <rhyme label="b">omkring</rhyme>. </l>
+               <l>Väl <rhyme label="c">decembervinden</rhyme></l>
+               <l>svider smått i <rhyme label="c">kinden</rhyme> –</l>
+               <l>hurtig pojke räds dock <rhyme label="b">ingenting</rhyme>. </l>
+               <l>Fram han skall i <rhyme label="d">världen</rhyme>, </l>
+               <l>äfven om på <rhyme label="d">färden</rhyme> </l>
+               <l>tusen faror ställde sig i <rhyme label="b">ring</rhyme>.</l>
                </lg>
-            </p>
+                      
+            <cb n="3"/>
+           
+               <lg type="stanza" rhyme="AABCCBDDB">             
+               <l><hi rend="anfang">R</hi>ädd om hättan är <rhyme label="a">han</rhyme>,</l>
+               <l>ty i henne bär <rhyme label="a">han</rhyme></l>
+               <l>muntra sagor från förgångna <rhyme label="b">dar</rhyme>. </l>
+               <l>Dem på <rhyme label="c">julekvällen</rhyme></l>
+               <l>strör han ut i <rhyme label="c">tjällen</rhyme>,</l>
+               <l>när han öfver Nordens nejder <rhyme label="b">far</rhyme>.</l> 
+               <l>Barnablickar <rhyme label="d">lysa</rhyme>,</l> 
+               <l>barnaläppar <rhyme label="d">mysa</rhyme>,</l>
+               <l>när i dörren Tummeliten <rhyme label="b">tar</rhyme>.</l>
+               </lg>
+                        
             <signed>SVENTE.</signed>
-            <signed>Elsa Beskow </signed>
+            <signed hand="#EB">Elsa Beskow </signed>
             
             <fw type="footer" place="bottom-centre">TUMMELITEN I SJUMILASTÖFLAR. Akvarell för Jultomten af ELSA BESKOW.</fw>                                                
          </div>
@@ -1454,7 +1457,7 @@
             <metamark  function="pagenumber" place="top-right"><num>11</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <head place="margin-right" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: center">JULNATTSFÄRD TILL SAGOLANDET. Akvarell för Jultomten af ELIN WESTMAN</head>
-            <signed style="writing-mod:vertical-lr; text-orientation: sideways left">ELIN WESTMAN</signed>
+            <signed hand="#EW" style="writing-mod:vertical-lr; text-orientation: sideways left">ELIN WESTMAN</signed>
             <signed style="writing-mod:vertical-lr; text-orientation: sideways left">C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 13  -->
@@ -1517,7 +1520,7 @@
               <lb/>klädning hade fastnat på en sten, så att den vikt upp sig litet, och under 
               <lb/>kanten stack där fram ca tjock, lurfvig svans</p>
             
-            <signed>Louis Moe</signed>
+            <signed hand="#LM">Louis Moe</signed>
          </div>
          <!-- Text Sida 14  -->
          <div type="page" facs="#framsida">
@@ -1593,7 +1596,7 @@
             
             <p><l rend="indented">Men nästa morgon stängde han in sina gäss i gåshuset och gick ensam ut på</l></p>
             
-            <signed>Louis Moe</signed>
+            <signed hand="#LM">Louis Moe</signed>
             
          </div>
          <!-- Text Sida 15  -->
@@ -1698,7 +1701,7 @@
               <lb/>tant Snapp. De äro de hyggligaste 
               <lb/>tanter jag någonsin haft.</p>
               
-              <signed>L. Moe</signed> 
+              <signed hand="#LM">L. Moe</signed> 
            </div>
             
             <div type="text-division" n="2">
@@ -1706,34 +1709,45 @@
             <notatedMusic>
                <desc>Noter till sången Den högfärdige snögubben. Allegretto.</desc>
             </notatedMusic>
-               <p>1. På gården låg bollsnön så mjuk och så tjock, – Hej vi, hej va, hej fal-le-ral-le-ra! 
-               <lb/>Och gos-sar-ne rul-la-de hop den i block.  –    –    –    –   –    –   –   –   –  –   De gjor-de en snö-gub-be lång som så här Och                                                                                                                                       
-               <lb/>tjock som så där, ja, tjock som så där.  Hej vi, hej va, hej fal-le-ral-le-ra! </p>  
+               
+               <lg type="lyrics" rhyme="AABB">
+               <l>1. På gården låg bollsnön så mjuk och så <rhyme label="a">tjock</rhyme>, – Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
+               <l>Och gos-sar-ne rul-la-de hop den i <rhyme label="a">block</rhyme>.  –    –    –    –   –    –   –   –   –  –   De gjor-de en snö-gub-be lång som så <rhyme label="b">här</rhyme> Och </l>                                                                                                                                      
+               <l>tjock som så där, ja, tjock som så <rhyme label="a">där</rhyme>.  Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
+               </lg>  
                                     
            <cb n="3"/>
-              <p>2. Och gubben han stod där så morsk bredvid grind 
-                 <lb/>med nacke så styf och med mage så trind. 
-                 <lb/>Han hade en slokhatt så bred som så här 
-                 <lb/>och platt som så där, ja, platt som så där.</p>
+               <lg type="lyrics" rhyme="AABB">
+                 <l>2. Och gubben han stod där så morsk bredvid <rhyme label="a">grind</rhyme> </l>
+                 <l>med nacke så styf och med mage så <rhyme label="a">trind</rhyme>.</l> 
+                 <l>Han hade en slokhatt så bred som så <rhyme label="b">här</rhyme></l> 
+                 <l>och platt som så där, ja, platt som så <rhyme label="b">där.</rhyme></l>
+              </lg>
                
-              <p>3. Mustascher han fick utaf mossa så grann 
-                 <lb/>och ögon af svartaste kol, som man fann. 
-                 <lb/>Till näsa en morot så lång som så här 
-                 <lb/>och tjock som så där, ja, tjock som så där.</p>
+               <lg type="lyrics" rhyme="AABB">
+                 <l>3. Mustascher han fick utaf mossa så <rhyme label="a">grann</rhyme></l> 
+                 <l>och ögon af svartaste kol, som man <rhyme label="a">fann</rhyme>.</l> 
+                 <l>Till näsa en morot så lång som så <rhyme label="b">här</rhyme></l> 
+                 <l>och tjock som så där, ja, tjock som så <rhyme label="b">där</rhyme>.</l>
+              </lg>
                
             <cb n="4"/>
                
-               <p>4. Och gubben han stod där och pöste och frös, 
-                  <lb/>men så kom det regn, han fick snufva och nös. 
-                  <lb/>Han grät, så det rann, och blef smal som så här 
-                  <lb/>och tunn som så där, ja, tunn som så där</p>
+               <lg type="lyrics" rhyme="AABB">
+                  <l>4. Och gubben han stod där och pöste och <rhyme label="a">frös</rhyme>,</l> 
+                  <l>men så kom det regn, han fick snufva och <rhyme label="a">nös</rhyme>.</l> 
+                  <l>Han grät, så det rann, och blef smal som så <rhyme label="b">här</rhyme></l> 
+                  <l>och tunn som så där, ja, tunn som så <rhyme label="b">där</rhyme></l>
+               </lg>
                
-               <p>5. Men tjuren kom lös, och af hornen en stöt 
-                  <lb/>fick gubben för magen, så ryggen han bröt. 
-                  <lb/>Och, kratsch! låg han raklång i bitar så här, 
-                  <lb/>ja rakt si så där, ja, rakt si så där.</p>
+               <lg type="lyrics" rhyme="AABB">
+                  <l>5. Men tjuren kom lös, och af hornen en <rhyme label="a">stöt</rhyme></l> 
+                  <l>fick gubben för magen, så ryggen han <rhyme label="a">bröt</rhyme>.</l> 
+                  <l>Och, kratsch! låg han raklång i bitar så <rhyme label="b">här</rhyme>,</l> 
+                  <l>ja rakt si så där, ja, rakt si så <rhyme label="b">där</rhyme>.</l>
+               </lg>
                
-               <signed>E Åberg </signed>
+               <signed hand="#EÅ">E Åberg </signed>
                <signed>Tippu Tipp.</signed>
                <signed>Vilh. Sefee</signed>
                
@@ -1805,7 +1819,7 @@
             </lg>
             
             <signed>EMIL KLÉEN.</signed>
-            <signed>BRITA ELLSTRÖM. 1899.</signed>
+            <signed hand="#BE">BRITA ELLSTRÖM. 1899.</signed>
                                                
          </div>
          <!-- Text Sida 17  -->
@@ -1835,7 +1849,7 @@
               <lb/>när han växt stor och lång.</p>
             <p>JIM</p>
             
-            <signed>JENNY NYSTRÖM 1899</signed>
+            <signed hand="#JN">JENNY NYSTRÖM 1899</signed>
             
          </div>
          <!-- Text Sida 18  -->
@@ -1847,6 +1861,7 @@
                <lb/>Tafla för Jultomten af ANNA CRAMÉR
                <lb rend="italic"/>(Verser å nästa sida.) 
             </fw>
+            <signed hand="#AC">Anna Cramér</signed>
          </div>
          <!-- Text Sida 19  -->
          <div type="page" facs="#framsida">
@@ -1858,8 +1873,8 @@
                <head type="sub-heading">(Efter idé ur ANDERSENS SAGOR.)</head>
                <cb n="1"/>
                
-               <lg rend="italic">
-                  <l><hi rend="anfang">R</hi> egnet knäpper <rhyme label="a"> >ticketack</rhyme>,</l> 
+               <lg rend="italic" type="stanza">
+               <l><hi rend="anfang">R</hi> egnet knäpper <rhyme label="a"> >ticketack</rhyme>,</l> 
                <l>knackar på din <rhyme label="b">ruta</rhyme>.</l>
                <l>Ute är så kulet. – <rhyme label="a">Ack</rhyme>,</l> 
                <l>aldrig vill det <rhyme label="b">sluta</rhyme>!</l>
@@ -1869,7 +1884,7 @@
                <l>Se, då kommer <rhyme label="d">Flädermor</rhyme>!</l>
                </lg>
                
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>Har du läst om <rhyme label="a">Flädermor</rhyme>?</l>
                <l>Hon är ständigt ung och <rhyme label="b">näpen</rhyme>.</l> 
                <l>Uti fläderträ't hon <rhyme label="a">bor</rhyme>. –</l>
@@ -1879,20 +1894,20 @@
                <l>Öfver åar, öfver <rhyme label="d">gärden</rhyme></l>
                <l>rida ni på pappas <rhyme label="c">käpp</rhyme>!</l></lg>
                
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>Glömd är läxan, mörkret <rhyme label="a">glömdt</rhyme>.</l> 
                <l>Nu är sommar - sjöar <rhyme label="b">glittra</rhyme>,</l>
                </lg>
                
                <cb n="2"/>
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>träden susa, fåglar <rhyme label="b">kvittra</rhyme> – –</l> 
                <l>Aldrig något så'nt du <rhyme label="a">drömt</rhyme>.</l> 
                <l>Dina ögon knappt du <rhyme label="c">tror</rhyme>. – </l>
                <l>»Minns du»? frågar <rhyme label="c">Flädermor</rhyme>.</l>
                </lg>
                
-               <lg rend="italic" >
+               <lg rend="italic" type="stanza">
                <l>»Minns du hagen där vid <rhyme label="a">byn</rhyme>?</l> 
                <l>Minns du klockarns <rhyme label="b">smultrongärde</rhyme>?</l> 
                <l>Minns du sjön vid skogens <rhyme label="a">bryn</rhyme>,</l> 
@@ -1903,7 +1918,7 @@
                <l>'sista paret ut' och '<rhyme label="c">datten</rhyme>'.»</l>
                </lg>
                
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>Gladt hon pekar ner och <rhyme label="a">skrattar</rhyme>,</l> 
                <l>lilla Flädermor, den <rhyme label="b">fina</rhyme>.</l>
                <l>Och du skrattar med och <rhyme label="a">fattar</rhyme></l> 
@@ -1913,21 +1928,21 @@
                </lg>
                
                <cb n="3"/>
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>Alla dina minnen <rhyme label="d">fladdra</rhyme></l>
                <l>som små fåglar vid din <rhyme label="c">sida.</rhyme> –</l>
                <l>Hvad vår värld är ljus och <rhyme label="e">stor</rhyme>! – – </l>
                <l>»Minns du»! kvittrar <rhyme label="e">Flädermor</rhyme>.</l>
                </lg>
                
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>Nu tog hela resan <rhyme label="a">slut</rhyme>! –</l> 
                <l>Flädermor, den lilla <rhyme label="b">häxan</rhyme>,</l> 
                <l>är försvunnen. Som <rhyme label="a">förut</rhyme></l> 
                <l>åter sitter du vid <rhyme label="b">läxan</rhyme>!</l>
                </lg>
                
-               <lg rend="italic">
+               <lg rend="italic" type="stanza">
                <l>Men om du i hjärtat <rhyme label="a">gömmer</rhyme></l> 
                <l>hennes bild och aldrig <rhyme label="a">glömmer</rhyme>,</l> 
                <l>ej för alltid har hon <rhyme label="b">flytt</rhyme>. –</l>
@@ -1954,7 +1969,7 @@
                    <l>Här jag står och <rhyme label="b">fry-ser</rhyme>. Se, min korg är full och <rhyme label="c">tung</rhyme>, Båd' åt gam-mal och åt <rhyme label="c">ung</rhyme></l>
                    
                    <l>Har jag gåf-vor <rhyme label="d">ra - - ra</rhyme>. Får jag hos dig <rhyme label="d">va-ra?</rhyme> »-» Kom, ja, kom, kä-ra jul!»</l>
-                </lg>
+                   </lg>
                    
                    <cb n="4"/>
                    <lg type="lyrics" rhyme="ABABCCDD-">
@@ -1995,7 +2010,7 @@
                    <l>– »Kom, ja, kom, Herre Krist!»</l>
                    </lg>
                 
-                <signed>Gerda Tirén</signed>
+                <signed hand="#GT">Gerda Tirén</signed>
                 <signed>Alice Tegnér</signed>
                 <signed>Zach. Topelius</signed>
                                   
@@ -2215,7 +2230,7 @@
             <p rend="gothic">Riddaren Finn Komfusenfej
              <lb/>han går sig på gården, han går sig på råd,</p>
             
-            <signed>E.Beskow</signed>
+            <signed hand="#EB">E.Beskow</signed>
             <signed>C. ANGERER &amp; GÖSCHL</signed>            
          </div>
          <!-- Text Sida 22 -->
@@ -2427,7 +2442,7 @@
                <lb/>om jag sätter något så tarfligt som en lefvande blomma i midten? 
                <lb/>sade kocken.</p>
             
-            <signed>Elsa Beskow </signed>
+            <signed hand="#EB">Elsa Beskow </signed>
             
          </div>
          <!-- Text Sida 24  -->
@@ -2591,7 +2606,7 @@
                <lb/>som slår ihjäl trollet och befriar prin-
                <lb/>sessan.</p>
             
-            <signed>Elsa Beskow. </signed>            
+            <signed hand="#EB">Elsa Beskow. </signed>            
             
          </div>
          <!-- Text Sida 25  -->
@@ -2604,7 +2619,7 @@
                  <lb rend="intended"/>kommer med det nya år. 
                  <lb rend="intended"/>Det är nyårsgåfvan
                  <lb rend="intended"/>från ofvan!</p>
-               <signed>GH 99 </signed>
+               <signed hand="#GH">GH 99 </signed>
              </div> 
             
            <div type="text-division" n="2">
@@ -2680,7 +2695,7 @@
                   <lb/><q>»Och nu vi åter» </q>o.s.v.</p>
                
                <p>d<unclear></unclear></p>
-               <signed>B.E.m</signed>
+               <signed hand="#BE">B.E.m</signed>
                </div>
               
               <div type="text-division" n="2">
@@ -2786,7 +2801,7 @@
                   <p>Pris 50 öre.</p>
               </div>                          
             
-            <signed>Louis. Moe </signed> 
+            <signed hand="#LM">Louis. Moe </signed> 
          </div>
       </body>
   </text>
