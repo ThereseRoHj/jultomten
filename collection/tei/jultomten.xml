@@ -240,237 +240,251 @@
      </profileDesc>
   </teiHeader>
    <!-- Facsimile-elementet -->
-   <facsimile>
-    <!-- Framsida -->
-      <surface xml:id="framsida">
+  <facsimile>
+    <!-- Framsida -->    
+      <surface xml:id="Framsida">
          <figure>
-           <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+           <label>Jultomten Framsida</label>
+            <figDesc>Digitaliserad bild av Jultomtens framsida
+            </figDesc>
+            <graphic xml:id="FramsidaGraphic"  url="assets/img/documents/Framsida"/>                           
          </figure>
       </surface>
       <!-- Sida 1 --> 
-      <surface xml:id="sida1">
+      <surface xml:id="Sida1">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 1</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 1</figDesc>
+            <graphic xml:id="Sida1Graphic" url="assets/img/documents/Sida1">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 2 --> 
-      <surface xml:id="sida2">
+      <surface xml:id="Sida2">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 2</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 2</figDesc>
+            <graphic xml:id="Sida2Graphic" url="assets/img/documents/Sida2">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 3 --> 
-      <surface xml:id="sida3">
+      <surface xml:id="Sida3">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 3</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 3</figDesc>
+            <graphic xml:id="Sida3Graphic" url="assets/img/documents/Sida3">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 4 --> 
-      <surface xml:id="sida4">
+      <surface xml:id="Sida4">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 4</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 4</figDesc>
+            <graphic xml:id="Sida4Graphic" url="assets/img/documents/Sida4">              
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 5 --> 
-      <surface xml:id="sida5">
+      <surface xml:id="Sida5">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 5</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 5</figDesc>
+            <graphic xml:id="Sida5Graphic" url="assets/img/documents/Sida5"></graphic>
          </figure>
       </surface>
       <!-- Sida 6 --> 
-      <surface xml:id="sida6">
+      <surface xml:id="Sida6">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 6</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 6</figDesc>
+            <graphic xml:id="Sida6Graphic" url="assets/img/documents/Sida6">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 7 --> 
-      <surface xml:id="sida7">
+      <surface xml:id="Sida7">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 7</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 7</figDesc>
+            <graphic xml:id="Sida7Graphic" url="assets/img/documents/Sida7">              
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 8 --> 
-      <surface xml:id="sida8">
+      <surface xml:id="Sida8">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 8</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 8</figDesc>
+            <graphic xml:id="Sida8Graphic" url="assets/img/documents/Sida8"></graphic>
          </figure>
       </surface>
       <!-- Sida 9 --> 
-      <surface xml:id="sida9">
+      <surface xml:id="Sida9">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 9</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 9</figDesc>
+            <graphic xml:id="Sida9Graphic" url="assets/img/documents/Sida9">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 10 --> 
-      <surface xml:id="sida10">
+      <surface xml:id="Sida10">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 10</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 10</figDesc>
+            <graphic xml:id="Sida10Graphic" url="assets/img/documents/Sida10">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 11 --> 
-      <surface xml:id="sida11">
+      <surface xml:id="Sida11">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 11</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 11</figDesc>
+            <graphic xml:id="Sida11Graphic" url="assets/img/documents/Sida11">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 12 --> 
-      <surface xml:id="sida12">
+      <surface xml:id="Sida12">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 12</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 12</figDesc>
+            <graphic xml:id="Sida12Graphic" url="assets/img/documents/Sida12">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 13 --> 
-      <surface xml:id="sida13">
+      <surface xml:id="Sida13">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 13</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 13</figDesc>
+            <graphic xml:id="Sida13Graphic" url="assets/img/documents/Sida13">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 14 --> 
-      <surface xml:id="sida14">
+      <surface xml:id="Sida14">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 14</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 14</figDesc>
+            <graphic xml:id="Sida14Graphic" url="assets/img/documents/Sida14"></graphic>
          </figure>
       </surface>
       <!-- Sida 15 --> 
-      <surface xml:id="sida15">
+      <surface xml:id="Sida15">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 15</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 15</figDesc>
+            <graphic xml:id="Sida15Graphic" url="assets/img/documents/Sida15">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 16 --> 
-      <surface xml:id="sida16">
+      <surface xml:id="Sida16">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 16</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 16</figDesc>
+            <graphic xml:id="Sida16Graphic" url="assets/img/documents/Sida16">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 17 --> 
-      <surface xml:id="sida17">
+      <surface xml:id="Sida17">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 17</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 17</figDesc>
+            <graphic xml:id="Sida17Graphic" url="assets/img/documents/Sida17">               
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 18 --> 
-      <surface xml:id="sida18">
+      <surface xml:id="Sida18">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 18</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 18</figDesc>
+            <graphic xml:id="Sida18Graphic" url="assets/img/documents/Sida18"></graphic>
          </figure>
       </surface>
       <!-- Sida 19 --> 
-      <surface xml:id="sida19">
+      <surface xml:id="Sida19">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 19</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 19</figDesc>
+            <graphic xml:id="Sida19Graphic" url="assets/img/documents/Sida19">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 20 --> 
-      <surface xml:id="sida20">
+      <surface xml:id="Sida20">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 20</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 20</figDesc>
+            <graphic xml:id="Sida20Graphic" url="assets/img/documents/Sida20">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 21 --> 
-      <surface xml:id="sida21">
+      <surface xml:id="Sida21">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 21</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 21</figDesc>
+            <graphic xml:id="Sida21Graphic" url="assets/img/documents/Sida21">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 22 --> 
-      <surface xml:id="sida22">
+      <surface xml:id="Sida22">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 22</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 22</figDesc>
+            <graphic xml:id="Sida22Graphic" url="assets/img/documents/Sida22">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 23 --> 
-      <surface xml:id="sida23">
+      <surface xml:id="Sida23">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 23</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 23</figDesc>
+            <graphic xml:id="Sida23Graphic" url="assets/img/documents/Sida23">              
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 24 --> 
-      <surface xml:id="sida24">
+      <surface xml:id="Sida24">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
-         </figure>
-      </surface>
-      <!-- Sida 25 --> 
-      <surface xml:id="sida25">
-         <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 24</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 24</figDesc>
+            <graphic xml:id="Sida24Graphic" url="assets/img/documents/Sida24">
+            </graphic>
          </figure>
       </surface>
       <!-- Sida 26 --> 
-      <surface xml:id="sida26">
+      <surface xml:id="Sida26">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 26</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 26</figDesc>
+            <graphic xml:id="Sida26Graphic" url="assets/img/documents/Sida26"></graphic>
          </figure>
       </surface>
       <!-- Sida 27 --> 
-      <surface xml:id="sida27">
+      <surface xml:id="Sida27">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten sida 27</label>
+            <figDesc>Digitaliserad bild av Jultomten sida 27</figDesc>
+            <graphic xml:id="Sida27Graphic" url="assets/img/documents/Sida27">               
+            </graphic>
          </figure>
       </surface>
       <!-- Baksida --> 
-      <surface xml:id="baksida">
+      <surface xml:id="Baksida">
          <figure>
-            <label>Jultomten</label>
-            <figDesc>En beskrivning av bilden</figDesc>
-            <graphic url="länk"></graphic>
+            <label>Jultomten Baksida</label>
+            <figDesc>Digitaliserad bild av Jultomten Baksida</figDesc>
+            <graphic xml:id="BaksidaGraphic" url="assets/img/documents/Baksida"></graphic>
          </figure>
       </surface>
    </facsimile>
@@ -478,7 +492,7 @@
   <text>
       <body>
          <!-- Text framsida  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Framsida">
          <pb n="0"/>
          <head type="Titel">JULTOMTEN</head>
             <head>PRAKTUPPLAGAN</head>
@@ -489,7 +503,7 @@
             <fw type="sidfot" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
            </div>
          <!-- Text Sida 1  -->
-         <div type="page" facs="#framsida"> 
+         <div type="page" facs="#Sida1"> 
             <pb n="1"/>
             <head>Den förtrollade trädgården.</head>
             <cb n="1"/>
@@ -530,7 +544,7 @@
             <signed>D. S. H.</signed>
             </div>
          <!-- Text Sida 2  -->
-         <div type="page" facs="#framsida"> 
+         <div type="page" facs="#Sida2"> 
             <pb n="2"/>
             <head>JULTOMTEN</head>
             <head>SKOLBARNENS JULTIDNING
@@ -543,7 +557,7 @@
             <signed>C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 3  -->
-         <div type="page" facs="#framsida"> 
+         <div type="page" facs="#Sida3"> 
          <pb n="3"/>
             <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -697,7 +711,7 @@
          </div>
          
          <!-- Text Sida 4  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida4">
            <pb n="4"/>
             <metamark  function="pagenumber" place="top-right"><num>3</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -815,7 +829,7 @@
                         
          </div>
          <!-- Text Sida 5  -->
-         <div type="page" facs="#framsida"> 
+         <div type="page" facs="#Sida5"> 
             <pb n="5"/>
             <metamark  function="pagenumber" place="top-left"><num>4</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -875,7 +889,7 @@
             </fw> 
          </div>
          <!-- Text Sida 6  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida6">
             <pb n="6"/>
             <metamark  function="pagenumber" place="top-right"><num>5</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -939,7 +953,7 @@
             </fw> 
          </div>
          <!-- Text Sida 7 -->
-         <div type="page" facs="#framsida"> 
+         <div type="page" facs="#Sida7"> 
             <pb n="7"/>
             <metamark  function="pagenumber" place="top-left"><num>6</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1100,7 +1114,7 @@
             
          </div>
          <!-- Text Sida 8  -->
-         <div type="page" facs="#framsida" >
+         <div type="page" facs="#Sida8" >
           <pb n="8"/>
             <metamark  function="pagenumber" place="top-right"><num>7</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1260,7 +1274,7 @@
             <signed hand="#JT">Johan Tirén </signed>   
          </div>
          <!-- Text Sida 9  -->
-         <div type="page" facs="#framsida"> 
+         <div type="page" facs="#Sida9"> 
             <pb n="9"/>
             <metamark  function="pagenumber" place="top-left"><num>8</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1270,7 +1284,7 @@
             </fw>   
          </div>
          <!-- Text Sida 10  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida10">
             <pb n="10"/>
             <cb n="1"/>
 
@@ -1320,7 +1334,7 @@
             <fw type="footer" place="bottom-centre">TUMMELITEN I SJUMILASTÖFLAR. Akvarell för Jultomten af ELSA BESKOW.</fw>                                                
          </div>
          <!-- Text Sida 11  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida11">
             <pb n="11"/>
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1478,7 +1492,7 @@
             </div>                              
          </div>
          <!-- Text Sida 12  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida12">
             <pb n="12"/>
             <metamark  function="pagenumber" place="top-right"><num>11</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1487,7 +1501,7 @@
             <signed style="writing-mod:vertical-lr; text-orientation: sideways left">C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 13  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida13">
             <pb n="13"/>
             <metamark  function="pagenumber" place="top-left"><num>12</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1549,8 +1563,8 @@
             <signed hand="#LM">Louis Moe</signed>
          </div>
          <!-- Text Sida 14  -->
-         <div type="page" facs="#framsida">
-            <pb n="14" facs="#framsida"/>
+         <div type="page" facs="#Sida14">
+            <pb n="14"/>
             <metamark  function="pagenumber" place="top-right"><num>13</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -1626,7 +1640,7 @@
             
          </div>
          <!-- Text Sida 15  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida15">
             <pb n="15"/>
             <metamark  function="pagenumber" place="top-left"><num>14</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1781,7 +1795,7 @@
                </div>                                                       
          </div>
          <!-- Text Sida 16  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida16">
             <pb n="16"/>
             <metamark  function="pagenumber" place="top-right"><num>15</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1850,7 +1864,7 @@
                                                
          </div>
          <!-- Text Sida 17  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida17">
             <pb n="17"/>
             <metamark  function="pagenumber" place="top-left"><num>16</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1882,7 +1896,7 @@
             
          </div>
          <!-- Text Sida 18  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida18">
             <pb n="18"/>
             <metamark  function="pagenumber" place="top-right"><num>17</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -1893,7 +1907,7 @@
             <signed hand="#AC">Anna Cramér</signed>
          </div>
          <!-- Text Sida 19  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida19">
             <pb n="19"/>
             <metamark  function="pagenumber" place="top-left"><num>18</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -2046,7 +2060,7 @@
              </div>                           
          </div>
          <!-- Text Sida 20  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida20">
             <pb n="20"/>
             <metamark  function="pagenumber" place="top-right"><num>19</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -2211,7 +2225,7 @@
             </div>            
          </div>
          <!-- Text Sida 21  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida21">
             <pb n="20"/>
             <metamark  function="pagenumber" place="top-left"><num>20</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -2263,7 +2277,7 @@
             <signed>C. ANGERER &amp; GÖSCHL</signed>            
          </div>
          <!-- Text Sida 22 -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida22">
             <pb n="22"/>
             <metamark  function="pagenumber" place="top-right"><num>21</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -2325,7 +2339,7 @@
                         
          </div>
          <!-- Text Sida 23  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida23">
             <pb n="23"/>
             <metamark  function="pagenumber" place="top-left"><num>22</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -2475,7 +2489,7 @@
             
          </div>
          <!-- Text Sida 24  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida24">
             <pb n="24"/>
             <metamark  function="pagenumber" place="top-right"><num>23</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
@@ -2639,7 +2653,7 @@
             
          </div>
          <!-- Text Sida 25  -->
-         <div type="page" facs="#framsida">
+         <div type="page">
             <pb n="25"/>
             <div type="text-division" n="1">
                
@@ -2683,7 +2697,7 @@
            </div>                           
          </div>
          <!-- Text Sida 26  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Sida26">
             <head place="margin-left" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: bottom">Huru man kommer till springbrunnen 
                <lb/>i den förtrollade trädgården. 
             </head>
@@ -2695,7 +2709,9 @@
                <notatedMusic>
                   <desc>Noter till sången Juldans. Text och musik af Emmy Köhler. Polska</desc>
                </notatedMusic>
+               
                <p>1)</p>
+               
                <lg type="lyrics">
                <l>Och nu går dan-sen i vi-da ring ar, Och ju le pols kan så mun tert kling ar, Och här är glädje och</l>
                <l>Och nu vi å-ter i dan-sen svinga, Och polskans to-ner så muntert kling a, Och du och jag dan-sa</l>
@@ -2786,7 +2802,7 @@
             </div>                       
          </div>
          <!-- Baksida  -->
-         <div type="page" facs="#framsida">
+         <div type="page" facs="#Baksida">
             <pb n="27"/>
             <div type="contents">
                <head>INNEHÅLL.</head>
