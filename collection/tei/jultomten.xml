@@ -15,7 +15,7 @@
             <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
             <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
             <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
-            <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>           
+            <author><persName><forename>Alfred</forename><surname>Smedberg</surname><name type="pseudonym">Tippu Tipp</name></persName></author>           
             <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
             <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
             <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
@@ -34,8 +34,7 @@
             <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
             <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
             <editor role="composer"><persName><forename>Alice</forename><surname>Tegnér</surname></persName></editor>
-            <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
-            <author><name type="pseudonym">Tippu Tipp</name></author>
+            <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname><name>Vilh.Sefve</name></persName></editor>
             <author><name>Svente</name></author>
             <author><name>D.S.H</name></author>
             <author><name>Jim</name></author>
@@ -102,7 +101,7 @@
                   <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
                   <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
                   <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
-                  <author><persName><forename>Alfred</forename><surname>Smedberg</surname></persName></author>                 
+                  <author><persName><forename>Alfred</forename><surname>Smedberg</surname><name type="pseudonym">Tippu Tipp</name></persName></author>                 
                   <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
                   <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
                   <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
@@ -121,9 +120,8 @@
                   <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
                   <editor role="composer"><persName><forename>Alice</forename><surname>Tegnér</surname></persName></editor>
-                  <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
+                  <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname><name>Vilh.Sefve</name></persName></editor>
                   <editor role="publisher"><persName><forename>Emil</forename><surname>Hammarlund</surname></persName></editor>
-                  <author><name type="pseudonym">Tippu Tipp</name></author>
                   <author><name>Svente</name></author>
                   <author><name>D.S.H</name></author>
                   <author><name>Jim</name></author>
@@ -165,9 +163,8 @@
            av människor som i en nutida kontext kan uppfattas som stötande och föråldrat. 
            Orginalkällan skildrar ett språkbruk och innehåll som reflekterar den 
            historiska kontexten tidningen skapades i. 
-           Projektgruppen har valt att inte censuera detta innehåll för att
-           bevara detta material för att kunna skapa förståelse och insikter för
-           att kunna lära från det förflutna.            
+           Projektgruppen har valt att inte censuera detta innehåll detta material
+           med syfte att kunna skapa förståelse och insikter genom att lära av det förflutna                      
            </p>
            <normalization>
               <p>Texten har transkriberats diplomatiskt</p>
@@ -506,8 +503,8 @@
          <div type="page" facs="#Sida1"> 
             <pb n="1"/>
             <head>Den förtrollade trädgården.</head>
-            <cb n="1"/>
-                           
+            
+              <cb n="1"/>           
                <lg type="couplet" rhyme="aa" rend="Italic">
                <l>En liten trädgård här jag <rhyme>gjort</rhyme>,</l> 
                <l>för dig, min vän, en <rhyme>tillflyktsort</rhyme>,</l> 
@@ -523,7 +520,7 @@
                <l>när genom porten in du <rhyme>gått</rhyme></l>
                </lg>
                
-               <cb n="2"/>
+              <cb n="2"/>
                <lg type="couplet" rhyme="aa" rend="Italic">
                <l>till trädgår'n, får du vandra <rhyme>blott</rhyme></l>
                <l>hvar väg en enda gång, och <rhyme>först</rhyme></l> 
@@ -562,7 +559,7 @@
             <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
-            <div type="text-division" n="1">
+            <div type="part" n="1">
                <head>JUL</head>
 
               <lg type="sestain" rhyme="AABCCB">
@@ -631,7 +628,7 @@
             </div>
             
             
-           <div type="text-division" n="2"> 
+           <div type="part" n="2"> 
             <head place="top-right">Den lille brefbärarens julafton.</head>
             <head type="subheading" place="top-right">Ett gammalt minne, berättadt för Jultomten af
                <lb/>HENRIK WRANÉR</head>
@@ -650,7 +647,7 @@
                <lb/>räcker länge med sparsamhet. Och därför knogade gubben 
                <lb/>åstad år från år, fast stegen voro tunga och ryggen krökt.</p>
             
-                <p rend="indented">Men en vinter lågo drifvorna höga, och stormen hven 
+               <p rend="indented">Men en vinter lågo drifvorna höga, och stormen hven 
                <lb/>öfver slätten. Efter en af sina turer blef »väskemannen»
                <lb/>sjuk och måste gå till sängs. Då gick Nils, hans äldste son, 
                <lb/>till prosten och bad att få gå med väskan i sin fars ställe. 
@@ -770,8 +767,7 @@
             <lb/>syskonen.
             <lb rend="indented"/>– Å jag har mors stora bomullsschalett i fickan. Se här!</p>
             
-            <cb n="2"/>
-            
+            <cb n="2"/>            
             <p><l rend="indented">– Den är inte så dum, du mor! sa</l> 
             prosten och klappade Nils på hufvudet.</p>
             
@@ -1118,6 +1114,7 @@
           <pb n="8"/>
             <metamark  function="pagenumber" place="top-right"><num>7</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <cb n="1"/>
             <p>bodde för sig själfva och försörjde sig med sina händers ar- 
                <lb/>bete. Hvarje söndag samlades de och höllo svensk gudstjänst, 
@@ -1286,8 +1283,8 @@
          <!-- Text Sida 10  -->
          <div type="page" facs="#Sida10">
             <pb n="10"/>
+            
             <cb n="1"/>
-
             <lg type="stanza" rhyme="AABCCBDDB">
             <l><hi rend="anfang">Ö</hi>fver skogens <rhyme label="a">toppar</rhyme></l> 
             <l>Tummeliten <rhyme label="a">hoppar</rhyme> –</l>
@@ -1301,7 +1298,6 @@
             </lg>
             
             <cb n="2"/>
-
              <lg type="stanza" rhyme="AABCCBDDB">
              <l><hi rend="anfang">T</hi>rinda månen <rhyme label="a">lyser</rhyme>,</l>
              <l>Tummeliten <rhyme label="a">myser</rhyme>,</l>
@@ -1315,7 +1311,6 @@
              </lg>
                       
             <cb n="3"/>
-
               <lg type="stanza" rhyme="AABCCBDDB">             
               <l><hi rend="anfang">R</hi>ädd om hättan är <rhyme label="a">han</rhyme>,</l>
               <l>ty i henne bär <rhyme label="a">han</rhyme></l>
@@ -1339,7 +1334,7 @@
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
            
-            <div type="text-division" n="1">             
+            <div type="part" n="1">             
               <cb n="1"/>
             
            <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
@@ -1417,7 +1412,7 @@
                <signed>Henrik Wranér</signed>
             </div>
                       
-            <div type="text-division" n="2">
+            <div type="part" n="2">
                <cb n="1"/>
              
             <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
@@ -1645,7 +1640,7 @@
             <metamark  function="pagenumber" place="top-left"><num>14</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
-           <div type="text-division" n="1"> 
+           <div type="part" n="1"> 
             <cb n="1"/>
             <p>allmänningen. Där satte han sig på en sten att tjuta och 
               <lb/>snyfta i sina händer, och det dröjde inte länge, förrän de 
@@ -1744,12 +1739,14 @@
               <signed hand="#LM">L. Moe</signed> 
            </div>
             
-            <div type="text-division" n="2">
+            <div type="part" n="2">
                <head>Den högfärdige snögubben.</head>           
             <notatedMusic>
                <desc>Noter till sången Den högfärdige snögubben. Allegretto.</desc>
             </notatedMusic>
 
+               <p>Allegretto.Vilh. Sefee.</p>
+                
                <lg type="lyrics" rhyme="AABB">
                <l>1. På gården låg bollsnön så mjuk och så <rhyme label="a">tjock</rhyme>, – Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
                <l>Och gos-sar-ne rul-la-de hop den i <rhyme label="a">block</rhyme>.  –    –    –    –   –    –   –   –   –  –   De gjor-de en snö-gub-be lång som så <rhyme label="b">här</rhyme> Och </l>                                                                                                                                      
@@ -1757,7 +1754,6 @@
                </lg>  
                                     
            <cb n="1"/>
-
                  <lg type="lyrics" rhyme="AABB">
                  <l>2. Och gubben han stod där så morsk bredvid <rhyme label="a">grind</rhyme> </l>
                  <l>med nacke så styf och med mage så <rhyme label="a">trind</rhyme>.</l> 
@@ -1773,7 +1769,6 @@
               </lg>
                
             <cb n="2"/>
-
                  <lg type="lyrics" rhyme="AABB">
                   <l>4. Och gubben han stod där och pöste och <rhyme label="a">frös</rhyme>,</l> 
                   <l>men så kom det regn, han fick snufva och <rhyme label="a">nös</rhyme>.</l> 
@@ -1911,9 +1906,10 @@
             <pb n="19"/>
             <metamark  function="pagenumber" place="top-left"><num>18</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <div type="text-division" n="1">
+            
+            <div type="part" n="1">
                <head>FLÄDERMOR.</head>
-               <head type="sub-heading">(Efter idé ur ANDERSENS SAGOR.)</head>
+               <head type="subheading">(Efter idé ur ANDERSENS SAGOR.)</head>
                <cb n="1"/>
                
                <lg rend="italic" type="stanza">
@@ -2001,16 +1997,15 @@
                <signed>HUGO GYLLANDER</signed>
               </div>
             
-             <div type="text-division" n="2">
+             <div type="part" n="2">
                 <head>Julvisa.</head>
                 <notatedMusic>
                    <desc>Noter till sången Julvisa. Musik av Alice Tegnér och ord av Zach Topelius</desc>
                 </notatedMusic>
+                
                 <lg>
-                   <l>1 v.Nu står jul vid snö-ig <rhyme label="a">port</rhyme>, Klappar på och <rhyme label="b">my-ser</rhyme>: » Kära barn, släpp in mig <rhyme label="a">fort</rhyme>!</l>
-                                   
-                   <l>Här jag står och <rhyme label="b">fry-ser</rhyme>. Se, min korg är full och <rhyme label="c">tung</rhyme>, Båd' åt gam-mal och åt <rhyme label="c">ung</rhyme></l>
-                   
+                   <l>1 v.Nu står jul vid snö-ig <rhyme label="a">port</rhyme>, Klappar på och <rhyme label="b">my-ser</rhyme>: » Kära barn, släpp in mig <rhyme label="a">fort</rhyme>!</l>                                  
+                   <l>Här jag står och <rhyme label="b">fry-ser</rhyme>. Se, min korg är full och <rhyme label="c">tung</rhyme>, Båd' åt gam-mal och åt <rhyme label="c">ung</rhyme></l>                  
                    <l>Har jag gåf-vor <rhyme label="d">ra - - ra</rhyme>. Får jag hos dig <rhyme label="d">va-ra?</rhyme> »-» Kom, ja, kom, kä-ra jul!»</l>
                    </lg>
                    
@@ -2065,7 +2060,7 @@
             <metamark  function="pagenumber" place="top-right"><num>19</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
-            <div type="text-division" n="1">
+            <div type="part" n="1">
                <cb n="1"/>
                <head rend="italic">En skärgårdspojke.</head>
                
@@ -2129,7 +2124,7 @@
                <signed>DANIEL FALLSTRÖM.</signed>
              </div>  
             
-            <div type="text-division" n="2">
+            <div type="part" n="2">
                <div type="letter">
                   <head>JULTOMTEN</head> 
                 
@@ -2143,7 +2138,7 @@
                      <salute>Mina kära små vänner!</salute>
                   </opener>
                   
-                  <cb n="1"/>
+                 <cb n="1"/>
                  <p rend="italic"> <l rend="intended">Ja, “nu är det jul igen", som det</l>
                   <lb/>står i visan, och nu har Ni väl riktigt 
                   <lb/>längtat efter Er gamle farbror.</p>
@@ -2345,7 +2340,7 @@
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
             <head>KUNGENS FINASTE ROS.</head>
-            <head type="sub-heading">Saga af ELSA BESKOW</head>
+            <head type="subheading">Saga af ELSA BESKOW</head>
             
             <cb n="1"/>
             <p><hi rend="anfang">I</hi> ett hörn af den stora vackra slottsträdgården satt lilla prin-
@@ -2655,7 +2650,7 @@
          <!-- Text Sida 25  -->
          <div type="page">
             <pb n="25"/>
-            <div type="text-division" n="1">
+            <div type="part" n="1">
                
                <p>Klockan slår - Tiden går!
                  <lb rend="intended"/>Tomten i sin släde
@@ -2665,7 +2660,7 @@
                <signed hand="#GH">GH 99 </signed>
              </div> 
             
-           <div type="text-division" n="2">
+           <div type="part" n="2">
               <head>TOMTEN MED DET NYA ÅRET. Akvarell för Jultomten af GISELA HENCKEL.</head>
               <cb n="1"/>
               <p>För redaktionen: 
@@ -2704,14 +2699,12 @@
             <p style="writing-mod:vertical-lr; text-orientation: sideways left">Man går genom ingångsporten 1, fortsätter sedan på de vägar, som ha följande nummer: 15, 20, 8, 40, 19, 36, 12, 3, 32 43, 10, 50, 33, 47, 41, 28, 37, 25, 11, 22, 39, 30, 7, 35, 26, 31, 46, 38, 2, 45, 
             <lb/>11,42, 31, 5, 21, 21, 29, 6, 18, 49, 4, 27, 48, 9, 13, 17, 23, 16, 51, 41, 52, 53, 55 57, 60, 55, 53, 54, 61, 59, 62, 63, 61 – Tillbaka går man samma väg i motsatt ordning: från 64 till 63, 62, 69, o.s.v</p> 
             
-            <div type="text-division" n="1">               
+            <div type="part" n="1">               
                <head>JULDANS.</head>
                <notatedMusic>
                   <desc>Noter till sången Juldans. Text och musik af Emmy Köhler. Polska</desc>
                </notatedMusic>
-               
-               <p>1)</p>
-               
+
                <lg type="lyrics">
                <l>Och nu går dan-sen i vi-da ring ar, Och ju le pols kan så mun tert kling ar, Och här är glädje och</l>
                <l>Och nu vi å-ter i dan-sen svinga, Och polskans to-ner så muntert kling a, Och du och jag dan-sa</l>
@@ -2721,20 +2714,13 @@
                <l>gam man. Och gra nen stolt i sin jul-dräkt prå-lar, Och lju sen glitt-ra med tu-sen strå-lar, Och</l>
                <l>sam man. Och al la lju sen  i gra nen glind-ra, Och bar nens ö-gon som stjär-nor tind ra,  Och</l>
                </lg>
-               
-               <p>2) Långsammare.3)</p>
-                                                                                                  
-                <lg type="lyrics">
+                                                                                                                 
+               <lg type="lyrics">
                 <l>al la dan sa vi sam man.</l>          
                 <l>Och så vi skil-jas en li-ten stund men träf fas å ter i dan-sens rund.</l>
                 <l>allt är gläd-je och gamman.</l>
                 </lg>
-               
-                <p>Fine</p>
-               
-                <p>Muntert.</p>
-               
-                <p>4)D.C</p>
+
                
                 <lg type="lyrics">
                 <l>Nu är det jul I kung-ens sal, I mins ta skjul. På berg, i dal, Med frost och snö Och stålblank is På fru sen sjö, Med</l>                                  
@@ -2752,23 +2738,23 @@
                <signed hand="#BE">B.E.m</signed>
                </div>
               
-              <div type="text-division" n="2">
+              <div type="part" n="2">
                  <head><hi rend="anfang">S</hi>VENSK LÄRARETIDNING </head>
-                 <head type="sub-heading">SVERIGES STÖRSTA OCH MEST SPRIDDA SKOLBLAD.</head>
+                 <head type="subheading">SVERIGES STÖRSTA OCH MEST SPRIDDA SKOLBLAD.</head>
                  <p>Bästa annonsblad för meddelanden, som afse hela landet.
                  <lb/>Pris pr årgång (öfver 800 stora kvartsidor) endast 3 kr. 50 öre.</p>                 
               </div>
             
-            <div type="text-division" n="3">
+            <div type="part" n="3">
                <head><hi rend="anfang">T</hi>OMTEFARS SAGOR OCH BERÄTTELSER</head>
                <p>- Tvänne samlingar - 
                <lb rend="intended"/>Illustrerade af framstående konstnärer.
                <lb rend="intended"/>Finnas i alla boklådor. Pris för hvarje samling inb. 1 kr. 25 ōre.</p>               
             </div>
             
-            <div type="text-division" n="4">
+            <div type="part" n="4">
                <head><hi rend="anfang">J</hi>ULTOMTEN</head>
-               <head type="sub-heading">Skolbarnens Jultidning</head>
+               <head type="subheading">Skolbarnens Jultidning</head>
                <p>utkommer med ett rikt illustre- 
                <lb rend="intended"/>radt uummer hvarje jul. 
                <lb/>16 sidor. Pris 25 öre. 
@@ -2776,7 +2762,7 @@
                <lb rend="intended"/>Pris 50 öre.</p>
              </div> 
             
-            <div type="text-division" n="5">
+            <div type="part" n="5">
                <head><hi rend="anfang">S</hi>AGA</head>
                <p>är namnet på »<q>BARNENS EGET BIBLIOTEK</q>», som från 
                <lb/>1899 års början utgifves af samma redaktion som JUL-
@@ -2790,9 +2776,9 @@
                <lb/>Partibeställningar å minst 20 ex insändas direkt till <name type="place">Svensk Läraretidning, Stockholm N</name>.</p>
              </div>
             
-            <div type="text-division" n="6">
+            <div type="part" n="6">
                <head><hi rend="anfang">T</hi>UMMELITEN</head>
-               <head type="sub-heading">Jultidning för smått folk </head>
+               <head type="subheading">Jultidning för smått folk </head>
                <p>Jultidning för smått folk 
                <lb/>Innehåller för barnen lämpad 
                <lb rend="intended"/>muntrationsläsning med
@@ -2834,7 +2820,7 @@
                   <item>TOMTEN MED DET NYA ÅRET. Helsidesakvarell GISELA HENCKEL<metamark function="pagenumber" place="right"><num>24</num></metamark></item>
                   </list>  
                </div>
-              <div type="text-division" n="1" style="text-align: center">
+              <div type="part" n="1" style="text-align: center">
                   <p>OMSLAGSTECKNINGAR af LOUIS MOE.
                   <lb/>DEN FÖRTROLLADE TRÄDGÅRDEN. Något att fundera på under julferierna
                   <lb/>af D. S. H. (På omslagets andra sida.)
@@ -2842,7 +2828,7 @@
                   <lb/>(På omslagets tredje sida.)</p>
                  </div> 
                
-              <div type="text-division" n="2" style="text-align: center">
+              <div type="part" n="2" style="text-align: center">
                   <p>Autotypierna utförda hos
                      <lb/>ANGERER &amp; GÖSCHL i Wien samt IDUNS GRAFISKA ANSTALT, 
                      <lb/>JUSTUS CEDERQUIST och W. SILFVERSPARRE i Stockholm. 
@@ -2851,7 +2837,7 @@
                      <lb/>För redaktionen: EMIL HAMMARLUND.</p>
                    </div>
             
-              <div type="text-division" n="3" style="text-align: center">
+              <div type="part" n="3" style="text-align: center">
                   <p>Pris 50 öre.</p>
               </div>                          
             
