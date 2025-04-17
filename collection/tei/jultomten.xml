@@ -83,11 +83,11 @@
             </address>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>Orginaltexten utgavs 1899. De bidragande författarnas, illustratörerna och kompositörernas upphovsrätt har passerat
-                  förutom en illustration tillhörande Gisela Henckel som uteslutits i publiceringen. Digitalisatet finns lokalt bevarat hos projektmedlemmar 
-                  för att kunna publiceras när upphovsrätten för verket passerats. För pseudonymer gäller 70 år sedan publicering (1899) 
-                  och anses inte lyda under upphovsrätt.
-                  Transkriptioner och bilder distruberas under en CC-BY 4.0 license.</p>
+                  <p>Orginaltexten utgavs 1899. De bidragande författarnas, illustratörernas och kompositörernas upphovsrätt har passerat
+                  förutom en illustration av Gisela Henckel som uteslutits i publiceringen. Digitalisatet finns lokalt bevarat hos projektmedlemmar 
+                  för att kunna publiceras när upphovsrätten för verket passerats. För pseudonymer gäller att de 70 år efter publicering (1899) 
+                  inte anses lyda under upphovsrätt.
+                  Transkriptioner och bilder distribueras under en CC-BY 4.0 license.</p>
                </licence>               
             </availability>
          </publicationStmt>
@@ -152,9 +152,9 @@
       </fileDesc>
      <encodingDesc>
         <projectDesc>
-           <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan Borås 
+           <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan i Borås 
               som genomfördes under vårterminen 2025.
-              Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och tillgänglighet </p> 21bc7bd91294efe0bc68d724da91ec74d457c556
+              Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och tillgänglighet. </p> 21bc7bd91294efe0bc68d724da91ec74d457c556
         </projectDesc>
         <samplingDecl>
            <p>En årgång ur publikationsserien Jultomten:Skolbarnens jultidning har valts ut i samråd med 
