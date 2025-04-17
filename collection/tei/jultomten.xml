@@ -11,7 +11,7 @@
             <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>            
             <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
             <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>            
-            <author><persName><forename>Emil</forename><surname>Kleen</surname></persName></author>
+            <author><persName><forename>Emil</forename><surname>Kléen</surname></persName></author>
             <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
             <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
             <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
@@ -26,14 +26,14 @@
             <editor role="illustrator"><persName><forename>Jenny</forename><surname>Nyström</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Anna</forename><surname>Cramér</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Gisela</forename><surname>Henckel</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Elin</forename><surname>Vestman</surname></persName></editor>
+            <editor role="illustrator"><persName><forename>Elin</forename><surname>Westman</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Brita</forename><surname>Ellström</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Louis</forename><surname>Moe</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Emil</forename><surname>Åberg</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Gerda</forename><surname>Tirén</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
             <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
-            <editor role="composer"><persName><forename>Alice</forename><surname>Tegner</surname></persName></editor>
+            <editor role="composer"><persName><forename>Alice</forename><surname>Tegnér</surname></persName></editor>
             <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
             <author><name type="pseudonym">Tippu Tipp</name></author>
             <author><name>Svente</name></author>
@@ -45,7 +45,7 @@
                <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
             </principal>
             <respStmt>
-               <resp>Digitaliserad och tillgängliggörande</resp>
+               <resp>Digitalisering och tillgängliggörande</resp>
                <persName><forename>Angelina</forename><surname>Kakonda Karlsson</surname></persName>
                <persName><forename>Karin</forename><surname>Frithiofsson</surname></persName>
                <persName><forename>Therese</forename><surname>Rosén Hjertqvist</surname></persName>
@@ -92,7 +92,7 @@
                   <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>                  
                   <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
                   <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>                 
-                  <author><persName><forename>Emil</forename><surname>Kleen</surname></persName></author>
+                  <author><persName><forename>Emil</forename><surname>Kléen</surname></persName></author>
                   <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
                   <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
                   <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
@@ -107,14 +107,14 @@
                   <editor role="illustrator"><persName><forename>Jenny</forename><surname>Nyström</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Anna</forename><surname>Cramér</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Gisela</forename><surname>Henckel</surname></persName></editor>
-                  <editor role="illustrator"><persName><forename>Elin</forename><surname>Vestman</surname></persName></editor>
+                  <editor role="illustrator"><persName><forename>Elin</forename><surname>Westman</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Brita</forename><surname>Ellström</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Louis</forename><surname>Moe</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Emil</forename><surname>Åberg</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Gerda</forename><surname>Tirén</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
                   <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
-                  <editor role="composer"><persName><forename>Alice</forename><surname>Tegner</surname></persName></editor>
+                  <editor role="composer"><persName><forename>Alice</forename><surname>Tegnér</surname></persName></editor>
                   <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname></persName></editor>
                   <editor role="publisher"><persName><forename>Emil</forename><surname>Hammarlund</surname></persName></editor>
                   <author><name type="pseudonym">Tippu Tipp</name></author>
@@ -125,7 +125,7 @@
                   <title type="undertitel">PRAKTUPPLAGAN</title>
                   <title type="undertitel">NIONDE ÅRGÅNGEN</title>
                   <imprint>
-                     <publisher>Svensk läraretidnings förslagsaktitebolag</publisher>
+                     <publisher>Svensk läraretidnings förlagsaktiebolag</publisher>
                      <pubPlace>Stockholm</pubPlace>
                      <date>1899</date>
                   </imprint>
@@ -146,8 +146,8 @@
       </fileDesc>
      <encodingDesc>
         <projectDesc>
-           <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan Borås.
-              Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och för att tillgängliggöra detta material. </p>
+           <p>Ett digitaliseringsprojekt i kursen "Digitalisering för bevarande och tillgänglighet" C3IDB1 B29V5 vid Högskolan i Borås.
+              Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och att tillgängliggöra detta material. </p>
         </projectDesc>
         <samplingDecl><p>En årgång ur publikationsserien Jultomten:Skolbarnens jultidning har valts ut i samråd med 
               personal vid Svenska barnboksinstitutet</p></samplingDecl>
@@ -1713,7 +1713,7 @@
                <lg type="lyrics" rhyme="AABB">
                <l>1. På gården låg bollsnön så mjuk och så <rhyme label="a">tjock</rhyme>, – Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
                <l>Och gos-sar-ne rul-la-de hop den i <rhyme label="a">block</rhyme>.  –    –    –    –   –    –   –   –   –  –   De gjor-de en snö-gub-be lång som så <rhyme label="b">här</rhyme> Och </l>                                                                                                                                      
-               <l>tjock som så där, ja, tjock som så <rhyme label="a">där</rhyme>.  Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
+               <l>tjock som så där, ja, tjock som så <rhyme label="b">där</rhyme>.  Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
                </lg>  
                                     
            <cb n="3"/>
