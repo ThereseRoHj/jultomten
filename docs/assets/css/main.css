@@ -5,7 +5,7 @@ body {
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
 	font-size: 1vw;
-  width: 100%;
+    width: 100%;
 	}
 
 h1, h2, h3, nav, footer {
@@ -39,6 +39,17 @@ footer {
     border-top: 1px solid black;
     padding-top: 1vw;
     margin-top: 1vw;
+}
+
+p {
+    margin: 0; 
+    padding: 0; 
+}
+
+span {
+    display: block;     
+    margin: 0;           
+    padding: 0;         
 }
 
 .copyright {
@@ -75,3 +86,49 @@ footer {
     border: 1px solid black;
     width: 500px;
 }
+
+
+.indented-inline {
+    text-indent: 25px;
+    display: block; 
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.bottom {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+.opener {
+    font-style: italic;
+}
+
+.anfang {
+ font-size: 3em;
+  font-weight: bold;
+  float: left;
+  line-height: 1;
+  padding-right: 0.1em;
+  margin-top: 0.1em;   
+}
+
+.rotated-text {
+  writing-mode: vertical-lr;      
+  text-align: center;
+  transform: rotate(180deg);      
+  white-space: nowrap;            
+  height: 100%;                   
+}
+

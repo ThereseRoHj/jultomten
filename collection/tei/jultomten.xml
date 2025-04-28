@@ -497,7 +497,7 @@
             <p>1899</p> 
             <p><stamp>Svensk Läraretidnings Förlag</stamp></p>
             <signed hand="#LM">Louis Moe</signed>
-            <fw type="sidfot" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
+            <fw type="footer" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
            </div>
          <!-- Text Sida 1  -->
          <div type="page" facs="#Sida1"> 
@@ -505,7 +505,7 @@
             <head>Den förtrollade trädgården.</head>
             
               <cb n="1"/>           
-               <lg type="couplet" rhyme="aa" rend="Italic">
+               <lg type="couplet" rhyme="aa" style="italic">
                <l>En liten trädgård här jag <rhyme>gjort</rhyme>,</l> 
                <l>för dig, min vän, en <rhyme>tillflyktsort</rhyme>,</l> 
                <l>där efter slutad läxas <rhyme>tvång</rhyme></l> 
@@ -521,7 +521,7 @@
                </lg>
                
               <cb n="2"/>
-               <lg type="couplet" rhyme="aa" rend="Italic">
+               <lg type="couplet" rhyme="aa" style="italic">
                <l>till trädgår'n, får du vandra <rhyme>blott</rhyme></l>
                <l>hvar väg en enda gång, och <rhyme>först</rhyme></l> 
                <l>när du nått fram på detta <rhyme>sätt</rhyme></l>
@@ -533,7 +533,7 @@
                <l>och aldrig vika ifrån <rhyme>den</rhyme>.</l>
                </lg>
                                  
-               <lg type="couplet" rhyme="aa" rend="Italic">
+               <lg type="couplet" rhyme="aa" style="italic">
                <l>Nu säg mig strax, hur skall du <rhyme>gå</rhyme>,</l> 
                <l>att du till källan komma <rhyme>må</rhyme>?</l>
                </lg>
@@ -641,12 +641,12 @@
                <lb/>han en slant, en sladd mjölk eller en klick smör hem till 
                <lb/>barnen, och sådana gåfvor voro synnerligen välkomna, ty
                <lb/>skrädderiyrket gaf icke mycket, sedan ögonen börjat slå fel.</p>
-            
+              
                <p rend="indented">Visst var det drygt att i ur och skur gå de två milen,
                <lb/>men äfven en liten slant är god att ha i ett fattigt hem och 
                <lb/>räcker länge med sparsamhet. Och därför knogade gubben 
-               <lb/>åstad år från år, fast stegen voro tunga och ryggen krökt.</p>
-            
+               <lb/>åstad år från år, fast stegen voro tunga och ryggen krökt.</p> 
+              
                <p rend="indented">Men en vinter lågo drifvorna höga, och stormen hven 
                <lb/>öfver slätten. Efter en af sina turer blef »väskemannen»
                <lb/>sjuk och måste gå till sängs. Då gick Nils, hans äldste son, 
@@ -717,7 +717,7 @@
             <p>kapuschong att dra öfver mössan –
             <lb/>– – Och far en hel kagge snus!</p>
             
-            <p><l rend="indented">Han drömde så vackert, så att han</l> 
+            <p rend="indented">Han drömde så vackert, så att han
             <lb/>var vid stationen, innan han visste ordet 
             <lb/>af. Röd och andtruten trädde han in.
             <lb rend="indented"/>– God dag, lille herr postmästare! sa den 
@@ -727,16 +727,16 @@
             <lb rend="indented"/>– Tåget är försenadt. Kom nu in, ska du få
             <lb/>dig en kopp, medan du väntar! </p>
             
-            <p><l rend="indented">Och Nils fördes in och proppades full med godter.</l>
+            <p rend="indented">Och Nils fördes in och proppades full med godter.
             <lb rend="indented"/>– Julen är då en välsignad sak – det borde vara jul 
             <lb/>hela året om! tänkte Nils.</p>
             
-            <p><l rend="indented">Tåget kom och gick igen. Snart var Nils också res-</l> 
+            <p rend="indented">Tåget kom och gick igen. Snart var Nils också res-
             <lb/>färdig. Snöyran var värre än på förmiddagen, men nu hade 
             <lb/>han vädret på ryggen, så han nästan blåste hem. Men det 
             <lb/>kylde på ryggen, när ilarna svepte fram öfver fälten.</p>
             
-            <p><l rend="indented">Prosten tog väskan, och prostinnan tog den lille väske-</l> 
+            <p rend="indented">Prosten tog väskan, och prostinnan tog den lille väske-
             <lb/>mannen om hand. Han sattes ner vid ett dukadt julbord och 
             <lb/>fick sig ett riktigt julkalas. Efter en stund kom prosten in. 
             <lb rend="indented"/>– Här har du ett paket – det är till dig själf, och 
@@ -768,7 +768,7 @@
             <lb rend="indented"/>– Å jag har mors stora bomullsschalett i fickan. Se här!</p>
             
             <cb n="2"/>            
-            <p><l rend="indented">– Den är inte så dum, du mor! sa</l> 
+            <p rend="indented">– Den är inte så dum, du mor! sa
             prosten och klappade Nils på hufvudet.</p>
             
             <p><l rend="indented">Om en stund styrde den lille bref-</l> 
@@ -796,7 +796,7 @@
             <lb rend="indented"/>– Nu ska mor sätta på gröten, och så springer jag till 
             <lb/>Stenbergs med brefvet!</p>
             
-            <p><l rend="indented">Det gjorde han. Änkan hade legat sjuk flera dagar,</l> 
+            <p rend="indented">Det gjorde han. Änkan hade legat sjuk flera dagar,
             <lb/>men brefvet gjorde henne så glad, att hon bums steg opp. 
             <lb/>Nils fick läsa det för henne flera gånger – hon kunde ju 
             <lb/>inte läsa själf, stackars gumma. Men hon var så lycklig öf-
@@ -811,7 +811,7 @@
             <lb/>Du ska se, Herren lönar dig för 
             <lb/>det kärleksverket.</p>
             
-            <p><l rend="indented">När Nils kröp till kojs på</l> 
+            <p rend="indented">När Nils kröp till kojs på 
             <lb/>julafton, fullproppad med julgröt,
             <lb/>sa mor:
             <lb rend="indented"/>– Nå, pojken min! Hvad 
@@ -833,14 +833,14 @@
                <lb/>I
                <lb/>HOLLAND
             </head>
-           <opener rend="italic"> 
+           <opener style="italic"> 
            <placeName>
               <settlement>Volendam bij Edam. </settlement>
               <country>Holland.</country>
            </placeName>
               <salute>Kära lilla svenska flicka!</salute>
            </opener>
-            <p rend="italic"><l rend="indented"/>Jag har lofvat, att jag skulle skrifva till dig 
+            <p rend="intended" style="italic">Jag har lofvat, att jag skulle skrifva till dig 
             <lb/>och tala om, huru vi ha det. Vi må alla bra 
             <lb/>och vi bo, som du kan se af ofvanskriften, i 
             <lb/>Holland. Pappa är fiskare, och vi bo i en liten 
@@ -848,7 +848,7 @@
             <lb/>Zuiderzee nära staden Edam. (Båda dessa 
             <lb/>namn finner du lätt på kartan.)</p>
             
-            <p rend="italic"><l rend="indented"/>Vi hafva här, liksom i Sverige, både land 
+            <p rend="intended" style="italic">Vi hafva här, liksom i Sverige, både land 
             <lb/>och vatten. Men vi måste alldeles nödvändigt 
             <lb/>ha en hög gråstensmur emellan, annars skulle 
             <lb/>vattnet, som är mycket högre än landet, ström- 
@@ -857,7 +857,7 @@
             <lb/>vi den starka, präktiga muren, och då äro vi 
             <lb/>ej alls rädda.</p>
             
-            <p rend="italic"><l rend="indented"/>Fälten här äro genomskurna af kanaler. Ock- 
+            <p rend="intended" style="italic">Fälten här äro genomskurna af kanaler. Ock- 
             <lb/>så finns det en massa väderkvarnar, som drifva 
             <lb/>fram vattnet i kanalerna. Öfverallt på fälten 
             <lb/>beta svart- och hvitbrokiga kor, får och getter 
@@ -865,14 +865,14 @@
             <lb/>större delen af året. För se, i Holland hafva 
             <lb/>vi ej så kalla vintrar, som ni ha i Sverige.</p>
             
-            <p rend="italic"><l rend="indented"/>Vi ha inte heller någon kung, som ni ha. 
+            <p rend="intended" style="italic">Vi ha inte heller någon kung, som ni ha. 
             <lb/>Vi ha en ung drottning, som heter Wilhelmina, 
             <lb/>och hon är den sista ättlingen af huset Oranien. 
             <lb/>Hon är bara nitton år och regerar, må du tro, 
             <lb/>hela landet lika bra som någon kung, och vi 
             <lb/>hålla alla så rysligt mycket af henne.</p>
             
-            <p rend="italic"><l rend="indented"/>Förra sommaren kröntes hon till drottning. 
+            <p rend="intended" style="italic">Förra sommaren kröntes hon till drottning. 
             <lb/>Vi i Volendam skulle förstås också fira henne. 
             <lb/>Till och med småsyskonen, som inte börjat sko- 
             <lb/>lan än, fingo gå med i procession och sjunga 
@@ -892,15 +892,15 @@
             <head place="top-margin">FISKAR-BÅTAR PÅ ZUIDER-ZEE</head>
             <head place="left-margin">EDAM</head>
             
-            <p rend="italic">niens färg. Tänk, till och med hundarna hade
+            <p style="italic">niens färg. Tänk, till och med hundarna hade
             gula skärp om magen!</p>
             
-            <p rend="italic"><l rend="indented"/>Vi bo, vet du, i en liten stuga med grön dörr 
+            <p rend="intended" style="italic">Vi bo, vet du, i en liten stuga med grön dörr 
             <lb/>och gröna fönsterluckor och alldeles rödmålad 
             <lb/>inuti. Och så ha vi en liten tunna att samla 
             <lb/>regnvatten i. För se källvatten ha vi inte alls.</p>
             
-            <p rend="italic"><l rend="indented"/>Pappa är fiskare, som jag sagt dig förut. Han 
+            <p rend="intended" style="italic">Pappa är fiskare, som jag sagt dig förut. Han 
             <lb/>har en stor egen båt med rödt segel. Han är ute 
             <lb/>på sjön hela veckan och fiskar. På lördagen 
             <lb/>kommer han hem och blir hemma öfver sönda- 
@@ -910,35 +910,35 @@
             <lb/>det är bra, att han har så vida byxor, annars 
             <lb/>skulle mor aldrig få göra annat än lappa dem.</p>
             
-            <p rend="italic"><l rend="indented"/>I går voro vi i staden Edam och hälsade på 
+            <p rend="intended" style="italic">I går voro vi i staden Edam och hälsade på 
             <lb/>bekanta. Vi foro hem i båt. Men vi bry oss ald- 
             <lb/> rig om att ro här på kanalen, utan en gubbe 
             <lb/>går längs kanalkanten och drager båten efter sig 
             <lb/>hela vägen. Det var rysligt roligt.</p>
             
-            <p rend="italic"><l rend="indented"/>Vi foro förbi en bondgård, där äldsta syster 
+            <p rend="intended" style="italic">Vi foro förbi en bondgård, där äldsta syster 
             <lb/>tjänar. En söt fyrkantig liten bondgård. Där 
             <lb/>är både ladugård, osteri och boningsrum i sam- 
             <lb/>ma hus. Där beredes edamer-ost. Sådan har du 
             <lb/>nog ätit. Den är alldeles röd utanpå och rund 
             <lb/>som ett klot.</p>
             
-            <p rend="italic"><l rend="indented"/>I höstas var här marknad, och det må du tro 
+            <p rend="intended" style="italic">I höstas var här marknad, och det må du tro 
             <lb/>var något lifvadt.</p>
             
-            <p rend="italic"><l rend="indented"/>En dag jämt en vecka förut kommo pojkarne 
+            <p rend="indented" style="italic">En dag jämt en vecka förut kommo pojkarne 
             <lb/>dragande med ett långt rep och gingo rundt om- 
             <lb/>kring i hela byn och sjöngo om och om igen så här:</p>
             
-            <q rend="italic"><l rend="indented"/>»Drag, drag med rep åstad!
+            <q rend="indented" style="italic">»Drag, drag med rep åstad!
             <lb rend="indented"/>I dag om en vecka blir markenad!»</q>
             
-            <p rend="italic"><l rend="indented"/>Det var så bra, för så visste vi bestämdt förut, 
+            <p rend="indented" style="italic">Det var så bra, för så visste vi bestämdt förut, 
             <lb/>hvilken dag marknaden skulle bli.</p>
             
-            <p rend="italic"><l rend="indented"/>Så roligt vi hade!</p>
+            <p rend="indented" style="italic">Så roligt vi hade!</p>
             
-            <p rend="italic"><l rend="indented"/> Jag hade min allra bästa klädning på mig. 
+            <p rend="intended" style="italic"> Jag hade min allra bästa klädning på mig. 
             <lb/>Den är ljusblå med röda rundlar. Jag fick köpa 
             <lb/>en fin vacker docka med röd klädning. Dessutom 
             <lb/>fingo vi karameller och kakor.</p>
@@ -1343,7 +1343,7 @@
               <lb/>hade trådrullar till kor och spolrör till grisar,
               <lb/>och där lekte de alla möjliga lekar</p>
             
-            <p> <l rend="indented">En dag blef det fråga </l>
+              <p rend="indented">En dag blef det fråga 
               <lb/>om, hvad de skulle bli, när
               <lb/>de hade blifvit stora.
               <lb rend="indented"/>– Jag ska bli präst, sa 
@@ -1374,7 +1374,7 @@
               <lb/>torparens Petter.</p>
             
             <cb n="2"/>
-            <p><l rend="indented">– Jag ska bli kung, sa soldatens</l> 
+            <p rend="indented">– Jag ska bli kung, sa soldatens
                <lb/>Olof. Då får jag äta risgrynsgröt hvar 
                <lb/>kväll och doppa den i 
                <lb/>smör.
@@ -1404,7 +1404,7 @@
                <lb rend="indented"/>– Jag vet inte. Jag ska alltid vara snäll och
                <lb/>lydig till mor, sa hon slutligen.</p>
             
-            <p><l rend="indented">Barnen sågo på hvarandra. Det hade ingen tänkt på. Så</l> 
+            <p rend="indented">Barnen sågo på hvarandra. Det hade ingen tänkt på. Så
                 <lb/>reste sig handlandens Axel.
                 <lb rend="indented"/>– Det ska vi förstås vara allihop ändå, sa han. Fast en 
                 <lb/>glömmer det ibland. Och därför är det bra, att nå'n påminner en.</p> 
@@ -1420,18 +1420,18 @@
                <lb/>natten och tager dem med sig på färd till det under- 
                <lb/>bara Sagolandet östan för sol och västan för måne.</p>
                
-             <p><l rend="indented">Det landet ligger så högt, så högt, och därför är det</l> 
+             <p rend="indented">Det landet ligger så högt, så högt, och därför är det
                <lb/>så skönt. Men man behöfver hvarken lokomotiv eller spår- 
                <lb/>vagn för att komma dit, ty John Blund hämtar sina dröm- 
                <lb/>mande småttingar på de allra vackraste leksaksdjur.</p>
                
-             <p><l rend="indented">Man behöfver bara sätta sig upp på den lilla göken, </l>
+             <p rend="indented">Man behöfver bara sätta sig upp på den lilla göken, 
                <lb/>i den stora gula vagnen, på den rödmålade Pålle, på den 
                <lb/>blåprickige Grålle eller på elefanter, giraffer eller andra 
                <lb/>trefliga djur. Och så bär det af, just då solen går upp 
                <lb/>ur österns purprade sagoskyar.</p>
            
-             <p><l rend="indented">Det är lif och lust, när det brokiga tåget ringlar sig </l>
+             <p rend="indented">Det är lif och lust, när det brokiga tåget ringlar sig 
                <lb/>upp mot det högt liggande sagoslottet Sagaborg. Fåglar 
                <lb/>kvittra i hvar buske, utan att man behöfver trycka på 
                <lb/>dem, påfågeln kråmar sig och breder ut sin skiftande stjärt, 
@@ -1441,7 +1441,7 @@
                <lb/>löf äro pepparkakor och Täljekringlor, och barken är bro- 
                <lb/>kig marmelad.</p>
            
-             <p><l rend="indented">De drömmande resenärerna vifta med handen, när </l>
+             <p rend="indented">De drömmande resenärerna vifta med handen, när
                <lb/>de fara förbi den lilla dammen, där svanen af mandel- 
                <lb/>massa seglar så stolt och den lilla båten bland de sötaste 
                <lb/>näckrosor vaggar på vinröda vågor, under det fiskar af 
@@ -1451,14 +1451,14 @@
                <lb/>På hans rygg sitter den glada Lisa med den smörgula</p>
                
            <cb n="2"/>
-             <p><l rend="indented">rosen i sin hand och bakom henne den trinde Per. Fram-</l> 
+             <p rend="indented">rosen i sin hand och bakom henne den trinde Per. Fram- 
                <lb/>för dem äro den långörade haren och den långhalsade 
                <lb/>giraffen, gunghästen, som gärna slår kullerbyttor, när han 
                <lb/>kan komma åt, samt en hel hop små kullor och masar, 
                <lb/>som redan stå invid slottet och kanske äta upp alla kara- 
                <lb/>mellerna, innan de sista i tåget hinna fram.</p>
                
-             <p><l rend="indented">I slottet myllrar det som i en myrstack. I dess tusen</l> 
+             <p rend="indented">I slottet myllrar det som i en myrstack. I dess tusen 
                <lb/>gånger tusen rum sitta gummor vid sprakande brasor och 
                <lb/>steka jättelika äpplen samt berätta roliga sagor om mils- 
                <lb/>höga jättar, hemska trollpackor och guldlockiga prinses- 
@@ -1470,7 +1470,7 @@
                <lb/>blifvit som jublande barn. Men alla trumpna och sur- 
                <lb/>mulna gubbar ligga och snarka i sina sängar hela julnatten.</p>
                
-             <p><l rend="indented">De få aldrig se det himmelshöga slottet, där spring-</l> 
+             <p rend="indented">De få aldrig se det himmelshöga slottet, där spring-
                <lb/>vatten af sockerdricka plaska bland blomsterrabatter af 
                <lb/>pösmunkar, strufvor och klenäter; där blomsterkedjor slingra 
                <lb/>sig kring de höga konfekttornen; där väldiga julbockar af 
@@ -1478,7 +1478,7 @@
                <lb/>med brunt socker, och där stekta sparfvar flyga omkring 
                <lb/>och se efter, om någon af de små öppnar munnen.</p>
                
-             <p><l rend="indented">Alla ha så roligt, så John Blund nänns knappast att låta </l>
+             <p rend="indented">Alla ha så roligt, så John Blund nänns knappast att låta 
                <lb/>solen gå upp – därför är julnatten den längsta på hela 
                <lb/>året, just för att barnen inte allt för fort skola behöfva 
                <lb/>fara hem från Sagolandet. Det är inte jul mer än en 
@@ -1505,7 +1505,7 @@
             
             <p><hi rend="anfang">U</hi>te på den stora allmänningen gick Matts och vaktade byns alla gäss.</p>
             
-            <p><l rend="indented">Han var ingen stor man, bara åtta år, på det nionde, men </l>
+            <p rend="indented">Han var ingen stor man, bara åtta år, på det nionde, men 
               <lb/>duktig var han, och ännu hade ingen enda gås kommit bort för 
               <lb/>honom, fastän skogen var full af räfvar, som ville åt dem och 
               <lb/>som hade tagit ganska många under den förra gåsvaktarens tid. Så snart
@@ -1515,28 +1515,28 @@
               <lb/>i skogen och slicka sig om munnarna. Det var nu öfver ett år, sedan de 
               <lb/>fått gåsstek till middagen.</p>
             
-            <p><l rend="indented">Då hände det sig en dag, när Matts satt omgifven af alla sina gäss</l> 
+            <p rend="indented">Då hände det sig en dag, när Matts satt omgifven af alla sina gäss
               <lb/>och knaprade på en hård brödkant, att ett gammalt fruntimmer kom ut 
               <lb/>ur skogen. Hon var ganska välklädd, hade en vid, släpande klädning och 
               <lb/>en stor hatt, som slöt till om ansiktet. Men hon gick litet krokryggig 
               <lb/>och höll noga igen schalen om bröstet. </p>
            
-            <p><l rend="indented">– Goddag, lille Matts, sade hon, när hon kom fram till honom, sitter </l>
+            <p rend="indented">– Goddag, lille Matts, sade hon, när hon kom fram till honom, sitter 
               <lb/>du här och äter torrt, hårdt bröd, din lille stackare! Du fördärfvar ju 
               <lb/>alldeles tänderna.
               <lb rend="indented"/>– Guds fred! Hvem är du? frågade Matts</p>
            
-            <p><l rend="indented">Han tyckte hon såg så märkvärdig ut med sitt långa, mörka ansikte,</l> 
+            <p rend="indented">Han tyckte hon såg så märkvärdig ut med sitt långa, mörka ansikte,
               <lb/>sina eldkolsögon, som lyste fram under hatten, och den stora munnen, som 
               <lb/>grinade så konstigt, fastän hon bjöd till att snörpa ihop den till ett vän- 
               <lb/>ligt leende.</p>
            
-            <p><l rend="indented">– Känner du inte igen mig? sade den gamla damen. Jag är ju</l> 
+            <p rend="indented">– Känner du inte igen mig? sade den gamla damen. Jag är ju
               <lb/>tant Tripp, som bor i skogen. Du var hos mig med din mamma, innan 
               <lb/>hon dog. Kommer du inte ihåg lilla tant Tripp, som gaf dig så mycket 
               <lb/>jordgubbar?</p>
             
-            <p><l rend="indented">Ne-ej, han kom inte ett tecken ihåg henne.</l>
+            <p rend="indented">Ne-ej, han kom inte ett tecken ihåg henne.
               <lb rend="indented"/>– Nå, men kommer du ihåg, att jordgubbar smaka godt då? 
               <lb rend="indented"/>Åja, det gjorde allt Matts, förstås.
               <lb rend="indented"/>– Jag har ett helt stort land omkring min lilla stuga, sade tant 
@@ -1544,12 +1544,12 @@
               <lb/>kunde bli törstig af det torra brödet, som jag sett dig gå och knapra på 
               <lb/>alla da'r.</p>
             
-            <p><l rend="indented">Och tant Tripp tog fram ett stort kålblad, som hon gömt under </l>
+            <p rend="indented">Och tant Tripp tog fram ett stort kålblad, som hon gömt under 
               <lb/>schalen, och när hon vecklade upp det, var det fullt af de härligaste röda 
               <lb/>jordgubbar, som lyste så i ögonen på Matts, att han inte vidare tänkte 
               <lb/>på, hur ludna och bruna händer tant Tripp hade, fastän han nog sett det.</p> 
             
-            <p><l rend="indented">Och så godt de smakade sedan, de saftiga, läckra bären! När han</l> 
+            <p rend="indented">Och så godt de smakade sedan, de saftiga, läckra bären! När han 
               <lb/>tappade ett, nändes han icke låta det ligga, utan böjde sig ned för att 
               <lb/>taga upp det. Men då blef han varse något besynnerligt. Tant Tripps 
               <lb/>klädning hade fastnat på en sten, så att den vikt upp sig litet, och under 
@@ -1563,11 +1563,11 @@
             <metamark  function="pagenumber" place="top-right"><num>13</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
-            <p><l rend="indented">– Aha,</l>
+            <p rend="indented">– Aha,
               <lb/>tänkte Matts, är det
               <lb/>en så'n tant!</p>
             
-            <p><l rend="indented">Och med ens be-</l>
+            <p rend="indented">Och med ens be-
               <lb/>grep han, hvarför
               <lb/>hon hade så stor mun och var 
               <lb/>så mörklagd i ansiktet. Hon 
@@ -1580,7 +1580,7 @@
               <lb rend="indented"/>– Tag dem med dig då!
               <lb rend="indented"/> – Na-aj, sade Matts, det är så mycket räfvar i skogen, så.</p>
             
-            <p><l rend="indented">Då log tant Tripp, så man såg henne långt ner i halsen.</l>
+            <p rend="indented">Då log tant Tripp, så man såg henne långt ner i halsen.
               <lb rend="indented"/>– Å, min kära lilla gosse, sade hon, det är inte alls farligt. Om du vill, ska' 
               <lb/>jag ta' mina systrar med mig, så hjälpas vi åt allihop med att vakta dina gäss. 
               <lb rend="indented"/>– Dina systrar! sade Matts misstroget.
@@ -1592,25 +1592,25 @@
               <lb/>bröden och hallonsaften och våfflorna en gång till, sade Matts fundersamt.
               <lb rend="indented"/>– Ja, kom med, så ska' du få det.</p>
                
-            <p><l rend="indented">Men det ville inte Matts. Han var alldeles för blyg för att gå hem så där </l>
+            <p rend="indented">Men det ville inte Matts. Han var alldeles för blyg för att gå hem så där 
               <lb/>till främmande tanter, påstod han. En annan sak vore det, om de ville komma 
               <lb/>till honom.</p>
                
-            <p><l rend="indented">Nåja, tant Tripp var inte omöjlig. Hon skulle gå hem och fråga tant Trapp </l>
+            <p rend="indented">Nåja, tant Tripp var inte omöjlig. Hon skulle gå hem och fråga tant Trapp 
               <lb/>och tant Snipp och tant Snapp, om de ville komma, och sedan skulle nog Matts 
               <lb/>bli god vän med dem alla fyra och komma och hälsa på dem tillsammans med sina gäss. </p>
              
-            <p><l rend="indented">Tant Tripp gaf sig af, men under det hon gick, sneglade hon så illa åt gässen,</l> 
+            <p rend="indented">Tant Tripp gaf sig af, men under det hon gick, sneglade hon så illa åt gässen,
               <lb/>att Matts kände sitt hjärta hoppa upp i halsgropen. Kanske hon skulle våga ta sig 
               <lb/>en stek ändå? Men han blef strax lugn, ty han såg, att tant Tripp hade mycket 
               <lb/>svårt att gå i sina långa kjolar. Hon skulle aldrig kunna springa undan med sitt byte.</p>
              
-            <p><l rend="indented">Sedan hon försvunnit, gick Matts flera timmar omkring på allmänningen och</l> 
+            <p rend="indented">Sedan hon försvunnit, gick Matts flera timmar omkring på allmänningen och
               <lb/>knaprade på sitt hårda bröd och vaktade sina gäss, utan att en människa syntes till. 
               <lb/>Men när det led framåt eftermiddagen, fick han se fyra damer, alla i släpande kläd- 
               <lb/>ningar och stora skyggande hattar, komma ut ur skogen. Det var alla tanterna.</p>
             
-            <p><l rend="indented">De voro lika hvarandra som bär, och alla logo de mot Matts och talade så</l> 
+            <p rend="indented">De voro lika hvarandra som bär, och alla logo de mot Matts och talade så 
               <lb/>sockersött och vackert. Och tant Trapp och tant Snipp och tant Snapp hade en 
               <lb/>hel hop hallonsylt och sockerbröd och våfflor med sig åt Matts. Och han mumsade 
               <lb/>och åt, så han kunde spricka. Och tanterna fingo klappa honom. Och han klappade 
@@ -1620,16 +1620,16 @@
               <lb rend="indented"/>Men Matts strök sig betänksamt om munnen.
               <lb rend="indented"/>– Na-aj, sade han, inte i dag, för nu är det stopp, att jag orkar äta mera.</p> 
             
-            <p><l rend="indented">Vid denna underrättelse tittade alla tanterna på hvarandra och blefvo dubbelt så </l>
+            <p rend="indented">Vid denna underrättelse tittade alla tanterna på hvarandra och blefvo dubbelt så 
               <lb/>långa i ansiktet som förut. Men till slut hämtade sig tant Tripp och frågade, om 
               <lb/>han ville komma i morgon i stället då.
               <lb rend="indented"/>– Ja-a, tyckte Matts, det kunde ju hända. De finge väl komma och höra åt,
               <lb/>hur pass frisk han var i magen.</p>
             
-            <p><l rend="indented">Och så måste de traska hem till sitt igen, och Matts gick också hem, ty det</l>
+            <p rend="indented">Och så måste de traska hem till sitt igen, och Matts gick också hem, ty det
               <lb/>hade blifvit kväll.</p>
             
-            <p><l rend="indented">Men nästa morgon stängde han in sina gäss i gåshuset och gick ensam ut på</l></p>
+            <p rend="indented">Men nästa morgon stängde han in sina gäss i gåshuset och gick ensam ut på</p>
             
             <signed hand="#LM">Louis Moe</signed>
             
@@ -1650,12 +1650,12 @@
               <lb/>under tiden gingo alla mina gäss ifrån mig, så nu vet jag inte,
               <lb/>hvar de äro.</p>
             
-            <p><l rend="indented">Denna olycka tycktes gå tanterna lika djupt </l>
+            <p rend="indented">Denna olycka tycktes gå tanterna lika djupt 
               <lb/>till sinnes som Matts, och de föreslogo allesam- 
               <lb/>mans på en gång, att de skulle hjälpa honom att 
               <lb/>leta efter de försvunna gässen.</p>
             
-            <p><l rend="indented">Sagdt och gjordt. De gingo åt hvar sitt håll</l> 
+            <p rend="indented">Sagdt och gjordt. De gingo åt hvar sitt håll 
               <lb/>för att söka, utom Matts och tant Tripp, som följ- 
               <lb/>des åt. Matts förde tant Tripp upp till ett högt 
               <lb/>stenrös, hvari fanns en förskräckligt djup 
@@ -1664,7 +1664,7 @@
               <lb/>tant Tripp hade bestämdt bättre ögon 
               <lb/>än han.</p>
             
-            <p><l rend="indented">Hon böjde sig också ned och </l>
+            <p rend="indented">Hon böjde sig också ned och 
               <lb/>tittade. Men »puff», fick hon ett slag 
               <lb/>i ryggen, så att hon hufvudstupa ram- 
               <lb/>lade ned i gropen. Och där låg hon 
@@ -1677,34 +1677,34 @@
               <lb/>en grop, men hon kan inte få upp 
               <lb/>dem ensam!</p>
             
-            <p><l rend="indented">Och tant Trapp kom svansande,</l>
+            <p rend="indented">Och tant Trapp kom svansande,
               <lb/>så fort hon kunde i sin långa klädning. 
               <lb/>Men när hon stod och tittade ned i gro-
               <lb/>pen, knuffade Matts till henne med, 
               <lb/>så hon ramlade ner. Och där
               <lb/>låg hon.</p>
             
-            <p><l rend="indented">Matts var emellertid inte sen</l> 
+            <p rend="indented">Matts var emellertid inte sen
               <lb/>att springa sin väg igen och ropa 
               <lb/>på tant Snipp.</p>
             
             <cb n="2"/>
-            <p><l rend="indented">– Tant Snipp! Tant Snipp! Tant Tripp och tant Trapp</l> 
+            <p rend="indented">– Tant Snipp! Tant Snipp! Tant Tripp och tant Trapp
               <lb/>hålla på att jaga gässen nere i en grop, men de kunna inte  
               <lb/>få upp dem ensamma.</p>
             
-            <p><l rend="indented">Och tant Snipp kom farande i en sådan fart, att hon</l> 
+            <p rend="indented">Och tant Snipp kom farande i en sådan fart, att hon
               <lb/>höll på att stupa på näsan i sin klädning. Hon hade så 
               <lb/>grufligt brådtom att komma ner i gropen, och efter en half 
               <lb/>minut låg hon där också</p>
             
-            <p><l rend="indented">Men så fort Matts fått henne dit, kilade han på</l> 
+            <p rend="indented">Men så fort Matts fått henne dit, kilade han på
               <lb/>nytt ner till allmänningen och ropade på tant Snapp. 
               <lb rend="indented"/>–Tant Snapp! Tant Snapp! Tant Tripp och tant 
               <lb/>Trapp och tant Snipp hålla på att jaga gässen nere 
               <lb/>i en grop, men de kunna inte få upp dem ensamma.</p> 
             
-            <p><l rend="indented">Och tant Snapp ville också gärna vara med.</l> 
+            <p rend="indented">Och tant Snapp ville också gärna vara med.
               <lb/>Äfven hon tyckte om gäss. Och hon tog upp kläd- 
               <lb/>ningen och sprang, så hon visade sina lurfviga ben. </p>
             
@@ -1718,13 +1718,13 @@
               <lb/>innerligt, att han skulle vara snäll och komma ner 
               <lb/>till dem, så att de finge klösa ögonen ur honom</p>
             
-            <p><l rend="indented">Men Matts bara skrattade, så länge han</l> 
+            <p rend="indented">Men Matts bara skrattade, så länge han
               <lb/>orkade, och sedan gick han hem till byn efter 
               <lb/>sin far, som tog med sig en bössa och sköt ihjäl 
               <lb/>alla de fyra tanterna, hvarefter han sålde pälsarna i 
               <lb/>staden och köpte kläder åt Matts för pengarna. </p>
             
-            <p><l rend="indented">När så Matts om söndagarna var till kyrkan</l>
+            <p rend="indented">När så Matts om söndagarna var till kyrkan
               <lb/>i sin stass och någon frågade honom, 
               <lb/>hvarifrån han fått sin fina rock, så 
               <lb/>svarade han:
@@ -1900,7 +1900,7 @@
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <fw type="footer" place="bottom-centre">FLÄDERMOR.
                <lb/>Tafla för Jultomten af ANNA CRAMÉR
-               <lb rend="italic"/>(Verser å nästa sida.) 
+               <lb style="italic"/>(Verser å nästa sida.) 
             </fw>
             <signed hand="#AC">Anna Cramér</signed>
          </div>
@@ -1915,7 +1915,7 @@
                <head type="subheading">(Efter idé ur ANDERSENS SAGOR.)</head>
                <cb n="1"/>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l><hi rend="anfang">R</hi> egnet knäpper <rhyme label="a"> >ticketack</rhyme>,</l> 
                <l>knackar på din <rhyme label="b">ruta</rhyme>.</l>
                <l>Ute är så kulet. – <rhyme label="a">Ack</rhyme>,</l> 
@@ -1926,7 +1926,7 @@
                <l>Se, då kommer <rhyme label="d">Flädermor</rhyme>!</l>
                </lg>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>Har du läst om <rhyme label="a">Flädermor</rhyme>?</l>
                <l>Hon är ständigt ung och <rhyme label="b">näpen</rhyme>.</l> 
                <l>Uti fläderträ't hon <rhyme label="a">bor</rhyme>. –</l>
@@ -1936,20 +1936,20 @@
                <l>Öfver åar, öfver <rhyme label="d">gärden</rhyme></l>
                <l>rida ni på pappas <rhyme label="c">käpp</rhyme>!</l></lg>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>Glömd är läxan, mörkret <rhyme label="a">glömdt</rhyme>.</l> 
                <l>Nu är sommar - sjöar <rhyme label="b">glittra</rhyme>,</l>
                </lg>
                
                <cb n="2"/>
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>träden susa, fåglar <rhyme label="b">kvittra</rhyme> – –</l> 
                <l>Aldrig något så'nt du <rhyme label="a">drömt</rhyme>.</l> 
                <l>Dina ögon knappt du <rhyme label="c">tror</rhyme>. – </l>
                <l>»Minns du»? frågar <rhyme label="c">Flädermor</rhyme>.</l>
                </lg>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>»Minns du hagen där vid <rhyme label="a">byn</rhyme>?</l> 
                <l>Minns du klockarns <rhyme label="b">smultrongärde</rhyme>?</l> 
                <l>Minns du sjön vid skogens <rhyme label="a">bryn</rhyme>,</l> 
@@ -1960,7 +1960,7 @@
                <l>'sista paret ut' och '<rhyme label="c">datten</rhyme>'.»</l>
                </lg>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>Gladt hon pekar ner och <rhyme label="a">skrattar</rhyme>,</l> 
                <l>lilla Flädermor, den <rhyme label="b">fina</rhyme>.</l>
                <l>Och du skrattar med och <rhyme label="a">fattar</rhyme></l> 
@@ -1970,21 +1970,21 @@
                </lg>
                
                <cb n="3"/>
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>Alla dina minnen <rhyme label="d">fladdra</rhyme></l>
                <l>som små fåglar vid din <rhyme label="c">sida.</rhyme> –</l>
                <l>Hvad vår värld är ljus och <rhyme label="e">stor</rhyme>! – – </l>
                <l>»Minns du»! kvittrar <rhyme label="e">Flädermor</rhyme>.</l>
                </lg>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>Nu tog hela resan <rhyme label="a">slut</rhyme>! –</l> 
                <l>Flädermor, den lilla <rhyme label="b">häxan</rhyme>,</l> 
                <l>är försvunnen. Som <rhyme label="a">förut</rhyme></l> 
                <l>åter sitter du vid <rhyme label="b">läxan</rhyme>!</l>
                </lg>
                
-               <lg rend="italic" type="stanza">
+               <lg style="italic" type="stanza">
                <l>Men om du i hjärtat <rhyme label="a">gömmer</rhyme></l> 
                <l>hennes bild och aldrig <rhyme label="a">glömmer</rhyme>,</l> 
                <l>ej för alltid har hon <rhyme label="b">flytt</rhyme>. –</l>

@@ -3,6 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
+    <xsl:strip-space elements="*"/>
+    <xsl:key name="txt-by-col" match="text()" use="generate-id(preceding-sibling::cb[1])" />
 
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
@@ -37,6 +39,7 @@
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
+                    
                     <div class="container">
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
@@ -84,15 +87,35 @@
                                         </img>
                                     </article>
                                 </div>
-                                <!-- fill the second column with our transcription -->
+                                <!-- fill the second column with our transcription -->                                                             
                                 <div class='col-sm'>
                                     <article class="transcription">
-                                            <xsl:apply-templates/>                                      
+                                        <div class="row">
+                                            <xsl:for-each-group select="* | text()" group-starting-with="tei:cb">
+                                                <xsl:sort select="number(current-group()[1]/@n)" data-type="number"/>
+                                                <xsl:choose>
+                                                    <xsl:when test="self::tei:cb">
+                                                        <div class="col-sm nested-col">
+                                                            <xsl:attribute name="class">
+                                                                <xsl:text>col-sm nested-col order-</xsl:text>
+                                                                <xsl:value-of select="@n"/>
+                                                            </xsl:attribute>
+                                                            <xsl:for-each select="current-group()[not(self::tei:cb)]">
+                                                                <xsl:apply-templates select="."/>
+                                                            </xsl:for-each>
+                                                        </div>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:apply-templates select="current-group()"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:for-each-group>
+                                        </div>
                                     </article>
                                 </div>
                             </div>
                         </xsl:for-each>
-                        </div>
+                        </div>                              
                 </main>
                 <footer>
                 <div class="row" id="footer">
@@ -143,6 +166,24 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+    <xsl:template match="tei:lg">
+        <p class="margin">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg [@style = 'italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
@@ -160,11 +201,89 @@
 
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
+    <xsl:template match="tei:hi[@rend = 'anfang']">
+        <span class="anfang">
             <xsl:apply-templates/>
-        </u>
+        </span>
     </xsl:template>
-
+    
+    <xsl:template match="tei:l [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb [@style = 'italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:p [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:p [@style = 'italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:fw[@place]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@place"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template> 
+    
+    <xsl:template match="tei:lg [@style = 'italic']">
+       <p class="margin">
+             <span class="italic">
+            <xsl:apply-templates/>
+        </span>         
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:opener [@style = 'italic']">
+        <p class="opener">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute">
+        <br>
+            <xsl:apply-templates/>
+        </br>
+    </xsl:template>
+    
+    <xsl:template match="tei:q">
+        <q class="italic">
+            <xsl:apply-templates/>
+        </q>
+        </xsl:template>
+  
+    <xsl:template match="tei:q [@rend = 'italic']">
+        <q class="indented-inline">
+            <xsl:apply-templates/>
+        </q>
+    </xsl:template>
+    
+    <xsl:template match="tei:head[contains(@style, 'writing-mode: vertical-lr')]">
+        <p class="rotated-text">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
 
 </xsl:stylesheet>
+
