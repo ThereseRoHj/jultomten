@@ -494,7 +494,7 @@
          <head type="Titel">JULTOMTEN</head>
             <head>PRAKTUPPLAGAN</head>
             <head>NIONDE ÅRGÅNGEN</head>
-            <p>1899</p> 
+            <head type="subheading">1899</head> 
             <p><stamp>Svensk Läraretidnings Förlag</stamp></p>
             <signed hand="#LM">Louis Moe</signed>
             <fw type="footer" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
@@ -988,30 +988,30 @@
                  <div>                      
             <note place="margin-top-right" type="continuation" rend="italic">(Forts. på brevet å föreg. sida.)</note>
             
-            <p rend="italic"><l rend="indented"/>Pappa var själf ute med oss. Han hade lilla syster på armen, och 
+            <p rend="indented" style="italic">Pappa var själf ute med oss. Han hade lilla syster på armen, och 
             <lb/>han hade visst lika roligt som vi.</p>
             
-            <p rend="italic"><l rend="indented"/>Pojkarne tyckte mest om karusellen och konstmakarne, men jag 
+            <p rend="indented" style="italic">Pojkarne tyckte mest om karusellen och konstmakarne, men jag 
             <lb/>tyckte allra mest om dockorna.</p>
             
-            <p rend="italic"><l rend="indented"/>I hvardagslag ha vi också roligt. Vi äro minsann ej lata. Vi 
+            <p rend="intended" style="italic">I hvardagslag ha vi också roligt. Vi äro minsann ej lata. Vi 
             <lb/>holländare äro kända för att vilja ha allting så rent och fint som 
             <lb/>möjligt. Så fort vi komma hem från skolan, gäller det att hjälpa mor 
             <lb/>att hålla huset fint. Mitt göra är att skura all mässing och koppar – 
             <lb/>och jag skulle skämmas förfärligt, om inte kaffekannan och kolhinken 
             <lb/>och allt lyste som ett solsken.</p>
             
-            <p rend="italic"><l rend="indented"/>Ha vi en stund ledig, sticka vi strumpor, och när vi gå ute i byn, 
+            <p rend="intended" style="italic">Ha vi en stund ledig, sticka vi strumpor, och när vi gå ute i byn, 
             <lb/>ha vi alltid stickningen i full gång. Aldrig gå vi sysslolösa! Det 
             <lb/>skulle inte mor tycka om. Hon, som är så flitig och rar. Men inte lär 
             <lb/>det vara värdt att berätta för dig om far och mor. De äro nog lika 
             <lb/>snälla i alla länder.</p>
             
-            <p rend="italic"><l rend="indented"/>Kom snart och hälsa på oss! Jag skall bjuda dig på så godt och 
+            <p rend="intended" style="italic">Kom snart och hälsa på oss! Jag skall bjuda dig på så godt och 
             <lb/>så mycket kaffe. För det vet jag, att det finnes intet land i Europa, där 
             <lb/>det dricks så mycket kaffe som i Holland.</p>
             
-            <p rend="italic"><l rend="indented"/>Ja, nu tror jag, att jag har skrifvit om allting, så nu blir det allt 
+            <p rend="intended" style="italic">Ja, nu tror jag, att jag har skrifvit om allting, så nu blir det allt 
             <lb/>din tur att skrifva till mig och berätta om, hur ni ha det i Sverige.</p>
                                          
                          
@@ -2009,7 +2009,9 @@
                    Tilläggssymboler tredje notskriften: &#119185; &#119184;&#119185; &#119183;  </desc>
                 </notatedMusic>
                 
-                <lg>
+                <p style="italic">Ord af Zach. Topelius.</p>
+                <p style="italic">Musik af Alice Tegnér</p>
+                 <lg> 
                    <l>1 v.Nu står jul vid snö-ig <rhyme label="a">port</rhyme>, Klappar på och <rhyme label="b">my-ser</rhyme>: » Kära barn, släpp in mig <rhyme label="a">fort</rhyme>!</l>                                  
                    <l>Här jag står och <rhyme label="b">fry-ser</rhyme>. Se, min korg är full och <rhyme label="c">tung</rhyme>, Båd' åt gam-mal och åt <rhyme label="c">ung</rhyme></l>                  
                    <l>Har jag gåf-vor <rhyme label="d">ra - - ra</rhyme>. Får jag hos dig <rhyme label="d">va-ra?</rhyme> »-» Kom, ja, kom, kä-ra jul!»</l>
@@ -2145,11 +2147,11 @@
                   </opener>
                   
                  <cb n="1"/>
-                 <p rend="italic"> <l rend="intended">Ja, “nu är det jul igen", som det</l>
+                 <p rend="intended" style="italic">Ja, “nu är det jul igen", som det
                   <lb/>står i visan, och nu har Ni väl riktigt 
                   <lb/>längtat efter Er gamle farbror.</p>
                   
-                 <p rend="italic"><l rend="intended">Ni må tro, att jag varit vida omkring,</l> 
+                 <p rend="intended" style="italic">Ni må tro, att jag varit vida omkring, 
                   <lb/>Se'n vi sist träffades. Si, Nisse han skall 
                   <lb/>nu, som Ni vet, alltid hitta på upptåg. 
                   <lb/>Och så säger han en en dag så här: “Hör nu far- 
@@ -2163,7 +2165,7 @@
                   <lb/>vara trefligt att vara tillsammans med 
                   <lb/>hela släkten ett tag.</p>
                   
-                  <p rend="italic"><l rend="intended">Och så smällde jag till med att</l>
+                  <p rend="intended" style="italic">Och så smällde jag till med att
                    <lb/>blåsa i min lur, så att det dånade i 
                    <lb/>världens alla hörn. Oj, oj, oj ett sånt 
                    <lb/>myller af tomtar det kom från alla kanter. Och 
@@ -2171,13 +2173,13 @@
                    <lb/>och oväsen och storkalas på slutet, där det 
                    <lb/>vankades både gröt och gris.</p>
                   
-                  <p rend="italic"><l rend="intended">Och när det var slut, så följde</l> 
+                  <p rend="intended" style="italic">Och när det var slut, så följde 
                    <lb/>vi hvarenda tomte hem. Vi redo 
                    <lb/>på stora, elefanter ända till Sago-
                    <lb/>landet, flögo med Fågel Blå förbi</p>
                   
                   <cb n="2"/>
-                  <p rend="italic">både Karlavagnen och Sjustjärnor-
+                  <p style="italic">både Karlavagnen och Sjustjärnor-
                    <lb/>na, skakade hand med den store Finn
                    <lb/>Komfusenfej hämtade i Österlandet
                    <lb/>Aladdins underbara lampa, tittade 
@@ -2187,7 +2189,7 @@
                    <lb/>vi genom hundramilaskogar åter till
                    <lb/>vårt kära gamla Sverige.</p>
                   
-                  <p rend="italic"><l rend="intended">Ni kan se på första sidan, hur</l> 
+                  <p rend="intended" style="italic">Ni kan se på första sidan, hur 
                    <lb/>vårt långa tomtetåg drager fram genom 
                    <lb/>mörka skogen med sprakande bloss. 
                    <lb/>Och där kan Ni också se, hvilket lass 
@@ -2201,7 +2203,7 @@
                    <lb/>där finnes också julgranar och an- 
                    <lb/>nat smått och godt åt snälla barn.</p>
                   
-                  <p rend="italic"><l rend="intended">Få se, om Ni bland de många</l> 
+                  <p rend="intended" style="italic">Få se, om Ni bland de många 
                    <lb/>tomtarna kan få reda på Nisse och 
                    <lb/>Tusse, och om Ni äfven i år känner igen </p> 
                   
@@ -2232,7 +2234,7 @@
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
             <head><hi rend="anfang">R</hi>iddaren <hi rend="decoration">F</hi>inn <hi rend="decoration">K</hi>omfusenfej</head>
-            <p rend="gothic"><hi rend="anfang">R</hi>iddaren Finn Komfusenfej
+            <p style="gothic"><hi rend="anfang">R</hi>iddaren Finn Komfusenfej
              <lb/>han går sig på gården, han går sig på råd,
              <lb/>han axlar sitt skinn.
              <lb/>Så gångar han sig i kammaren in
@@ -2243,7 +2245,7 @@
              <lb/>– "Det skall du fråga hennes moder till råda."
              <lb/>– "Jag ska' så göra", sa' Fusenfej.</p>
             
-            <p rend="gothic">Riddaren Finn Komfusenfej
+            <p style="gothic">Riddaren Finn Komfusenfej
              <lb/>han går sig på gården, han går sig på råd,
              <lb/>han axlar sitt skinn.
              <lb/>Så gångar han sig i kammaren in
@@ -2256,7 +2258,7 @@
              <lb/>– "Det får du fråga hennes broder till råda." 
              <lb/>– "Jag ska så göra", sa' Fusenfej.</p>
             
-            <p rend="gothic">Riddaren Finn Komfusenfej
+            <p style="gothic">Riddaren Finn Komfusenfej
              <lb/>han går sig på gården, han går sig på råd,
              <lb/>han axlar sitt skinn.
              <lb/>Så gångar han sig i kammaren in
@@ -2271,7 +2273,7 @@
              <lb/>– "Det skall du fråga hennes systrar till råda." 
              <lb/>– "Jag ska’ så göra", sa' Fusenfej.</p>
             
-            <p rend="gothic">Riddaren Finn Komfusenfej
+            <p style="gothic">Riddaren Finn Komfusenfej
              <lb/>han går sig på gården, han går sig på råd,</p>
             
             <signed hand="#EB">E.Beskow</signed>
@@ -2284,13 +2286,13 @@
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
             <cb n="1"/>
-            <p rend="gothic">han axlar sitt skinn.
+            <p style="gothic">han axlar sitt skinn.
              <lb/>Så gångar han sig i kammaren in
              <lb/>till fru Hicka, fru Bricka, fru Dördi, fru Britta: 
              <lb/>– "Och sitta ni här, fru Hicka, fru Bricka, fru 
-             <lb rend="intended"/> Dördi, fru Britta,</p>
+             <lb style="intended"/> Dördi, fru Britta,</p>
             
-            <p rend="gothic">allt öfver ett bord!
+            <p style="gothic">allt öfver ett bord!
              <lb/>Får jag taga eder syster till äkta?" 
              <lb/>–"Det får du fråga hennes fader till råda." 
              <lb/>– "Jag har så gjort", sa' Fusenfej. 
@@ -2301,7 +2303,7 @@
              <lb/>– "Det får du fråga henne själfver till råda." 
              <lb/>–"Jag ska så göra", sa' Fusenfej.</p>
             
-            <p rend="gothic">Riddaren Finn Komfusenfej
+            <p style="gothic">Riddaren Finn Komfusenfej
              <lb/>han går sig på gården, han går sig på råd, 
              <lb/>han axlar sitt skinn.
              <lb/>Så gångar han sig i kammaren in 
@@ -2312,7 +2314,7 @@
              <lb/>Får jag taga er själfver till äkta?"</p>
             
             <cb n="2"/>
-            <p rend="gothic">"Det skall ni
+            <p style="gothic">"Det skall ni
              <lb/>fråga min fa- 
              <lb/>der till råda." 
              <lb/>– "Jag har så 
@@ -2324,7 +2326,7 @@
              <lb/>– "Det skall ni fråga mina systrar till råda." 
              <lb/>– "Jag har så gjort", sa' Fusenfej.</p>
             
-            <p rend="gothic">Då togo de fram en förfasligt lång häst: 
+            <p style="gothic">Då togo de fram en förfasligt lång häst: 
              <lb/>så satte de opp själfva kungen i Kej, 
              <lb/>så satte de opp fru Skräckerisirej, 
              <lb/>så satte de opp Knapp-Målar-på-vägg 
@@ -2354,7 +2356,7 @@
               <lb/>klarblå med små hvita molntappar, rosorna doftade, och 
               <lb/>fåglarna sjöngo. – Hvarför grät prinsessan?</p>
             
-            <p> <l rend="intended">Alla i slottet höllo af henne – från den gamle, snälle</l> 
+            <p rend="intended">Alla i slottet höllo af henne – från den gamle, snälle 
              <lb/>kungen, hennes morfar, till slottets allra minsta vov-vov, som 
              <lb/>hette Tusse. Hon bodde i det vackraste slottet i hela landet, i 
              <lb/>den allra vackraste trädgården, och kring trädgården var en stor 
@@ -2367,7 +2369,7 @@
              <lb/>de allra finfinaste rosor med krångliga franska namn, som stodo 
              <lb/>i långa rader med namnetiketterna fastbundna vid stammarna.</p>
             
-            <p><l rend="intended">Hennes morfar hade alldeles tröttnat på att regera och lämnat</l> 
+            <p rend="intended">Hennes morfar hade alldeles tröttnat på att regera och lämnat
               <lb/>spiran till sin son, och nu bodde han och lilla Maj här och hade 
               <lb/>det så trefligt tillsammans utan att bry sig en smula om hofeti-
               <lb/>ketten. Maj fick springa ute barhufvad i trädgården, och kungen 
@@ -2380,7 +2382,7 @@
               <lb/><lb/>fin silfvervattenkanna, pratande och skrattande, alltid lika glad. 
               <lb rend="intended"/>Men hvarför gråter då prinsessan?</p>
             
-            <p><l rend="intended">Utanför trädgårdsgrinden stod en liten tiggargosse och såg </l>
+            <p rend="intended">Utanför trädgårdsgrinden stod en liten tiggargosse och såg 
               <lb/>med stora, häpna ögon genom gallerverket. Aldrig hade han kun- 
               <lb/>nat tänka sig, att prinsessan Maj kunde gråta. Hon, som var det 
               <lb/>gladaste och vackraste, som fanns. När hans styfmor eller andra 
@@ -2388,7 +2390,7 @@
               <lb/>och ledsen, brukade han blunda med ögonen och tänka på lilla 
               <lb/>Maj, och strax var det, som om solen sken, och han blef gladare.</p>
             
-            <p><l rend="intended">Första gången han såg Maj var en gång, då hans styfmor</l> 
+            <p rend="intended">Första gången han såg Maj var en gång, då hans styfmor 
              <lb/>som vanligt skickat honom till staden för att tigga. När han då 
              <lb/>gick förbi trädgårdsporten, stod lilla Maj där och smålog så vänligt 
              <lb/>mot honom och räckte honom en pepparkaka genom gallret. Se- 
@@ -2405,13 +2407,13 @@
              <lb/>har visst inte gjort det, aldrig skulle jag vilja göra så, och det 
              <lb/>tycker jag morfar skulle veta. Aldrig mera kan jag vara glad! </p>
             
-            <p><l rend="intended">Och lilla Maj gömde på nytt ansiktet i händerna.</l> 
+            <p rend="intended">Och lilla Maj gömde på nytt ansiktet i händerna. 
               <lb rend="intended"/>Tiggargossen stod en stund kvar, så vände han sig om och 
               <lb/>fortsatte dröjande sin väg till staden. Hur skulle <emph rend="italic">han</emph> någonsin 
               <lb/>kunna vara glad, om prinsessan Maj inte mera var det! Hvad 
               <lb/>skulle han göra för att få henne glad igen?</p>
               
-            <p><l rend="intended">Om han skulle gå till kungen och säga, att det var han,</l> 
+            <p rend="intended">Om han skulle gå till kungen och säga, att det var han, 
               <lb/>som brutit rosen? Kanske han då skulle bli kastad djupt ner i 
               <lb/>fängelsetornet, eller kanske han skulle få rysligt mycket stryk?</p>
             
@@ -2419,14 +2421,14 @@
             <p>– Å, stryk var han van vid, och bara prinsessan blef glad igen, 
                <lb/>så gjorde det detsamma, hur det gick med honom.</p>
             
-            <p><l rend="intended">Han gick tillbaka till slottet och bad med klappande hjärta </l>
+            <p rend="intended">Han gick tillbaka till slottet och bad med klappande hjärta 
                <lb/>vakten, att han skulle få tala med kungen. –</p>
             
-            <p><l rend="intended">Emellertid hade Maj lugnat sig något. Hon var just inte</l> 
+            <p rend="intended">Emellertid hade Maj lugnat sig något. Hon var just inte 
                <lb/>van att vara ledsen så länge i sträck, så att tårarna ville inte 
                <lb/>längre rinna.</p>
             
-            <p><l rend="intended">När hennes morfar kommit emot henne på morgonen med</l> 
+            <p rend="intended">När hennes morfar kommit emot henne på morgonen med
                <lb/>rynkad panna och med barsk stämma frågat henne, hvarför hon 
                <lb/>brutit af hans allra finaste ros, hade hon känt sig djupt sårad 
                <lb/>och flytt bort till ett hörn i trädgården för att riktigt få gråta ut 
@@ -2434,7 +2436,7 @@
                <lb/>hon tänka på, hur synd det var om honom, att han blifvit af 
                <lb/>med sin fina ros, som han hela tiden längtat skulle slå ut.</p>
             
-            <p><l rend="intended">Lilla Maj kom ihåg en gång, då hon funnit sin bästa docka </l>
+            <p rend="intended">Lilla Maj kom ihåg en gång, då hon funnit sin bästa docka 
                <lb/>sönderslagen och hon hade trott det var Tusse, som gjort det, hur 
                <lb/>ond hon då blifvit på Tusse och grälat på honom och till och med 
                <lb/>slagit till honom på nosen – men se'n, när hon fick veta, att Tusse 
@@ -2447,28 +2449,28 @@
                <lb/>honom och bad honom om förlåtelse och slog armarna om hans hals! 
                <lb rend="intended"/>– Men det kan jag omöjligt göra, för då narras jag ju. </p>
             
-            <p><l rend="intended">Prinsessan satte sig att fundera. Rätt som det var, lyste hon upp.</l> 
+            <p rend="intended">Prinsessan satte sig att fundera. Rätt som det var, lyste hon upp.
                <lb rend="intended"/>– Nu vet jag, sade hon.</p>
             
-            <p><l rend="intended">Hon sprang ner i trädgården och valde omsorgsfullt ut en</l> 
+            <p rend="intended">Hon sprang ner i trädgården och valde omsorgsfullt ut en 
                <lb/>halfvissen ros, som hon bröt af. Nu kunde hon ju, utan att nar-
                <lb/>ras, säga till morfar: »Snälla morfar, förlåt mig, att jag bröt af 
                <lb/>rosen!» Och så skulle morfar bli glad igen. Och han skulle aldrig 
                <lb/>få veta, att han varit orättvis mot sin lilla prinsessa.</p>
             
-            <p><l rend="intended">När hon gick förbi köksdörren, som stod på glänt, kände hon </l>
+            <p rend="intended">När hon gick förbi köksdörren, som stod på glänt, kände hon 
                <lb/>en så frestande lukt af nybakt smörtårta, att hon måste titta in. 
                <lb/>Där stod den snälle, gamle, tjocke f. d. öfverhofköksmästaren med 
                <lb/>en strut med sockerdeg i handen och sirade ut »Anatolius» i stora 
                <lb/>fina bokstäfver med många krumelurer på en väldig tårta.</p>
             
-            <p><l rend="intended">När han fick se Maj, bugade han sig djupt och såg glad ut,</l> 
+            <p rend="intended">När han fick se Maj, bugade han sig djupt och såg glad ut, 
                <lb/>ty de voro mycket goda vänner.
                <lb rend="intended"/>– God morgon, sade Maj, är det morfars namnsdag i dag igen? 
                <lb rend="intended"/>– Ja, det är i dag hans Nådiga Majestäts nådiga nittonde 
                <lb/>namnsdag Anatolius, sade kocken.</p>
             
-            <p><l rend="intended">Den gamle kocken hade egentligen, han liksom kungen, dra-</l>
+            <p rend="intended">Den gamle kocken hade egentligen, han liksom kungen, dra-
                <lb/>git sig tillbaka från sin tjänstgöring, men han hade en förtjusning,
                <lb/>och det var namnsdagstårtor. Därför hade han strukit ett rödt 
                <lb/>streck i almanackan för hvart och ett af kungens alla namn, och 
@@ -2476,7 +2478,7 @@
                <lb/>någon, som kunde göra sådana tårtor som han, och det var nu 
                <lb/>hans stolthet.</p>
             
-            <p><l rend="intended">I dag var han dock litet bekymrad. Hans silkespapper hade</l> 
+            <p rend="intended">I dag var han dock litet bekymrad. Hans silkespapper hade 
                <lb/>tagit slut, så att han hade ej kunnat göra en så'n där vacker pappers- 
                <lb/>ros, som han brukade sätta i midten af tårtan. Han hade visserligen 
                <lb/>valt ut en riktigt vacker ros, då han var ute i trädgården bittida 
@@ -2496,17 +2498,17 @@
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
            
            <cb n="1"/>
-            <p><l rend="intended">– Ånej, svarade Maj, om du tar en riktigt vacker blomma,</l> 
+            <p rend="intended">– Ånej, svarade Maj, om du tar en riktigt vacker blomma, 
                <lb/>så blir det lika bra!</p>
             
-            <p><l rend="intended">Och så nickade hon åt kocken och fortsatte sin väg rakt</l> 
+            <p rend="intended">Och så nickade hon åt kocken och fortsatte sin väg rakt 
                <lb/>upp till kungens rum och knackade på dörren.</p>
             
-            <p><l rend="intended">Där satt den snälle gamle kungen och var så ledsen öfver,</l> 
+            <p rend="intended">Där satt den snälle gamle kungen och var så ledsen öfver, 
                <lb/>att han varit häftig mot lilla Maj. Han var riktigt ond på sig 
                <lb/>själf, som ställt till så ledsamt bara för en ros.</p>
             
-            <p><l rend="intended">I detsamma knackade det sakta på dörren, och då han</l> 
+            <p rend="intended">I detsamma knackade det sakta på dörren, och då han 
                <lb/>ropade: »stig in!», steg lilla Maj öfver tröskeln. Hon stod där 
                <lb/>med nedslagna ögon och försökte se botfärdig ut, men det ville 
                <lb/>inte riktigt lyckas, ty hon var så full af skratt.
@@ -2517,50 +2519,50 @@
                <lb/>det i tungan på Maj att få tala om sitt knep för morfar, men 
                <lb/>det gick ju rakt inte an än på länge.</p>
             
-            <p><l rend="intended">Men så knackade det än en gång på dörren, och en lakej</l> 
+            <p rend="intended">Men så knackade det än en gång på dörren, och en lakej 
                <lb/>kom in och sade, att vakten sagt till honom, att det var en liten 
                <lb/>tiggarpojke där nere, som nödvändigt ville tala med kungen. Han 
                <lb/>var så enträgen, att vakten inte blef af med honom.
                <lb rend="intended"/>– Låt honom komma sade kungen.</p>
             
-            <p><l rend="intended">Strax därpå kom lille Olle – så hette tiggargossen – in med</l> 
+            <p rend="intended">Strax därpå kom lille Olle – så hette tiggargossen – in med 
                <lb/>bultande hjärta. Han vågade ej se upp och möta kungens ögon, 
                <lb/>ty han var rädd, att hans mod skulle svika honom.
                <lb rend="intended"/>– Det var jag, som bröt af rosen, sade han med så hög
                <lb/>röst han kunde.</p>
             
-            <p><l rend="intended">Kungen såg förvånad på honom.</l>
+            <p rend="intended">Kungen såg förvånad på honom.
                <lb rend="intended"/>– Hvad säger du? utbrast han.</p>
             
-            <p><l rend="intended">I detsamma såg gossen upp och såg lilla Maj sitta helt för-</l> 
+            <p rend="intended">I detsamma såg gossen upp och såg lilla Maj sitta helt för- 
                <lb/>nöjd i sin morfars knä. Han blef alldeles förvirrad och fick grå- 
                <lb/>ten i halsen. Maj var ju glad igen – hvad tjänade det då till, 
                <lb/>att han tagit skulden på sig? Nu skulle hon bara förakta honom 
                <lb/>och tro, att han var en tjuf. Tårarna stego honom i ögonen, 
                <lb/>och han fick ej fram ett ord.</p>
             
-            <p><l rend="intended">Maj tyckte synd om honom.</l>
+            <p rend="intended">Maj tyckte synd om honom.
                <lb rend="intended"/>– Söta snälla morfar, förlåt honom! hviskade hon och slog 
                <lb/>sina armar fastare om morfars hals.</p>
             
-            <p><l rend="intended">Men den gamle kungen visste inte, hvad han skulle tro.</l> 
+            <p rend="intended">Men den gamle kungen visste inte, hvad han skulle tro. 
                <lb rend="intended"/>– <emph rend="italic">Var</emph> det inte du, som bröt af den? sade han.</p>
             
-            <p><l rend="intended">Lilla Maj såg smått skamsen ut:</l>
+            <p rend="intended">Lilla Maj såg smått skamsen ut:
                <lb rend="intended"/>– Jo, men det var bara en vissen.</p>
             
-            <p><l rend="intended">Kungen blef ännu mera förbryllad men försökte ta en</l> 
+            <p rend="intended">Kungen blef ännu mera förbryllad men försökte ta en 
                <lb/>sträng ton.
                <lb rend="intended"/>– Kom hit du, sade han till Olle, och tala om, hur du bar 
                <lb/>dig åt, men akta dig noga för att narras!</p>
             
-            <p><l rend="intended">I detsamma hördes ljudliga fanfarer. Upp flögo dörrarna </l>
+            <p rend="intended">I detsamma hördes ljudliga fanfarer. Upp flögo dörrarna 
                <lb/>på vid gafvel, och in kommo tågande först en trumslagare, som 
                <lb/>slog på en väldig trumma, så två trumpetare och sist den gamle 
                <lb/>kocken med skinande ansikte och bärande på en bricka en präk- 
                <lb/>tigt utsirad tårta, i hvars midt där satt – – – gissa hvad!</p>
             
-            <p><l rend="intended">När han kommit midt framför tronen, bugade han djupt.</l> 
+            <p rend="intended">När han kommit midt framför tronen, bugade han djupt. 
                <lb rend="intended"/>– Jag har den äran att gratulera till Eders allernådigaste 
                <lb/>Majestäts nittonde namnsdag Anatolius, sade han.
                <lb rend="intended"/>– Tack ska’ du ha, sa kungen, det hade jag verkligen 
@@ -2569,12 +2571,12 @@
                <lb rend="intended"/>– Hvad för slag, skrek han, där är ju min <q rend="italic">»Prince Camille
                <lb/>de Rohan»</q>!</p>
             
-            <p><l rend="intended">Kocken blef så förskräckt, att han höll på att släppa tårtan. </l>
+            <p rend="intended">Kocken blef så förskräckt, att han höll på att släppa tårtan. 
                <lb rend="intended"/>–Nej, Anatolius står det, Ers 
                <lb/>Majestät, försäkrade han.</p>
             
             <cb n="2"/>
-            <p><l rend="intended">–Hvar har du fått den ifrån? sade kungen och pekade</l> 
+            <p rend="intended">–Hvar har du fått den ifrån? sade kungen och pekade 
                <lb/>på rosen.
                <lb rend="intended"/>– Förlåt, Ers Majestät, att den inte är konstgjord, sade 
                <lb/>kocken helt förkrossad, jag hade intet silkespapper kvar, därför 
@@ -2582,23 +2584,23 @@
                <lb/>tjugonde namnsdag Zephyrinus, så skall jag göra den allra största 
                <lb/>och vackraste ros Ers Majestät någonsin sett.</p>
             
-            <p><l rend="intended">Han såg så lustig ut, den gamle kocken, att lilla Maj omöj-</l> 
+            <p rend="intended">Han såg så lustig ut, den gamle kocken, att lilla Maj omöj- 
                <lb/>ligt kunde hålla sig allvarsam, och när hon skrattade, måste 
                <lb/>kungen också skratta, och när kungen skrattade, ansågo trum- 
                <lb/>petarne och trumslagarne för sin skyldighet att skratta, och så 
                <lb/>skrattade de alla åt den gamle kocken, som trodde, att han sagt 
                <lb/>något kvickt, och sträckte på sig helt smickrad.</p>
             
-            <p><l rend="intended">– Det är bra, sade kungen, tack för firningen! Och så mar-</l>
+            <p rend="intended">– Det är bra, sade kungen, tack för firningen! Och så mar-
                <lb/>scherade kocken ut igen med sina trumpetare och trumslagare.</p>
             
-            <p><l rend="intended">Lille Olle, som uppmärksamt följt med allt som passerat,</l> 
+            <p rend="intended">Lille Olle, som uppmärksamt följt med allt som passerat, 
                <lb/>förstod, att det just var den rosen, hvilken han sagt, att han 
                <lb/>stulit, som satt i tårtan. Han tyckte, att han nu var alldeles 
                <lb/>öfverflödig, och försökte oförmärkt smyga sig ut på samma gång 
                <lb/>som de andra.</p>
             
-            <p><l rend="intended">Men kungen fick se det</l>.
+            <p rend="intended">Men kungen fick se det.
                <lb rend="intended"/>– Nej, hör du, vänta litet, min gosse, sade han, kom hit 
                <lb/>till mig och tala om, hvarför du nödvändigt ville få mig att tro, 
                <lb/>att du stulit en ros, som du aldrig hade stulit! 
@@ -2609,32 +2611,32 @@
                <lb/>illa om mig, så ville han, att du skulle bli ond på honom i stäl- 
                <lb/>let. – Är han inte förfärligt snäll?</p>
             
-            <p><l rend="intended">Och lilla Maj sprang fram till tiggargossen och kysste honom.</l></p> 
+            <p rend="intended">Och lilla Maj sprang fram till tiggargossen och kysste honom.</p> 
             
-            <p><l rend="intended">Kungen blef så rörd, att han måste snyta sig.</l>
+            <p rend="intended">Kungen blef så rörd, att han måste snyta sig.
                <lb rend="intended"/>– Men du själf då, sade han till Maj, hvarför ville du lura mig? 
                <lb rend="intended"/>– Jag lurade dig inte, sade Maj. för jag bröt verkligen af 
                <lb/>en ros, fast den var vissen, men jag ville bara, att du skulle bli 
                <lb/>glad igen och inte lika ledsen, som jag blef, då jag slog Tusse 
                <lb/>för något, som han aldrig hade gjort.</p>
             
-            <p><l rend="intended">Nu måste den gamle kungen snyta sig två gånger å rad.</l></p> 
+            <p rend="intended">Nu måste den gamle kungen snyta sig två gånger å rad.</p> 
             
-            <p><l rend="intended">Därefter tog kungen en knif och skar sin stora, goda tårta i</l> 
+            <p rend="intended">Därefter tog kungen en knif och skar sin stora, goda tårta i 
                <lb/>två lika stora delar.
                <lb rend="intended"/>– Se här, kära barn, sade han, ät nu, så mycket ni orka.</p>
             
-            <p><l rend="intended">Under det Olle med god aptit åt af sin tårtbit, hviskade</l> 
+            <p rend="intended">Under det Olle med god aptit åt af sin tårtbit, hviskade 
                <lb/>lilla Maj till kungen:
                <lb rend="intended"/>– Snälla morfar, låt Olle få stanna här alltid och leka med mig!</p>
             
-            <p><l rend="intended">Kungen ref sig i hufvudet.</l>
+            <p rend="intended">Kungen ref sig i hufvudet.
                <lb rend="intended"/>– Tror du det går an, sade han, att en tiggargosse leker 
                <lb/>med en prinsessa?
                <lb rend="intended"/>– Är det bara det i vägen, sade lilla Maj, så kan vi ju klä' 
                <lb/>på honom sammetskläder, så blir han som den allra finaste prins.</p>
             
-            <p><l rend="intended">Och det blef som Maj ville.</l>
+            <p rend="intended">Och det blef som Maj ville.
                <lb/>Olle fick stanna i kungsgården, och 
                <lb/>där bor han nu som den lyckligaste 
                <lb/>pojke i hela riket. Den 3 juli hvarje 
@@ -2699,21 +2701,21 @@
          </div>
          <!-- Text Sida 26  -->
          <div type="page" facs="#Sida26">
-            <head place="margin-left" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: bottom">Huru man kommer till springbrunnen 
+            <p rend="margin-left" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: bottom">Huru man kommer till springbrunnen 
                <lb/>i den förtrollade trädgården. 
-            </head>
-            <p style="writing-mod:vertical-lr; text-orientation: sideways left">Man går genom ingångsporten 1, fortsätter sedan på de vägar, som ha följande nummer: 15, 20, 8, 40, 19, 36, 12, 3, 32 43, 10, 50, 33, 47, 41, 28, 37, 25, 11, 22, 39, 30, 7, 35, 26, 31, 46, 38, 2, 45, 
+            </p>
+            <p style="writing-mode: vertical-lr; text-orientation: sideways left;">Man går genom ingångsporten 1, fortsätter sedan på de vägar, som ha följande nummer: 15, 20, 8, 40, 19, 36, 12, 3, 32 43, 10, 50, 33, 47, 41, 28, 37, 25, 11, 22, 39, 30, 7, 35, 26, 31, 46, 38, 2, 45, 
             <lb/>11,42, 31, 5, 21, 21, 29, 6, 18, 49, 4, 27, 48, 9, 13, 17, 23, 16, 51, 41, 52, 53, 55 57, 60, 55, 53, 54, 61, 59, 62, 63, 61 – Tillbaka går man samma väg i motsatt ordning: från 64 till 63, 62, 69, o.s.v</p> 
             
             <div type="part" n="1">               
                <head>JULDANS.</head>
                <notatedMusic>
                   <desc>Noter till sången Juldans. Text och musik af Emmy Köhler. Polska
-                  Tilläggssymboler första notskriften: 1)
-                  Tilläggssymboler andra notskriften: 
-                  Tilläggssymboler tredje notskriften: 2) Långsammare 3)
-                  Tilläggssymboer fjärde notskriften: Muntert
-                  Tillägssymboler femte notskriften: 
+                     Tilläggssymboler första notskriften: 1)
+                     Tilläggssymboler andra notskriften: 
+                     Tilläggssymboler tredje notskriften: 2) Långsammare 3)
+                     Tilläggssymboer fjärde notskriften: Muntert
+                     Tillägssymboler femte notskriften: 
                   </desc>
                </notatedMusic>
 

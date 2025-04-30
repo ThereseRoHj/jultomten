@@ -71,7 +71,7 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
@@ -83,14 +83,57 @@
                                     </article>
                                 </div>
                                 <!-- fill the second column with our transcription -->
-                                <div class='col-md'>
+                                <div class='col-sm'>
                                     <article class="transcription">
-                                        <xsl:apply-templates/>                                      
+                                        
+                                        <xsl:apply-templates select="tei:metamark"/>
+                                        
+                                        <xsl:apply-templates select="tei:fw[@place='top-left' or @place='top-right' or @place='top-centre']"/>
+                                        
+                                        <xsl:choose>
+                                            <xsl:when test="tei:cb">
+                                                <div class="row">
+                                                    <xsl:for-each-group select="*[not(self::tei:metamark or self::tei:signed)] | text()" group-starting-with="tei:cb">                                               
+                                                        <xsl:sort select="number(current-group()[1]/@n)" data-type="number"/>
+                                                        <xsl:choose>
+                                                            <xsl:when test="self::tei:cb">
+                                                                <div class="col-sm nested-col">
+                                                                    <xsl:attribute name="class">
+                                                                        <xsl:text>col-sm nested-col order-</xsl:text>
+                                                                        <xsl:value-of select="@n"/>
+                                                                    </xsl:attribute>
+                                                                    <xsl:for-each select="current-group()[not(self::tei:cb)]">
+                                                                        <xsl:apply-templates select="."/>
+                                                                    </xsl:for-each>
+                                                                </div>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <xsl:apply-templates select="current-group()"/>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
+                                                    </xsl:for-each-group>
+                                                </div>
+                                            </xsl:when>
+                                            
+                                            <xsl:otherwise>
+                                                <xsl:apply-templates select="*[not(self::tei:metamark or self::tei:signed)] | text()"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                        
+                                        <xsl:if test="tei:signed">
+                                            <div class="signature-container">
+                                                <xsl:for-each select="tei:signed">
+                                                    <p class="signed">
+                                                        <xsl:apply-templates/>
+                                                    </p>
+                                                </xsl:for-each>
+                                            </div>
+                                        </xsl:if>
                                     </article>
                                 </div>
                             </div>
                         </xsl:for-each>
-                    </div>
+                    </div>                              
                 </main>
                 <footer>
                 <div class="row" id="footer">
@@ -118,43 +161,184 @@
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
     <xsl:template match="tei:teiHeader"/>
-
+    
+    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
+    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
+    apply to the nodes nested within it.-->
+    
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-
+    
+    <!-- transform tei paragraphs into html paragraphs -->
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
-        <p>
+        <p class="no-margin">
             <!-- apply matching templates for anything that was nested in tei:p -->
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
+    
+    <xsl:template match="tei:lg">
+        <p class="margin">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg [@style = 'italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
         <del>
             <xsl:apply-templates/>
         </del>
     </xsl:template>
-
+    
     <!-- transform tei add into html sup -->
     <xsl:template match="tei:add">
         <sup>
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
-
+    
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
+    <xsl:template match="tei:hi[@rend = 'anfang']">
+        <span class="anfang">
             <xsl:apply-templates/>
-        </u>
+        </span>
     </xsl:template>
-
-
+    
+    <xsl:template match="tei:l [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb [@style = 'italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:p [@rend = 'indented']">
+        <span class="indented-inline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:p [@style = 'italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:fw[@place]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@place"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template> 
+    
+    <xsl:template match="tei:lg [@style = 'italic']">
+        <p class="margin">
+            <span class="italic">
+                <xsl:apply-templates/>
+            </span>         
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:opener [@style = 'italic']">
+        <p class="opener">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute">
+        <br>
+            <xsl:apply-templates/>
+        </br>
+    </xsl:template>
+    
+    <xsl:template match="tei:closer">
+        <p class="italic">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:q">
+        <q class="italic">
+            <xsl:apply-templates/>
+        </q>
+    </xsl:template>
+    
+    <xsl:template match="tei:q [@rend = 'italic']">
+        <q class="indented-inline">
+            <xsl:apply-templates/>
+        </q>
+    </xsl:template>
+    
+    <xsl:template match="tei:head[contains(@style, 'writing-mode: vertical-lr')]">
+        <h3 class="rotated-text">
+            <xsl:apply-templates/>
+        </h3>
+    </xsl:template>
+    
+    <xsl:template match="tei:p[contains(@style, 'writing-mode: vertical-lr')]">
+        <p class="rotated-text">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:list">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    
+    <xsl:template match="tei:item">
+        <li>
+            <xsl:apply-templates/> 
+        </li>       
+    </xsl:template> 
+    
+    <xsl:template match="tei:metamark[@place = 'right']">
+        <span class="metamark">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:floatingText">
+        <div class="floating-text">
+            <xsl:apply-templates/> 
+        </div>       
+    </xsl:template> 
+    
 </xsl:stylesheet>
+

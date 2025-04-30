@@ -90,8 +90,11 @@
                                 <!-- fill the second column with our transcription -->                                                             
                                 <div class='col-sm'>
                                     <article class="transcription">
+                                       
+                                        <xsl:choose>
+                                        <xsl:when test="tei:cb">
                                         <div class="row">
-                                            <xsl:for-each-group select="* | text()" group-starting-with="tei:cb">
+                                            <xsl:for-each-group select="* | text()" group-starting-with="tei:cb">                                             
                                                 <xsl:sort select="number(current-group()[1]/@n)" data-type="number"/>
                                                 <xsl:choose>
                                                     <xsl:when test="self::tei:cb">
@@ -111,6 +114,22 @@
                                                 </xsl:choose>
                                             </xsl:for-each-group>
                                         </div>
+                                        </xsl:when>
+                                            
+                                            <xsl:otherwise>
+                                                <xsl:apply-templates select="*[not(self::tei:signed)] | text()"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                        
+                                        <xsl:if test="tei:signed">
+                                            <div class="signature-container">
+                                                <xsl:for-each select="tei:signed">
+                                                    <p class="signed">
+                                                        <xsl:apply-templates/>
+                                                    </p>
+                                                </xsl:for-each>
+                                            </div>
+                                        </xsl:if>
                                     </article>
                                 </div>
                             </div>
@@ -161,14 +180,18 @@
 
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
-        <p>
+        <p class="no-margin">
             <!-- apply matching templates for anything that was nested in tei:p -->
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    
     <xsl:template match="tei:lg">
-        <p class="margin">
+        <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -209,9 +232,11 @@
     
     <xsl:template match="tei:l [@rend = 'indented']">
         <span class="indented-inline">
-            <xsl:apply-templates/>
-        </span>
+            <xsl:apply-templates/> 
+            </span>
     </xsl:template>
+    
+  
     
     <xsl:template match="tei:lb [@rend = 'indented']">
         <span class="indented-inline">
@@ -237,6 +262,12 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="tei:p [@style = 'gothic']">
+        <span class="gothic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <xsl:template match="tei:fw[@place]">
         <span>
             <xsl:attribute name="class">
@@ -247,7 +278,7 @@
     </xsl:template> 
     
     <xsl:template match="tei:lg [@style = 'italic']">
-       <p class="margin">
+       <p>
              <span class="italic">
             <xsl:apply-templates/>
         </span>         
@@ -266,6 +297,12 @@
         </br>
     </xsl:template>
     
+    <xsl:template match="tei:closer">
+        <p class="italic">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+        
     <xsl:template match="tei:q">
         <q class="italic">
             <xsl:apply-templates/>
@@ -279,11 +316,61 @@
     </xsl:template>
     
     <xsl:template match="tei:head[contains(@style, 'writing-mode: vertical-lr')]">
+        <h3 class="rotated-text">
+            <xsl:apply-templates/>
+        </h3>
+    </xsl:template>
+    
+    <xsl:template match="tei:p[contains(@style, 'writing-mode: vertical-lr')]">
         <p class="rotated-text">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     
-
+    <xsl:template match="tei:list">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    
+    <xsl:template match="tei:item">
+        <li>
+            <xsl:apply-templates/> 
+        </li>       
+       </xsl:template> 
+   
+    <xsl:template match="tei:metamark[@place]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@place"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template> 
+        
+    <xsl:template match="tei:floatingText">
+        <div class="floating-text">
+            <xsl:apply-templates/> 
+        </div>       
+    </xsl:template> 
+    
+    <xsl:template match="tei:stamp">
+        <p class="stamp">
+            <xsl:apply-templates/> 
+        </p>       
+    </xsl:template>
+    
+    <xsl:template match="tei:notatedMusic">
+        <span style="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:emph">
+        <em>
+            <xsl:apply-templates/> 
+   </em>
+    </xsl:template>
+    
 </xsl:stylesheet>
 
