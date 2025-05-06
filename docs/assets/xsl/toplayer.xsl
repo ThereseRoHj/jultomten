@@ -100,9 +100,7 @@
                             <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
                         </a>
                       </div>
-                      <div>
-                         2022 Wout Dillen.
-                      </div>
+                      
                     </div>
                 </div>
                 </footer>
@@ -125,11 +123,27 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
+    
+    <xsl:template match="tei:head [@type='subheading']">
+        <h4>
+            <xsl:apply-templates/>
+        </h4>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
 
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
             <!-- apply matching templates for anything that was nested in tei:p -->
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:lg">
+        <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -148,6 +162,73 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    
+    <xsl:template match="tei:fw[@place]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@place"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template> 
+    
+    <xsl:template match="tei:opener [@style = 'italic']">
+        <p class="opener">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:q">
+        <q>
+            <xsl:apply-templates/>
+        </q>
+    </xsl:template>
+    
+    <xsl:template match="tei:list">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    
+    <xsl:template match="tei:item">
+        <li>
+            <xsl:apply-templates/> 
+        </li>       
+    </xsl:template> 
+    
+    <xsl:template match="tei:metamark[@place]">
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@place"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template> 
+    
+    <xsl:template match="tei:floatingText">
+        <div class="floating-text">
+            <xsl:apply-templates/> 
+        </div>       
+    </xsl:template> 
+    
+    <xsl:template match="tei:stamp">
+        <p class="stamp">
+            <xsl:apply-templates/> 
+        </p>       
+    </xsl:template>
+    
+    <xsl:template match="tei:notatedMusic">
+        <span style="display:none">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:emph">
+        <em>
+            <xsl:apply-templates/> 
+        </em>
+    </xsl:template>
+    
 
 
 </xsl:stylesheet>
