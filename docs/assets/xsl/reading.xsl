@@ -36,27 +36,15 @@
                     <a href="toplayer.html">Top Layer</a> |
                 </nav>
                 <main id="manuscript">
-                    <!-- bootstrap "container" class makes the columns look pretty -->
-                    <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        <div class="row">
-                            <div class="col-">
-                                <h3>Images</h3>
-                            </div>
-                            <div class="col-md">
-                                <h3>Transcription</h3>
-                            </div>
-                        </div>
-                        <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
+
+                                <h3>Bilder</h3>
+       
                         <xsl:for-each select="//tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
-                            <div class="row">
-                                <!-- fill the first column with this page's image -->
-                                <div class="col-">
                                     <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-                                        <img class="thumbnail">
+                                        <div class="zoom-container">
+                                        <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
@@ -80,60 +68,10 @@
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
-                                    </article>
-                                </div>
-                                <!-- fill the second column with our transcription -->
-                                <div class='col-sm'>
-                                    <article class="transcription">
-                                        
-                                        <xsl:apply-templates select="tei:metamark"/>
-                                        
-                                        <xsl:apply-templates select="tei:fw[@place='top-left' or @place='top-right' or @place='top-centre']"/>
-                                        
-                                        <xsl:choose>
-                                            <xsl:when test="tei:cb">
-                                                <div class="row">
-                                                    <xsl:for-each-group select="*[not(self::tei:metamark or self::tei:signed)] | text()" group-starting-with="tei:cb">                                               
-                                                        <xsl:sort select="number(current-group()[1]/@n)" data-type="number"/>
-                                                        <xsl:choose>
-                                                            <xsl:when test="self::tei:cb">
-                                                                <div class="col-sm nested-col">
-                                                                    <xsl:attribute name="class">
-                                                                        <xsl:text>col-sm nested-col order-</xsl:text>
-                                                                        <xsl:value-of select="@n"/>
-                                                                    </xsl:attribute>
-                                                                    <xsl:for-each select="current-group()[not(self::tei:cb)]">
-                                                                        <xsl:apply-templates select="."/>
-                                                                    </xsl:for-each>
-                                                                </div>
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <xsl:apply-templates select="current-group()"/>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </xsl:for-each-group>
-                                                </div>
-                                            </xsl:when>
-                                            
-                                            <xsl:otherwise>
-                                                <xsl:apply-templates select="*[not(self::tei:metamark or self::tei:signed)] | text()"/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                        
-                                        <xsl:if test="tei:signed">
-                                            <div class="signature-container">
-                                                <xsl:for-each select="tei:signed">
-                                                    <p class="signed">
-                                                        <xsl:apply-templates/>
-                                                    </p>
-                                                </xsl:for-each>
                                             </div>
-                                        </xsl:if>
                                     </article>
-                                </div>
-                            </div>
+
                         </xsl:for-each>
-                    </div>                              
                 </main>
                 <footer>
                 <div class="row" id="footer">
@@ -143,15 +81,30 @@
                             <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
                         </a>
                       </div>
-                      <div>
-                         2022 Wout Dillen.
-                      </div>
+                      
                     </div>
                 </div>
                 </footer>
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                    document.querySelectorAll(".zoom-container").forEach(function (container) {
+                    const img = container.querySelector("img");
+                    container.addEventListener("mousemove", function (e) {
+                    const rect = container.getBoundingClientRect();
+                    const x = (e.clientX - rect.left) / rect.width * 100;
+                    const y = (e.clientY - rect.top) / rect.height * 100;
+                    img.style.transformOrigin = x + "%" + y + "%";
+                    img.style.transform = "scale(2)";
+                    });
+                    container.addEventListener("mouseleave", function () {
+                    img.style.transform = "scale(1)";
+                    });
+                    });
+                    });
+                </script>
             </body>
         </html>
     </xsl:template>
@@ -162,183 +115,13 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
     
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template>
+ 
     <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
     apply to the nodes nested within it.-->
+   
     
-    <!-- we turn the tei head element (headline) into an html h1 element-->
-    <xsl:template match="tei:head">
-        <h2>
-            <xsl:apply-templates/>
-        </h2>
-    </xsl:template>
-    
-    <!-- transform tei paragraphs into html paragraphs -->
-    
-    <!-- transform tei paragraphs into html paragraphs -->
-    <xsl:template match="tei:p">
-        <p class="no-margin">
-            <!-- apply matching templates for anything that was nested in tei:p -->
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:lg">
-        <p class="margin">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:lg [@rend = 'indented']">
-        <span class="indented-inline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:lg [@style = 'italic']">
-        <span class="italic">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-    
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'anfang']">
-        <span class="anfang">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:l [@rend = 'indented']">
-        <span class="indented-inline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:lb [@rend = 'indented']">
-        <span class="indented-inline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:lb [@style = 'italic']">
-        <span class="italic">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:p [@rend = 'indented']">
-        <span class="indented-inline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:p [@style = 'italic']">
-        <span class="italic">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:fw[@place]">
-        <span>
-            <xsl:attribute name="class">
-                <xsl:value-of select="@place"/>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template> 
-    
-    <xsl:template match="tei:lg [@style = 'italic']">
-        <p class="margin">
-            <span class="italic">
-                <xsl:apply-templates/>
-            </span>         
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:opener [@style = 'italic']">
-        <p class="opener">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:salute">
-        <br>
-            <xsl:apply-templates/>
-        </br>
-    </xsl:template>
-    
-    <xsl:template match="tei:closer">
-        <p class="italic">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:q">
-        <q class="italic">
-            <xsl:apply-templates/>
-        </q>
-    </xsl:template>
-    
-    <xsl:template match="tei:q [@rend = 'italic']">
-        <q class="indented-inline">
-            <xsl:apply-templates/>
-        </q>
-    </xsl:template>
-    
-    <xsl:template match="tei:head[contains(@style, 'writing-mode: vertical-lr')]">
-        <h3 class="rotated-text">
-            <xsl:apply-templates/>
-        </h3>
-    </xsl:template>
-    
-    <xsl:template match="tei:p[contains(@style, 'writing-mode: vertical-lr')]">
-        <p class="rotated-text">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:list">
-        <ul>
-            <xsl:apply-templates/>
-        </ul>
-    </xsl:template>
-    
-    <xsl:template match="tei:item">
-        <li>
-            <xsl:apply-templates/> 
-        </li>       
-    </xsl:template> 
-    
-    <xsl:template match="tei:metamark[@place = 'right']">
-        <span class="metamark">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:floatingText">
-        <div class="floating-text">
-            <xsl:apply-templates/> 
-        </div>       
-    </xsl:template> 
+
     
 </xsl:stylesheet>
 

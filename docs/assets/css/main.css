@@ -347,4 +347,18 @@ li {
   float: right;
 }
 
+.zoom-container {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 20px;
+}
 
+.zoom-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.1s ease;
+  transform-origin: center center;
+}
