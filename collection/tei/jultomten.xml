@@ -1333,8 +1333,10 @@
             <pb n="11"/>
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-           
-            <div type="part" n="1">             
+             
+            <div type="part" n="1"> 
+              <head>Hvad skall du bli?</head> 
+               
               <cb n="1"/>
             
            <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
@@ -1413,6 +1415,7 @@
             </div>
                       
             <div type="part" n="2">
+               <head>Julnattsfärd till Sagolandet</head>
                <cb n="1"/>
              
             <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
@@ -1501,7 +1504,7 @@
             <metamark  function="pagenumber" place="top-left"><num>12</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             <head rend="italic">De fyra tanterna </head>
-            <head type="subheading" rend="italic">De fyra tanterna</head>
+            <head type="subheading" rend="italic">En saga af Anna Wahlenberg</head>
             
             <p><hi rend="anfang">U</hi>te på den stora allmänningen gick Matts och vaktade byns alla gäss.</p>
             

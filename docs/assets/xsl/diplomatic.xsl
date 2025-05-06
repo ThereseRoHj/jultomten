@@ -98,9 +98,9 @@
                                                 <xsl:sort select="number(current-group()[1]/@n)" data-type="number"/>
                                                 <xsl:choose>
                                                     <xsl:when test="self::tei:cb">
-                                                        <div class="col-sm nested-col">
+                                                        <div class="col-sm">
                                                             <xsl:attribute name="class">
-                                                                <xsl:text>col-sm nested-col order-</xsl:text>
+                                                                <xsl:text>col-sm</xsl:text>
                                                                 <xsl:value-of select="@n"/>
                                                             </xsl:attribute>
                                                             <xsl:for-each select="current-group()[not(self::tei:cb)]">
@@ -229,15 +229,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <xsl:template match="tei:l [@rend = 'indented']">
-        <span class="indented-inline">
-            <xsl:apply-templates/> 
-            </span>
-    </xsl:template>
-    
-  
-    
+   
+     
     <xsl:template match="tei:lb [@rend = 'indented']">
         <span class="indented-inline">
             <xsl:apply-templates/>
@@ -245,27 +238,27 @@
     </xsl:template>
     
     <xsl:template match="tei:lb [@style = 'italic']">
-        <span class="italic">
+        <p class="italic">
             <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:p [@rend = 'indented']">
-        <span class="indented-inline">
+        <p class="indented-inline">
             <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:p [@style = 'italic']">
-        <span class="italic">
+        <p class="italic">
             <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:p [@style = 'gothic']">
-        <span class="gothic">
+        <p class="gothic">
             <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:fw[@place]">

@@ -14,7 +14,7 @@ div[type="page"] {
     margin-bottom: 4em;
 }
 
-h1, h2, h3, nav, footer {
+h1, h2, h3, h4, nav, footer {
     text-align: center;
 }
 
@@ -40,6 +40,10 @@ h5 {
     font-weight: bold;
 }
 
+h6 {
+    text-align: center;
+    color: #c9958a;
+}
 #details {
     padding: 2vw;
     margin: 1vw;
@@ -52,19 +56,18 @@ footer {
     margin-top: 1vw;
 }
 
-
-span {
-    display: block;     
-    margin: 0;           
-    padding: 0;         
-}
-
 ul {
   list-style: none;
+  max-width: 600px;
+
 }
 
 hr {
     border-top: 1px solid black;
+}
+
+li {
+  display: flex;
 }
 
 .copyright {
@@ -105,7 +108,6 @@ hr {
 
 .indented-inline {
     text-indent: 25px;
-    display: block; 
     margin: 0;
     padding: 0;
 }
@@ -135,19 +137,26 @@ hr {
 }
 
 .anfang {
- font-size: 3em;
+  font-size: 3em;
   font-weight: bold;
   float: left;
   line-height: 1;
-  padding-right: 0.1em;
-  margin-top: 0.1em;   
+  padding-right: 0.1em;  
+}
+
+.anfang-h {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 0.05em;
+  vertical-align: baseline;
+  display: inline;
 }
 
 .rotated-text {
   writing-mode: vertical-lr;      
   text-align: center;
   transform: rotate(180deg);      
-  white-space: nowrap;            
+  white-space: nowrap; 
 }
 
 .top-left {
@@ -171,6 +180,7 @@ hr {
 
 .bottom-centre {
     bottom: auto;
+    text-align: center;
 }
 
 .right {
@@ -180,6 +190,15 @@ hr {
 .left {
     position: absolute;
     left:0;
+}
+.right-float {
+    float: right;
+
+}
+.left-float {
+    float:left;
+    text-align: center;
+
 }
 .signature-container {
   display: flex;
@@ -193,17 +212,18 @@ hr {
   padding: 0.2em;
 }
 
-.dotted-line {
-  border: none;
-  border-top: 1px dotted black;
-  margin: 0.5em 0;
-}
-
 .line {
    border-top: 1px solid black;
    margin-top: 2em; 
    margin-bottom: 1em;
 }
+
+.double-line {
+  height:1em;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+
 
 .metamark {
     right:0;
@@ -222,10 +242,109 @@ hr {
 }
 
 .stamp {
-  text-align: center;  
+  text-align: center;
+  color: #909cc6;  
 }
 
 .box-1 {
     border-style: solid;
     padding: 1em;
+    border-width: 1px;
 }
+
+.box-2 {
+    border: 1px solid rgba(0,0,0,0.25);
+    padding: 1px;    
+}
+
+.green {
+    color:#658377;
+}
+
+.green-2 {
+    color:#7fa373
+}
+
+.red {
+    color:#d5543e;
+}
+
+.yellow {
+    color:#e5d63d;
+}
+
+.blue {
+    color:#bbcdcd;
+}
+.dark-blue {
+    color:#7ca6cc;
+}
+ 
+.text-gradient {
+ color: #B57050; 
+ background-image: linear-gradient(180deg, #B57050 , #BA7756 50%, #E0BE75 100%); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.adress {
+    text-align: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #909cc6; 
+    border-radius: 50%;
+    display: flex;              
+    justify-content: center;     
+    align-items: center;        
+    text-align: center; 
+    color: #909cc6;
+}
+
+.center {
+    text-align:center;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.border-left {
+    border-left: 1px solid black;
+}
+.vertical-box {
+    display: flex; 
+    writing-mode: vertical-lr; 
+    text-align: center;
+    white-space: nowrap;
+    gap: 1rem; 
+}
+.vertical-box p {
+    transform: rotate(180deg); 
+    transform-origin: center;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted black;        
+  margin: 0 0.5em;
+}
+
+.pagenumber {
+  white-space: nowrap;
+  float: right;
+}
+
+
