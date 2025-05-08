@@ -14,11 +14,7 @@
                     on your browsers tab-->
                     DCHM Template: Reading Text
                 </title>
-                <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
-                <link rel="stylesheet"
-                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                    crossorigin="anonymous"/>
+
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>

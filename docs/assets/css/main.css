@@ -103,7 +103,9 @@ li {
     border: 1px solid black;
     width: 500px;
 }
-
+.img-full-zoom {
+    margin: 0 auto;
+}
 
 .indented-inline {
     text-indent: 25px;
@@ -348,11 +350,14 @@ li {
 
 .zoom-container {
   width: 600px;
-  height: 400px;
-  overflow: hidden;
-  border: 1px solid #ccc;
   position: relative;
   margin-bottom: 20px;
+  overflow: hidden; 
+  height: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 20px auto;
 }
 
 .zoom-container img {
