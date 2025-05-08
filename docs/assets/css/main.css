@@ -392,6 +392,7 @@ li {
 .carousel-slides {
   display: flex;
   transition: transform 0.5s ease;
+  width: 100%;
 }
 
 .carousel-slide {
@@ -400,7 +401,8 @@ li {
 }
 
 .carousel-buttons {
-  position: absolute;
+  position: relative;
+  z-index: 10;
   top: 50%;
   width: 100%;
   display: flex;
