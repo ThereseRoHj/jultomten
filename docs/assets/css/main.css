@@ -382,3 +382,46 @@ li {
   transition: transform 0.1s ease;
   transform-origin: center center;
 }
+.carousel-container {
+  position: relative;
+  max-width: 600px;
+  overflow: hidden;
+  margin: 2rem auto;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  object-fit: contain;
+}
+
+.carousel-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.carousel-buttons button {
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.carousel-slide img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  transform: scale(1.5);
+}
