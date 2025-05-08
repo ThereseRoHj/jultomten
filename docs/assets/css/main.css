@@ -103,7 +103,7 @@ li {
     border: 1px solid black;
     width: 500px;
 }
-.img-full-zoom {
+.zoomable-img{
     margin: 0 auto;
 }
 
