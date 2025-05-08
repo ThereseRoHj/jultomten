@@ -25,6 +25,25 @@ nav {
     padding: 1vw;
 }
 
+#sitenav {
+    overflow: hidden;
+    background-color: #6e8a74;
+    justify-content: center;
+    display: flex;
+    }
+    
+#sitenav a {
+    display: block;
+    color: #fdf6d9;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    }
+    
+#sitenav a:hover:not(.active) {
+    background-color: #e6d63b;
+    }
+
 h2 {
     padding: 1vw;
 }
