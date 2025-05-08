@@ -18,18 +18,15 @@ h1, h2, h3, h4, nav, footer {
     text-align: center;
 }
 
-nav {
-    margin-bottom: 1vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 1vw;
-}
-
 #sitenav {
     overflow: hidden;
     background-color: #6e8a74;
     justify-content: center;
-    display: flex;
+    display: flex; 
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
     }
     
 #sitenav a {
