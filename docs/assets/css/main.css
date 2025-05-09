@@ -112,8 +112,10 @@ li {
 .img-full {
     margin: 5px;
     border: 1px solid black;
-    width: 500px;
+    max-width: 500px;
 }
+
+
 .zoomable-img{
     margin: 0 auto;
 }
@@ -193,24 +195,38 @@ li {
 .bottom-centre {
     bottom: auto;
     text-align: center;
+    display: block;
 }
 
 .right {
-    position: absolute;
+    display: block;
+    text-align: right;
+    width: 100%; 
+    margin: 0; 
     right:0;
+    
 }
 .left {
-    position: absolute;
+   display: block;
+    text-align: left;
+    width: 100%; 
+    margin: 0; 
     left:0;
 }
 .right-float {
     float: right;
-
 }
 .left-float {
     float:left;
     text-align: center;
+}
 
+.left-auto {
+    left:auto;
+}
+
+.rigt-auto {
+    right:auto;
 }
 .signature-container {
   display: flex;
@@ -218,6 +234,7 @@ li {
   align-items: flex-end;
   margin-top: 2em;
   gap: 0.5em;
+  float:right;
 }
 
 .signed {
@@ -234,6 +251,12 @@ li {
   height:1em;
   border-top:1px solid black;
   border-bottom:1px solid black;
+}
+
+.dotted-line {
+    border-top: dotted 2px;
+    margin-top: 2em; 
+    margin-bottom: 1em;
 }
 
 
@@ -267,6 +290,12 @@ li {
 .box-2 {
     border: 1px solid rgba(0,0,0,0.25);
     padding: 1px;    
+}
+
+.box-double {
+    border-top: 1px double black; 
+    border-right: 1px double black;
+    padding: 1px;
 }
 
 .green {
