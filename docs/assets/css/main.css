@@ -30,6 +30,7 @@ h1, h2, h3, h4, nav, footer {
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
+    font-size: 1.5vw;
     }
     
 #sitenav a:hover:not(.active) {
@@ -114,7 +115,11 @@ li {
     border: 1px solid black;
     max-width: 500px;
 }
-
+.img-front {
+    margin: 5px;
+    border: 1px solid black;
+    width: 400px;
+}
 
 .zoomable-img{
     margin: 0 auto;
