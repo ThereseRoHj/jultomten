@@ -114,6 +114,8 @@ li {
     margin: 5px;
     border: 1px solid black;
     max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 .img-front {
     margin: 5px;
