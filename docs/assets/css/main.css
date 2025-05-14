@@ -95,12 +95,6 @@ li {
 		margin:.15vw;
 	}
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1vw;
-}
-
 
 #collection {
     display: flex;
