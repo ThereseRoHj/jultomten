@@ -109,9 +109,7 @@ li {
 .img-full {
     margin: 5px;
     border: 1px solid black;
-    max-width: 500px;
-    width: 100%;
-    height: auto;
+    width: 500px;
 }
 .img-front {
     margin: 5px;
@@ -453,8 +451,8 @@ li {
   transform: scale(1.5);
 }
 
-@media (min-width: 768px) {
-  .img-full {
-    max-width: 500px;
-  }
+@media (max-width: 575.98px) {
+    .img-full {
+        width: 300px;
+    }
 }
