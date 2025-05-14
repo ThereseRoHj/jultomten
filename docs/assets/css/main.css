@@ -452,3 +452,9 @@ li {
 .carousel-slide img:hover {
   transform: scale(1.5);
 }
+
+@media (min-width: 768px) {
+  .img-full {
+    max-width: 500px;
+  }
+}
