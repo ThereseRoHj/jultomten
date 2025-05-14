@@ -96,6 +96,8 @@ li {
 	}
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
     padding: 1vw;
 }
 
