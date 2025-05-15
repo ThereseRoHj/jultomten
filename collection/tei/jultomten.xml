@@ -7,33 +7,33 @@
       <fileDesc>
          <titleStmt>
             <title>Jultomten årgång 1899: Digitaliserad</title>
-            <author><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></author>
-            <author><persName><forename>Elsa</forename><surname>Beskow</surname></persName></author>            
-            <author><persName><forename>Daniel</forename><surname>Fallström</surname></persName></author>
-            <author><persName><forename>Hugo</forename><surname>Gyllander</surname></persName></author>            
-            <author><persName><forename>Emil</forename><surname>Kléen</surname></persName></author>
-            <author><persName><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
+            <author><persName ref="https://libris.kb.se/sq466t3b4s743md#it"><forename>Ottilia</forename><surname>Adelborg</surname></persName></author>
+            <author><persName ref="https://libris.kb.se/86lnncqs28j9tm1#it"><forename>Elsa</forename><surname>Beskow</surname></persName></author>            
+            <author><persName ref="https://libris.kb.se/1zcfh3hk52q3mp9#it"><forename>Daniel</forename><surname>Fallström</surname></persName></author>
+            <author><persName ref="https://libris.kb.se/0xbdfjjj5q0hg8h#it"><forename>Hugo</forename><surname>Gyllander</surname></persName></author>            
+            <author><persName ref="https://libris.kb.se/khwzzlz32z6jfl0#it"><forename>Emil</forename><surname>Kléen</surname></persName></author>
+            <author><persName ref="https://libris.kb.se/31fjm3bm5tjgcdc#it"><forename>Sigrid</forename><surname>Kruse</surname></persName></author>
             <author><persName><forename>Emmy</forename><surname>Köhler</surname></persName></author>
-            <author><persName><forename>Paul</forename><surname>Nilsson</surname></persName></author>
-            <author><persName><forename>Alfred</forename><surname>Smedberg</surname><name type="pseudonym">Tippu Tipp</name></persName></author>           
-            <author><persName><forename>Zacharias</forename><surname>Topelius</surname></persName></author>
-            <author><persName><forename>Anna</forename><surname>Wahlenberg</surname></persName></author>
-            <author><persName><forename>Henrik</forename><surname>Wranér</surname></persName></author>
-            <editor role="illustrator"><persName><forename>Ottilia</forename><surname>Adelborg</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Gustaf</forename><surname>Ankarcrona</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Elsa</forename><surname>Beskow</surname></persName></editor>
+            <author><persName><forename ref="https://libris.kb.se/97mpkszt184x5r8#it">Paul</forename><surname>Nilsson</surname></persName></author>
+            <author><persName><forename ref="https://libris.kb.se/sq4693tb3dvtjfb#it">Alfred</forename><surname>Smedberg</surname><name type="pseudonym">Tippu Tipp</name></persName></author>           
+            <author><persName><forename ref="https://libris.kb.se/3ld3hmmf187zbg5#it">Zacharias</forename><surname>Topelius</surname></persName></author>
+            <author><persName><forename ref="https://libris.kb.se/c9prnlpw48trssf#it">Anna</forename><surname>Wahlenberg</surname></persName></author>
+            <author><persName><forename ref="https://libris.kb.se/86lnr2ks0m93drh#it">Henrik</forename><surname>Wranér</surname></persName></author>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/sq466t3b4s743md#it"><forename>Ottilia</forename><surname>Adelborg</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/jgvx0k3204j2r3v#it"><forename>Gustaf</forename><surname>Ankarcrona</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/86lnncqs28j9tm1#it"><forename>Elsa</forename><surname>Beskow</surname></persName></editor>
             <editor role="illustrator"><name>D.S.H</name></editor>
-            <editor role="illustrator"><persName><forename>Jenny</forename><surname>Nyström</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/tr573bbc39xzp2l#it"><forename>Jenny</forename><surname>Nyström</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Anna</forename><surname>Cramér</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Gisela</forename><surname>Henckel</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Elin</forename><surname>Westman</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Brita</forename><surname>Ellström</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Louis</forename><surname>Moe</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/xv8bc24g583z67b#it"><forename>Gisela</forename><surname>Henckel</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/xv8cgwhg10h970g#it"><forename>Elin</forename><surname>Westman</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/mkz110q50zn4hpc#it"><forename>Brita</forename><surname>Ellström</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/xv8bdzhg3nx8b2g#it"><forename>Louis</forename><surname>Moe</surname></persName></editor>
             <editor role="illustrator"><persName><forename>Emil</forename><surname>Åberg</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Gerda</forename><surname>Tirén</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
-            <editor role="illustrator"><persName><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
-            <editor role="composer"><persName><forename>Alice</forename><surname>Tegnér</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/31fhj5wm4rnx095#it"><forename>Gerda</forename><surname>Tirén</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/75kmmpsr09zz6kc#it"><forename>Edvard</forename><surname>Forsström</surname></persName></editor>
+            <editor role="illustrator"><persName ref="https://libris.kb.se/wt79ccdf4pgdd6m#it"><forename>David</forename><surname>Ljungdahl</surname></persName></editor>
+            <editor role="composer"><persName ref="https://libris.kb.se/7qj5t4fk4c9hgw7#it"><forename>Alice</forename><surname>Tegnér</surname></persName></editor>
             <editor role="composer"><persName><forename>Vilhelm</forename><surname>Sefve</surname><name>Vilh.Sefve</name></persName></editor>
             <author><name>Svente</name></author>
             <author><name>D.S.H</name></author>
