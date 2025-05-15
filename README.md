@@ -32,5 +32,5 @@ Följande filer ingår i projektet:
 
 
 ## Credits
-Projektets tillgängliggörande har utgått ifrån[Wout Dillens mallar](https://github.com/SSLIS/DCHM-template/tree/main) som har tagits fram inom ramen för kursen.
+Projektets tillgängliggörande har utgått ifrån [Wout Dillens mallar](https://github.com/SSLIS/DCHM-template/tree/main) som har tagits fram inom ramen för kursen.
 
