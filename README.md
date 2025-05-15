@@ -11,14 +11,23 @@ Projektet har genomförts av Therese Rosén Hjertqvist, Angelina Kakonda Karlsso
 
 ## Projektöversikt
 Följande filer ingår i projektet: 
+
 28 TIF-filer med tillhörande metadata
+
 28 JPG-filer med tillhörande metadata
+
 1 XML-fil med transkription och TEI-kodning av Jultomten (1899)
+
 5 HTML-filer som utgör projektets webbplats
+
 4 XSL-filer för transformation och presentation av XML i HTML
+
 1 README-fil (denna fil)
+
 1 PDF-fil med projektrapport
+
 1 TXT-fil med information om Creative Commons-licensen (CC-BY-4.0 license)
+
 3 SVG-filer med CC-logotyper
 
 
