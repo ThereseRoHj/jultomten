@@ -186,10 +186,6 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template>
-    
     <xsl:template match="tei:lg">
         <p>
             <xsl:apply-templates/>
@@ -203,9 +199,9 @@
     </xsl:template>
     
     <xsl:template match="tei:lg [@style = 'italic']">
-        <span class="italic">
+        <p class="italic">
             <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
 
     <!-- transform tei del into html del -->
@@ -229,19 +225,7 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-   
-     
-    <xsl:template match="tei:lb [@rend = 'indented']">
-        <span class="indented-inline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:lb [@style = 'italic']">
-        <p class="italic">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
+
     
     <xsl:template match="tei:p [@rend = 'indented']">
         <p class="indented-inline">
