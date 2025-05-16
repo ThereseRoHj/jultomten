@@ -108,7 +108,10 @@ ul.leaders span + span {
 		width: 1vw;
 		margin:.15vw;
 	}
-
+	
+.row {
+    padding: 1vw;
+}
 
 #collection {
     display: flex;
