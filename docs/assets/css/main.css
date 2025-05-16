@@ -86,15 +86,27 @@ ul.leaders li:before {
  ". . . . . . . . . . . . . . . . . . . . "
  ". . . . . . . . . . . . . . . . . . . . "
  ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "}
+ ". . . . . . . . . . . . . . . . . . . . "
+ }
 ul.leaders span:first-child {
     padding-right: 0.33em;
-    background: white}
+    background: white
+    }
 ul.leaders span + span {
     float: right;
     padding-left: 0.33em;
-    background: white}
-
+    background: white
+    }
+    
+.transcription.page {
+    position: relative;
+    background-color: #dfdfc7;
+    padding: 1px;                  
+    border: 1px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;             
+    max-width: 100%;
+}
 .copyright {
     width: 50%;
     margin: auto;
@@ -112,6 +124,7 @@ ul.leaders span + span {
 .row {
     padding: 1vw;
 }
+
 
 #collection {
     display: flex;
@@ -250,7 +263,7 @@ ul.leaders span + span {
   align-items: flex-end;
   margin-top: 2em;
   gap: 0.5em;
-  float:right;
+
 }
 
 .signed {
