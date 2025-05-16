@@ -163,8 +163,8 @@
            av människor som i en nutida kontext kan uppfattas som stötande och föråldrat. 
            Orginalkällan skildrar ett språkbruk och innehåll som reflekterar den 
            historiska kontexten tidningen skapades i. 
-           Projektgruppen har valt att inte censuera detta innehåll detta material
-           med syfte att kunna skapa förståelse och insikter genom att lära av det förflutna                      
+           Projektgruppen har valt att inte censuera detta innehåll
+           med syfte att kunna skapa förståelse och insikter genom att lära av det förflutna.                      
            </p>
            <normalization>
               <p>Texten har transkriberats diplomatiskt</p>
@@ -491,17 +491,21 @@
          <!-- Text framsida  -->
          <div type="page" facs="#Framsida">
          <pb n="0"/>
+            
          <head type="Titel">JULTOMTEN</head>
             <head>PRAKTUPPLAGAN</head>
             <head>NIONDE ÅRGÅNGEN</head>
-            <head type="subheading">1899</head> 
+            <head type="subheading">1899</head>
+            
             <p><stamp>Svensk Läraretidnings Förlag</stamp></p>
+            
             <signed hand="#LM">Louis Moe</signed>
             <fw type="footer" place="bottom">UTGIFVEN AF: SVENSK LÄRARETIDNING</fw>
            </div>
          <!-- Text Sida 1  -->
          <div type="page" facs="#Sida1"> 
             <pb n="1"/>
+            
             <head>Den förtrollade trädgården.</head>
             
               <cb n="1"/>           
@@ -543,6 +547,7 @@
          <!-- Text Sida 2  -->
          <div type="page" facs="#Sida2"> 
             <pb n="2"/>
+            
             <head>JULTOMTEN</head>
             <head>SKOLBARNENS JULTIDNING
                <lb/>NIONDE ÅRGÅNGEN</head>
@@ -550,16 +555,19 @@
                <lb/>SVENSK LÄRARETIDNING.
             </head>
             <head>1899</head>
+            
             <signed hand="#GA">G. Ankarcrona </signed>
             <signed>C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 3  -->
          <div type="page" facs="#Sida3"> 
          <pb n="3"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>2</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
             <div type="part" n="1">
+               
                <head>JUL</head>
 
               <lg type="sestain" rhyme="AABCCB">
@@ -628,7 +636,8 @@
             </div>
             
             
-           <div type="part" n="2"> 
+           <div type="part" n="2">
+              
             <head place="top-right">Den lille brefbärarens julafton.</head>
             <head type="subheading" place="top-right">Ett gammalt minne, berättadt för Jultomten af
                <lb/>HENRIK WRANÉR</head>
@@ -710,6 +719,7 @@
          <!-- Text Sida 4  -->
          <div type="page" facs="#Sida4">
            <pb n="4"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>3</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -769,7 +779,7 @@
             
             <cb n="2"/>            
             <p rend="indented">– Den är inte så dum, du mor! sa
-            prosten och klappade Nils på hufvudet.</p>
+            <lb/>prosten och klappade Nils på hufvudet.</p>
             
             <p><l rend="indented">Om en stund styrde den lille bref-</l> 
             <lb/>bäraren hemåt med ett stort matknyte på 
@@ -827,12 +837,15 @@
          <!-- Text Sida 5  -->
          <div type="page" facs="#Sida5"> 
             <pb n="5"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>4</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <head>MARKNAD
                <lb/>I
                <lb/>HOLLAND
             </head>
+            
            <opener style="italic"> 
            <placeName>
               <settlement>Volendam bij Edam. </settlement>
@@ -840,6 +853,7 @@
            </placeName>
               <salute>Kära lilla svenska flicka!</salute>
            </opener>
+            
             <p rend="intended" style="italic">Jag har lofvat, att jag skulle skrifva till dig 
             <lb/>och tala om, huru vi ha det. Vi må alla bra 
             <lb/>och vi bo, som du kan se af ofvanskriften, i 
@@ -887,8 +901,10 @@
          <!-- Text Sida 6  -->
          <div type="page" facs="#Sida6">
             <pb n="6"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>5</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <head place="top-margin">FISKAR-BÅTAR PÅ ZUIDER-ZEE</head>
             <head place="left-margin">EDAM</head>
             
@@ -951,6 +967,7 @@
          <!-- Text Sida 7 -->
          <div type="page" facs="#Sida7"> 
             <pb n="7"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>6</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -1112,6 +1129,7 @@
          <!-- Text Sida 8  -->
          <div type="page" facs="#Sida8" >
           <pb n="8"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>7</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -1273,9 +1291,12 @@
          <!-- Text Sida 9  -->
          <div type="page" facs="#Sida9"> 
             <pb n="9"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>8</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <signed hand="#GT">Gerda Tirén</signed>
+            
             <fw type="footer" place="bottom-centre">SOMMARGLÄDJE.
                <lb/>Akvarell för Jultomten af GERDA TIRÉN. 
             </fw>   
@@ -1331,15 +1352,16 @@
          <!-- Text Sida 11  -->
          <div type="page" facs="#Sida11">
             <pb n="11"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>10</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
              
-            <div type="part" n="1"> 
+            <div type="part" n="1">
+               
               <head>Hvad skall du bli?</head> 
                
-              <cb n="1"/>
-            
-           <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
+              <cb n="1"/>            
+              <p><hi rend="anfang">V</hi>id den stora ankdammen midt i byn brukade småskolebar-
               <lb/>nen samla sig på sommarkvällarna. Där seglade de med
               <lb/>gamla träskor och barkbåtar; där byggde de ladugårdar af leran, 
               <lb/>hade trådrullar till kor och spolrör till grisar,
@@ -1415,10 +1437,11 @@
             </div>
                       
             <div type="part" n="2">
+               
                <head>Julnattsfärd till Sagolandet</head>
-               <cb n="1"/>
-             
-            <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
+               
+               <cb n="1"/>             
+               <p><hi rend="anfang">S</hi>edan ljusen i julgranen blifvit släckta, trippar John 
                <lb/>Blund omkring hos alla sina små älsklingar på jul- 
                <lb/>natten och tager dem med sig på färd till det under- 
                <lb/>bara Sagolandet östan för sol och västan för måne.</p>
@@ -1492,17 +1515,22 @@
          <!-- Text Sida 12  -->
          <div type="page" facs="#Sida12">
             <pb n="12"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>11</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <head place="margin-right" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: center">JULNATTSFÄRD TILL SAGOLANDET. Akvarell för Jultomten af ELIN WESTMAN</head>
+            
             <signed hand="#EW" style="writing-mod:vertical-lr; text-orientation: sideways left">ELIN WESTMAN</signed>
             <signed style="writing-mod:vertical-lr; text-orientation: sideways left">C. ANGERER &amp; GÖSCHL</signed>
          </div>
          <!-- Text Sida 13  -->
          <div type="page" facs="#Sida13">
             <pb n="13"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>12</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <head rend="italic">De fyra tanterna </head>
             <head type="subheading" rend="italic">En saga af Anna Wahlenberg</head>
             
@@ -1563,6 +1591,7 @@
          <!-- Text Sida 14  -->
          <div type="page" facs="#Sida14">
             <pb n="14"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>13</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -1640,10 +1669,12 @@
          <!-- Text Sida 15  -->
          <div type="page" facs="#Sida15">
             <pb n="15"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>14</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
-           <div type="part" n="1"> 
+           <div type="part" n="1">
+              
             <cb n="1"/>
             <p>allmänningen. Där satte han sig på en sten att tjuta och 
               <lb/>snyfta i sina händer, och det dröjde inte länge, förrän de 
@@ -1743,7 +1774,9 @@
            </div>
             
             <div type="part" n="2">
-               <head>Den högfärdige snögubben.</head>           
+               
+               <head>Den högfärdige snögubben.</head> 
+               
             <notatedMusic>
                <desc>Noter till sången Den högfärdige snögubben. Allegretto.
                   Tilläggssymboler första notskriften: 	&#119183;  &#119184;&#119185;   &#119185;
@@ -1759,7 +1792,7 @@
                <l>tjock som så där, ja, tjock som så <rhyme label="b">där</rhyme>.  Hej vi, hej va, hej fal-le-ral-le-ra!</l> 
                </lg>  
                                     
-           <cb n="1"/>
+               <cb n="1"/>
                  <lg type="lyrics" rhyme="AABB">
                  <l>2. Och gubben han stod där så morsk bredvid <rhyme label="a">grind</rhyme> </l>
                  <l>med nacke så styf och med mage så <rhyme label="a">trind</rhyme>.</l> 
@@ -1774,7 +1807,7 @@
                  <l>och tjock som så där, ja, tjock som så <rhyme label="b">där</rhyme>.</l>
               </lg>
                
-            <cb n="2"/>
+               <cb n="2"/>
                  <lg type="lyrics" rhyme="AABB">
                   <l>4. Och gubben han stod där och pöste och <rhyme label="a">frös</rhyme>,</l> 
                   <l>men så kom det regn, han fick snufva och <rhyme label="a">nös</rhyme>.</l> 
@@ -1798,10 +1831,10 @@
          <!-- Text Sida 16  -->
          <div type="page" facs="#Sida16">
             <pb n="16"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>15</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <fw type="footer" place="bottom-centre">Akvarell för Jultomten af BRITA ELLSTRÖM.</fw>
-            
+                                 
             <head>LINA</head>
 
             <lg>
@@ -1860,6 +1893,8 @@
             <l>Lyckliga, lyckliga <rhyme>Lina</rhyme>!</l>
             </lg>
             
+            <fw type="footer" place="bottom-centre">Akvarell för Jultomten af BRITA ELLSTRÖM.</fw>
+            
             <signed>EMIL KLÉEN.</signed>
             <signed hand="#BE">BRITA ELLSTRÖM. 1899.</signed>
                                                
@@ -1867,10 +1902,10 @@
          <!-- Text Sida 17  -->
          <div type="page" facs="#Sida17">
             <pb n="17"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>16</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
-            <fw type="footer" place="bottom-centre">EN JULHEMLIGHET. Akvarell för Jultomten af JENNY NYSTRÖM</fw>
-
+            
               <lg type="couplet" rhyme="aa"> 
               <l><hi rend="anfang">T</hi>änk, lille hvite <rhyme>bror</rhyme>!</l>
               <l>Vet du, hvad Tom han <rhyme>tror</rhyme>?</l>
@@ -1892,6 +1927,8 @@
               <l>när han växt stor och <rhyme>lång</rhyme>.</l>
              </lg>
             
+            <fw type="footer" place="bottom-centre">EN JULHEMLIGHET. Akvarell för Jultomten af JENNY NYSTRÖM</fw>
+            
             <signed>JIM</signed>
             <signed hand="#JN">JENNY NYSTRÖM 1899</signed>
             
@@ -1899,25 +1936,30 @@
          <!-- Text Sida 18  -->
          <div type="page" facs="#Sida18">
             <pb n="18"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>17</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
+            
             <fw type="footer" place="bottom-centre">FLÄDERMOR.
                <lb/>Tafla för Jultomten af ANNA CRAMÉR
                <lb style="italic"/>(Verser å nästa sida.) 
             </fw>
+            
             <signed hand="#AC">Anna Cramér</signed>
          </div>
          <!-- Text Sida 19  -->
          <div type="page" facs="#Sida19">
             <pb n="19"/>
-            <metamark  function="pagenumber" place="top-left"><num>18</num></metamark>
+            
+            <metamark  function="pagenumber" place="top-left"><num>18</num></metamark>            
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
             <div type="part" n="1">
+               
                <head>FLÄDERMOR.</head>
                <head type="subheading">(Efter idé ur ANDERSENS SAGOR.)</head>
-               <cb n="1"/>
                
+               <cb n="1"/>
                <lg style="italic" type="stanza">
                <l><hi rend="anfang">R</hi> egnet knäpper <rhyme label="a"> >ticketack</rhyme>,</l> 
                <l>knackar på din <rhyme label="b">ruta</rhyme>.</l>
@@ -2004,7 +2046,9 @@
               </div>
             
              <div type="part" n="2">
+                
                 <head>Julvisa.</head>
+                
                 <notatedMusic>
                    <desc>Noter till sången Julvisa. Musik av Alice Tegnér och ord av Zach Topelius.
                    Tilläggssymboler första notskriften: 	&#119184;&#119185; &#119183;
@@ -2068,10 +2112,12 @@
          <!-- Text Sida 20  -->
          <div type="page" facs="#Sida20">
             <pb n="20"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>19</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
             <div type="part" n="1">
+               
                <cb n="1"/>
                <head rend="italic">En skärgårdspojke.</head>
                
@@ -2136,6 +2182,7 @@
              </div>  
             
             <div type="part" n="2">
+               
                <div type="letter">
                   <head>JULTOMTEN</head> 
                 
@@ -2225,14 +2272,14 @@
                         <lb/>till mig igen och tala om, hvad Ni tycker mest 
                         <lb/>om i år. Adressen är min gamla vanliga
                      </p>
-                  </postscript>
-                                                                                       
+                  </postscript>                                                                                      
                </div>
             </div>            
          </div>
          <!-- Text Sida 21  -->
          <div type="page" facs="#Sida21">
             <pb n="20"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>20</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -2285,6 +2332,7 @@
          <!-- Text Sida 22 -->
          <div type="page" facs="#Sida22">
             <pb n="22"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>21</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -2347,6 +2395,7 @@
          <!-- Text Sida 23  -->
          <div type="page" facs="#Sida23">
             <pb n="23"/>
+            
             <metamark  function="pagenumber" place="top-left"><num>22</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
             
@@ -2497,6 +2546,7 @@
          <!-- Text Sida 24  -->
          <div type="page" facs="#Sida24">
             <pb n="24"/>
+            
             <metamark  function="pagenumber" place="top-right"><num>23</num></metamark>
             <fw type="header" place="top-centre">JULTOMTEN 1899</fw>
            
@@ -2661,6 +2711,7 @@
          <!-- Text Sida 25  -->
          <div type="page">
             <pb n="25"/>
+            
             <div type="part" n="1">
                
                <p>Klockan slår - Tiden går!
@@ -2672,7 +2723,9 @@
              </div> 
             
            <div type="part" n="2">
+              
               <head>TOMTEN MED DET NYA ÅRET. Akvarell för Jultomten af GISELA HENCKEL.</head>
+              
               <cb n="1"/>
               <p>För redaktionen: 
               <lb/>EMIL HAMMARLUND.
@@ -2704,14 +2757,18 @@
          </div>
          <!-- Text Sida 26  -->
          <div type="page" facs="#Sida26">
+            <pb n="26"/>
+            
             <p rend="margin-left" style="writing-mode: vertical-lr; text-orientation: sideways-left; text-align: bottom">Huru man kommer till springbrunnen 
                <lb/>i den förtrollade trädgården. 
             </p>
             <p style="writing-mode: vertical-lr; text-orientation: sideways left;">Man går genom ingångsporten 1, fortsätter sedan på de vägar, som ha följande nummer: 15, 20, 8, 40, 19, 36, 12, 3, 32 43, 10, 50, 33, 47, 41, 28, 37, 25, 11, 22, 39, 30, 7, 35, 26, 31, 46, 38, 2, 45, 
             <lb/>11,42, 31, 5, 21, 21, 29, 6, 18, 49, 4, 27, 48, 9, 13, 17, 23, 16, 51, 41, 52, 53, 55 57, 60, 55, 53, 54, 61, 59, 62, 63, 61 – Tillbaka går man samma väg i motsatt ordning: från 64 till 63, 62, 69, o.s.v</p> 
             
-            <div type="part" n="1">               
+            <div type="part" n="1">
+               
                <head>JULDANS.</head>
+               
                <notatedMusic>
                   <desc>Noter till sången Juldans. Text och musik af Emmy Köhler. Polska
                      Tilläggssymboler första notskriften: 1)
@@ -2756,22 +2813,28 @@
                </div>
               
               <div type="part" n="2">
+                 
                  <head><hi rend="anfang">S</hi>VENSK LÄRARETIDNING </head>
                  <head type="subheading">SVERIGES STÖRSTA OCH MEST SPRIDDA SKOLBLAD.</head>
+                 
                  <p>Bästa annonsblad för meddelanden, som afse hela landet.
                  <lb/>Pris pr årgång (öfver 800 stora kvartsidor) endast 3 kr. 50 öre.</p>                 
               </div>
             
             <div type="part" n="3">
+               
                <head><hi rend="anfang">T</hi>OMTEFARS SAGOR OCH BERÄTTELSER</head>
+               
                <p>- Tvänne samlingar - 
                <lb rend="intended"/>Illustrerade af framstående konstnärer.
                <lb rend="intended"/>Finnas i alla boklådor. Pris för hvarje samling inb. 1 kr. 25 ōre.</p>               
             </div>
             
             <div type="part" n="4">
+               
                <head><hi rend="anfang">J</hi>ULTOMTEN</head>
                <head type="subheading">Skolbarnens Jultidning</head>
+               
                <p>utkommer med ett rikt illustre- 
                <lb rend="intended"/>radt uummer hvarje jul. 
                <lb/>16 sidor. Pris 25 öre. 
@@ -2780,7 +2843,9 @@
              </div> 
             
             <div type="part" n="5">
+               
                <head><hi rend="anfang">S</hi>AGA</head>
+               
                <p>är namnet på »<q>BARNENS EGET BIBLIOTEK</q>», som från 
                <lb/>1899 års början utgifves af samma redaktion som JUL-
                <lb/>TOMTEN. – Hel årgång omfattar 3 à 4 illustrerade böcker 
@@ -2794,8 +2859,10 @@
              </div>
             
             <div type="part" n="6">
-               <head><hi rend="anfang">T</hi>UMMELITEN</head>
+               
+               <head><hi rend="anfang">T</hi>UMMELITEN</head>             
                <head type="subheading">Jultidning för smått folk </head>
+               
                <p>Jultidning för smått folk 
                <lb/>Innehåller för barnen lämpad 
                <lb rend="intended"/>muntrationsläsning med
@@ -2807,6 +2874,7 @@
          <!-- Baksida  -->
          <div type="page" facs="#Baksida">
             <pb n="27"/>
+            
             <div type="contents">
                <head>INNEHÅLL.</head>
                <list>                    
@@ -2837,7 +2905,9 @@
                   <item>TOMTEN MED DET NYA ÅRET. Helsidesakvarell GISELA HENCKEL……………………………<metamark function="pagenumber" place="right"><num>24</num></metamark></item>
                   </list>  
                </div>
+            
               <div type="part" n="1" style="text-align: center">
+                 
                   <p>OMSLAGSTECKNINGAR af LOUIS MOE.
                   <lb/>DEN FÖRTROLLADE TRÄDGÅRDEN. Något att fundera på under julferierna
                   <lb/>af D. S. H. (På omslagets andra sida.)
@@ -2846,6 +2916,7 @@
                  </div> 
                
               <div type="part" n="2" style="text-align: center">
+                 
                   <p>Autotypierna utförda hos
                      <lb/>ANGERER &amp; GÖSCHL i Wien samt IDUNS GRAFISKA ANSTALT, 
                      <lb/>JUSTUS CEDERQUIST och W. SILFVERSPARRE i Stockholm. 
@@ -2855,6 +2926,7 @@
                    </div>
             
               <div type="part" n="3" style="text-align: center">
+                 
                   <p>Pris 50 öre.</p>
               </div>                          
             
