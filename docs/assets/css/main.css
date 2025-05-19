@@ -100,8 +100,8 @@ ul.leaders span + span {
     
 .transcription.page {
     position: relative;
-    background-color: #dfdfc7;
-    padding: 1px;                  
+    background-color: #efeedf;
+    padding: 2px;                  
     border: 1px solid #ccc; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;             
